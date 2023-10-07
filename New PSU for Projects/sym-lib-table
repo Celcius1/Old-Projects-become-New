@@ -1,0 +1,11 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "EEE-1HA221P")(type "KiCad")(uri "${KIPRJMOD}/EEE-1HA221P/EEE-1HA221P.kicad_sym")(options "")(descr ""))
+  (lib (name "EEE-1EA471P")(type "KiCad")(uri "${KIPRJMOD}/EEE-1EA471P/EEE-1EA471P.kicad_sym")(options "")(descr ""))
+  (lib (name "ES3D")(type "KiCad")(uri "${KIPRJMOD}/ES3D/ES3D.kicad_sym")(options "")(descr ""))
+  (lib (name "ABLS-4-000MHZ-B2-T")(type "KiCad")(uri "${KIPRJMOD}/ABLS-4-000MHZ-B2-T/ABLS-4-000MHZ-B2-T.kicad_sym")(options "")(descr ""))
+  (lib (name "LF351DT")(type "KiCad")(uri "${KIPRJMOD}/LF351DT/LF351DT.kicad_sym")(options "")(descr ""))
+  (lib (name "IRS21867STRPBF")(type "KiCad")(uri "${KIPRJMOD}/IRS21867STRPBF/IRS21867STRPBF.kicad_sym")(options "")(descr ""))
+  (lib (name "IRFR2405TRPBF")(type "KiCad")(uri "${KIPRJMOD}/IRFR2405TRPBF/IRFR2405TRPBF.kicad_sym")(options "")(descr ""))
+  (lib (name "SamacSys_Parts")(type "KiCad")(uri "C:/Users/Celcius1/Documents/KiCad/7.0/SamacSys_Parts.kicad_sym")(options "")(descr ""))
+)
