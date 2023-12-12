@@ -1,4 +1,4 @@
-24268820449678084
+24302873810633711
 Aesthetics
 BREADBOARD_SPACING
 BREADBOARD SPACING
@@ -231,16 +231,16 @@ SPARKFUN FLAME LOGO - 0.4" HEIGHT - SILKSCREEN
 0
 0
 Aesthetics
-SFE_LOGO_FLAME_.5
-SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
-SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
+SFE_LOGO_FLAME_.05
+SPARKFUN FLAME LOGO - 0.05" HEIGHT - SILKSCREEN
+SPARKFUN FLAME LOGO - 0.05" HEIGHT - SILKSCREEN
 0
 0
 0
 Aesthetics
-SFE_LOGO_FLAME_.05
-SPARKFUN FLAME LOGO - 0.05" HEIGHT - SILKSCREEN
-SPARKFUN FLAME LOGO - 0.05" HEIGHT - SILKSCREEN
+SFE_LOGO_FLAME_.5
+SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
+SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
 0
 0
 0
@@ -88025,6 +88025,13 @@ Variable Resistor
 3
 3
 SamacSys_Parts
+3362P_1
+3362P
+Variable Resistor
+0
+3
+3
+SamacSys_Parts
 3386P_1
 3386P
 Variable Resistor
@@ -88045,6 +88052,13 @@ Undefined or Miscellaneous
 0
 2
 2
+SamacSys_Parts
+877159306
+87715-9306-1
+Connector
+0
+164
+164
 SamacSys_Parts
 1001878410212TLF
 10018784-10212TLF-1
@@ -88102,12 +88116,61 @@ Capacitor
 2
 2
 SamacSys_Parts
+CAPPRD150W47D425H800
+MCMHR (4x7)
+Capacitor Polarised
+0
+2
+2
+SamacSys_Parts
+CAPPRD200W55D500H1250
+5*11(12.5)
+Capacitor Polarised
+0
+2
+2
+SamacSys_Parts
+CAPPRD750W85D1600H3350
+NHGA (16 x 31.5)
+Capacitor Polarised
+0
+2
+2
+SamacSys_Parts
+CT9EW104
+CT-9EW104-2
+Resistor
+0
+3
+3
+SamacSys_Parts
+CTB05083
+CTB0508/3-1
+Connector
+0
+3
+3
+SamacSys_Parts
 CTB070812
 CTB0708/12-3
 Connector
 0
 12
 12
+SamacSys_Parts
+D2PAK-STB35NF10T4
+D2PAK-STB35NF10T4
+Integrated Circuit
+0
+3
+3
+SamacSys_Parts
+DIOAD1405W86L465D235
+AXIAL-LEAD-CASE 59-10
+Diode
+0
+2
+2
 SamacSys_Parts
 DIOM5127X229N
 US1M-E3/5AT-1
@@ -88124,11 +88187,18 @@ Zener Diode
 2
 SamacSys_Parts
 DIP794W53P254L1930H508Q14N
-PDIP N 14_1
+N (R-PDIP-T)
 Integrated Circuit
 0
 14
 14
+SamacSys_Parts
+EEE0JA152UAP
+SMD_Lytic_G
+Capacitor Polarised
+0
+2
+2
 SamacSys_Parts
 EEE0JA331XP
 SMD_Lytic_D8
@@ -88207,6 +88277,13 @@ Connector
 98
 98
 SamacSys_Parts
+PDZVTFTR47B
+PDZVTFTR4.7B-2
+Zener Diode
+0
+2
+2
+SamacSys_Parts
 PTL0115R0103B1
 PTL01-15R0-103B1-3
 Variable Resistor
@@ -88249,12 +88326,33 @@ Integrated Circuit
 44
 44
 SamacSys_Parts
+RESAD1650W60L650D250
+MRS25
+Resistor
+0
+2
+2
+SamacSys_Parts
 RESC3216X70N
 ERA8A
 Resistor
 0
 2
 2
+SamacSys_Parts
+SHDR10W64P254_2X5_2030X878X930P
+30310-6002HB
+Connector
+0
+10
+10
+SamacSys_Parts
+SHDR16W64P254_2X8_2798X910X910P
+MC-254-16-00-ST-DIP
+Connector
+0
+16
+16
 SamacSys_Parts
 SODFL3718X108N
 DO-219AB (SMF)
@@ -88271,14 +88369,14 @@ Integrated Circuit
 14
 SamacSys_Parts
 SOIC127P600X175-8N
-SO-8
+SO 8_
 Integrated Circuit
 0
 8
 8
 SamacSys_Parts
 SOIC127P600X175-14N
-SO14 (SOT108-1)
+SOIC-14 NB CASE751A-03 ISSUE K
 Integrated Circuit
 0
 14
@@ -88286,6 +88384,13 @@ Integrated Circuit
 SamacSys_Parts
 SOIC127P600X175-16N
 SO16 (SOT109-1)
+Integrated Circuit
+0
+16
+16
+SamacSys_Parts
+SOIC127P1032X265-16N
+16-Lead SOIC
 Integrated Circuit
 0
 16
@@ -88326,6 +88431,27 @@ Integrated Circuit
 5
 5
 SamacSys_Parts
+SOT508P985X260-4N
+SOT508P985X260-4N
+Undefined or Miscellaneous
+0
+4
+4
+SamacSys_Parts
+SQMR54K7J
+SQMR54K7J-1
+Resistor
+0
+2
+2
+SamacSys_Parts
+SRN8040220M
+SRN8040-220M-2
+Inductor
+0
+2
+2
+SamacSys_Parts
 SS495A
 SS495A
 Integrated Circuit
@@ -88336,6 +88462,20 @@ SamacSys_Parts
 T-1_3MM_
 T-1 (3 mm)
 LED
+0
+2
+2
+SamacSys_Parts
+T73YP103KT20
+T73YP103KT20-2
+Variable Resistor
+0
+3
+3
+SamacSys_Parts
+T491A
+T491A-1
+Capacitor Polarised
 0
 2
 2
