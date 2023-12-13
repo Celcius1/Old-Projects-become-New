@@ -171,6 +171,9 @@
   (junction (at 152.4 226.06) (diameter 0) (color 0 0 0 0)
     (uuid 01aa8058-6bd1-4d9d-8fe4-713ccc4d97ea)
   )
+  (junction (at 39.37 140.97) (diameter 0) (color 0 0 0 0)
+    (uuid 02adcd28-b70d-4704-bd51-3cffd3ca993d)
+  )
   (junction (at 180.34 226.06) (diameter 0) (color 0 0 0 0)
     (uuid 02c40269-d256-4e75-b54b-609fcf54d950)
   )
@@ -210,6 +213,9 @@
   (junction (at 124.46 58.42) (diameter 0) (color 0 0 0 0)
     (uuid 4a413d0d-8b68-4884-8e75-14a3055fb1fd)
   )
+  (junction (at 39.37 74.93) (diameter 0) (color 0 0 0 0)
+    (uuid 4ecd6daf-15df-44e8-866d-d4a878e41820)
+  )
   (junction (at 180.34 58.42) (diameter 0) (color 0 0 0 0)
     (uuid 51c503ee-60fc-4cb1-a03c-bcd8271d9965)
   )
@@ -231,6 +237,9 @@
   (junction (at 110.49 91.44) (diameter 0) (color 0 0 0 0)
     (uuid 9829567b-2c97-4fb8-9825-873d9243e427)
   )
+  (junction (at 39.37 107.95) (diameter 0) (color 0 0 0 0)
+    (uuid 98ea7e56-62c0-4ec5-bf61-2ce6df0806a7)
+  )
   (junction (at 110.49 124.46) (diameter 0) (color 0 0 0 0)
     (uuid 99601ad6-605d-4639-8018-637b844bf0b8)
   )
@@ -239,6 +248,9 @@
   )
   (junction (at 152.4 191.77) (diameter 0) (color 0 0 0 0)
     (uuid bbaeefb3-2265-4ca2-aa4c-167908fca59b)
+  )
+  (junction (at 39.37 209.55) (diameter 0) (color 0 0 0 0)
+    (uuid bc6c5973-d20b-410c-bee5-b3de5b0df5cd)
   )
   (junction (at 152.4 91.44) (diameter 0) (color 0 0 0 0)
     (uuid bd81f476-af53-47a6-94c2-179ff77a7df5)
@@ -258,6 +270,9 @@
   (junction (at 166.37 191.77) (diameter 0) (color 0 0 0 0)
     (uuid d1a95185-077d-4fa4-be71-e136b503d82e)
   )
+  (junction (at 39.37 41.91) (diameter 0) (color 0 0 0 0)
+    (uuid d4ae1ff0-58cb-4ea0-80c7-ca6e32147384)
+  )
   (junction (at 166.37 157.48) (diameter 0) (color 0 0 0 0)
     (uuid d6872d74-6bc6-4f5f-874f-0d8234dbddc1)
   )
@@ -275,6 +290,9 @@
   )
   (junction (at 152.4 124.46) (diameter 0) (color 0 0 0 0)
     (uuid f08f419e-5aaa-4a90-95e9-97f36e0ffe35)
+  )
+  (junction (at 39.37 175.26) (diameter 0) (color 0 0 0 0)
+    (uuid fef504d5-70c7-4bff-8d57-f0d00e09f6f7)
   )
 
   (no_connect (at 69.85 110.49) (uuid 00d01b5c-a0d2-4f17-835d-f75c4016e80c))
@@ -342,6 +360,10 @@
     (stroke (width 0) (type default))
     (uuid 06ecad15-0cc4-46f2-84d7-eb36d1a53798)
   )
+  (wire (pts (xy 36.83 105.41) (xy 39.37 105.41))
+    (stroke (width 0) (type default))
+    (uuid 081e9a44-8427-408b-a4e9-653e793b0d89)
+  )
   (wire (pts (xy 173.99 226.06) (xy 180.34 226.06))
     (stroke (width 0) (type default))
     (uuid 0a06eb99-db1f-41bd-8d0d-3f482ea73429)
@@ -373,6 +395,10 @@
   (wire (pts (xy 36.83 209.55) (xy 39.37 209.55))
     (stroke (width 0) (type default))
     (uuid 109859bc-a01f-4386-a4fd-883101e62954)
+  )
+  (wire (pts (xy 39.37 39.37) (xy 39.37 41.91))
+    (stroke (width 0) (type default))
+    (uuid 1143d862-4019-488a-97e3-a7550178c35e)
   )
   (wire (pts (xy 36.83 118.11) (xy 39.37 118.11))
     (stroke (width 0) (type default))
@@ -518,6 +544,10 @@
     (stroke (width 0) (type default))
     (uuid 30fe13ab-cf6b-484d-a1d7-f1b8dddabad3)
   )
+  (wire (pts (xy 39.37 172.72) (xy 39.37 175.26))
+    (stroke (width 0) (type default))
+    (uuid 314954a7-5f69-4a66-9662-30c667b38913)
+  )
   (wire (pts (xy 138.43 175.26) (xy 146.05 175.26))
     (stroke (width 0) (type default))
     (uuid 31ea10f4-ea23-4399-b8e3-7f2476a6751d)
@@ -638,6 +668,10 @@
     (stroke (width 0) (type default))
     (uuid 4edb1c9a-13bc-4f99-983f-aa277c23d9ce)
   )
+  (wire (pts (xy 36.83 72.39) (xy 39.37 72.39))
+    (stroke (width 0) (type default))
+    (uuid 4fccbaf2-1c0b-4db3-83db-7c5606d74458)
+  )
   (wire (pts (xy 146.05 175.26) (xy 146.05 176.53))
     (stroke (width 0) (type default))
     (uuid 50adc4ee-64dd-4bbd-b0f8-a2b4e61871d1)
@@ -718,9 +752,17 @@
     (stroke (width 0) (type default))
     (uuid 5ded6817-017b-4b89-8532-44aae84ef6d3)
   )
+  (wire (pts (xy 36.83 172.72) (xy 39.37 172.72))
+    (stroke (width 0) (type default))
+    (uuid 5df71bea-569e-4b5a-9f07-51edd3a3036d)
+  )
   (wire (pts (xy 72.39 120.65) (xy 69.85 120.65))
     (stroke (width 0) (type default))
     (uuid 5eb4de1b-c6a0-4e48-8a1a-6afb429698ad)
+  )
+  (wire (pts (xy 36.83 207.01) (xy 39.37 207.01))
+    (stroke (width 0) (type default))
+    (uuid 5ed2c86d-2f65-4044-b75d-b8100da6dcd6)
   )
   (wire (pts (xy 138.43 140.97) (xy 146.05 140.97))
     (stroke (width 0) (type default))
@@ -866,6 +908,10 @@
     (stroke (width 0) (type default))
     (uuid 77993bb1-a70f-4ee8-99f5-b6c804845b89)
   )
+  (wire (pts (xy 39.37 72.39) (xy 39.37 74.93))
+    (stroke (width 0) (type default))
+    (uuid 796aa647-2ce8-437c-9fcd-e8609b59ed3c)
+  )
   (wire (pts (xy 102.87 41.91) (xy 104.14 41.91))
     (stroke (width 0) (type default))
     (uuid 7ab7bebc-8386-4a59-b29d-a3e8c2bcb6bc)
@@ -910,6 +956,10 @@
     (stroke (width 0) (type default))
     (uuid 8982affa-f7b3-4d0e-9843-c381a61cedb4)
   )
+  (wire (pts (xy 39.37 105.41) (xy 39.37 107.95))
+    (stroke (width 0) (type default))
+    (uuid 8ae28b85-22dd-4c19-8a82-e87e8ee6ea3b)
+  )
   (wire (pts (xy 72.39 82.55) (xy 69.85 82.55))
     (stroke (width 0) (type default))
     (uuid 8ba518ec-a0ca-4a13-afee-b9522e529848)
@@ -941,6 +991,14 @@
   (wire (pts (xy 72.39 80.01) (xy 69.85 80.01))
     (stroke (width 0) (type default))
     (uuid 90c25a83-b0fd-4a87-9521-e34b13842559)
+  )
+  (wire (pts (xy 36.83 138.43) (xy 39.37 138.43))
+    (stroke (width 0) (type default))
+    (uuid 913b0084-c100-44f1-8459-ecbce5356354)
+  )
+  (wire (pts (xy 39.37 138.43) (xy 39.37 140.97))
+    (stroke (width 0) (type default))
+    (uuid 9183f59f-0e93-44ed-9d85-24d9e609b1b4)
   )
   (wire (pts (xy 118.11 226.06) (xy 124.46 226.06))
     (stroke (width 0) (type default))
@@ -1061,6 +1119,10 @@
   (wire (pts (xy 104.14 226.06) (xy 110.49 226.06))
     (stroke (width 0) (type default))
     (uuid b16b3543-eb62-447b-a297-25d983581811)
+  )
+  (wire (pts (xy 36.83 39.37) (xy 39.37 39.37))
+    (stroke (width 0) (type default))
+    (uuid b232d8ca-dd0e-4e88-84af-52433a439186)
   )
   (wire (pts (xy 72.39 148.59) (xy 69.85 148.59))
     (stroke (width 0) (type default))
@@ -1205,6 +1267,10 @@
   (wire (pts (xy 110.49 175.26) (xy 110.49 184.15))
     (stroke (width 0) (type default))
     (uuid d46e35f2-df7b-4e6e-be22-06a1872dac84)
+  )
+  (wire (pts (xy 39.37 207.01) (xy 39.37 209.55))
+    (stroke (width 0) (type default))
+    (uuid d557c37e-2acc-4153-89d9-0914345eb402)
   )
   (wire (pts (xy 36.83 115.57) (xy 39.37 115.57))
     (stroke (width 0) (type default))
@@ -1630,6 +1696,13 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
+  (global_label "TONE 2" (shape input) (at 36.83 72.39 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 2c0e9528-6834-4d93-9e49-e0a93efd6577)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 26.8901 72.39 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "+15V" (shape input) (at 72.39 41.91 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 2c1e6fa8-45f6-4375-b4fb-68cf7919a9e8)
@@ -1655,6 +1728,13 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 2efcab79-eee7-49bd-9226-f9dacff5a5f4)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 145.6048 107.95 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "TONE 3" (shape input) (at 36.83 105.41 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 2f09dd27-af99-4928-8269-f756b91adb98)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 26.8901 105.41 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -1725,6 +1805,13 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 3a535350-0731-46d8-84a6-4d2be36ced98)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 131.6348 209.55 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "TONE 1" (shape input) (at 36.83 39.37 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 3cc0b21a-6e5d-41d1-a2c6-a6078fe4546a)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 26.8901 39.37 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -1851,6 +1938,13 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 53f86faa-ab9a-416e-8a21-639c50715246)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 28.9462 82.55 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "TONE 5" (shape input) (at 36.83 172.72 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 5b82ecdf-5d88-4b83-8693-594c3536e1ac)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 26.8901 172.72 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -2204,6 +2298,13 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
+  (global_label "TONE 6" (shape input) (at 36.83 207.01 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid c15729fd-d2a6-44bc-85ed-305dc0cb6ac8)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 26.8901 207.01 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "Q3A#" (shape input) (at 138.43 74.93 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid c1e632ac-8e75-49f2-a84e-0a8e8b003a19)
@@ -2358,6 +2459,13 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
+  (global_label "TONE 4" (shape input) (at 36.83 138.43 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid f45d02ed-c4e5-488e-823c-6810ac8ab0c4)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 26.8901 138.43 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "D34S" (shape input) (at 152.4 228.6 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid fbec137e-d026-4112-a8f0-88316363f2c2)
@@ -2423,6 +2531,11 @@
           (reference "D66") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D66") (unit 1)
+        )
+      )
     )
   )
 
@@ -2452,6 +2565,11 @@
     (instances
       (project "Lyrebird Keyboard Tone Generator"
         (path "/537d5d60-906b-4693-8e63-0cb8324cf822/d33d9903-3ebd-49fd-9802-82bdc7dd531a"
+          (reference "D3") (unit 1)
+        )
+      )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
           (reference "D3") (unit 1)
         )
       )
@@ -2487,6 +2605,11 @@
           (reference "D51") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D51") (unit 1)
+        )
+      )
     )
   )
 
@@ -2516,6 +2639,11 @@
     (instances
       (project "Lyrebird Keyboard Tone Generator"
         (path "/537d5d60-906b-4693-8e63-0cb8324cf822/d33d9903-3ebd-49fd-9802-82bdc7dd531a"
+          (reference "D19") (unit 1)
+        )
+      )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
           (reference "D19") (unit 1)
         )
       )
@@ -2551,6 +2679,11 @@
           (reference "D35") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D35") (unit 1)
+        )
+      )
     )
   )
 
@@ -2580,6 +2713,11 @@
     (instances
       (project "Lyrebird Keyboard Tone Generator"
         (path "/537d5d60-906b-4693-8e63-0cb8324cf822/d33d9903-3ebd-49fd-9802-82bdc7dd531a"
+          (reference "D52") (unit 1)
+        )
+      )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
           (reference "D52") (unit 1)
         )
       )
@@ -2615,6 +2753,11 @@
           (reference "D24") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D24") (unit 1)
+        )
+      )
     )
   )
 
@@ -2644,6 +2787,11 @@
     (instances
       (project "Lyrebird Keyboard Tone Generator"
         (path "/537d5d60-906b-4693-8e63-0cb8324cf822/d33d9903-3ebd-49fd-9802-82bdc7dd531a"
+          (reference "D2") (unit 1)
+        )
+      )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
           (reference "D2") (unit 1)
         )
       )
@@ -2679,6 +2827,11 @@
           (reference "D60") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D60") (unit 1)
+        )
+      )
     )
   )
 
@@ -2708,6 +2861,11 @@
     (instances
       (project "Lyrebird Keyboard Tone Generator"
         (path "/537d5d60-906b-4693-8e63-0cb8324cf822/d33d9903-3ebd-49fd-9802-82bdc7dd531a"
+          (reference "D17") (unit 1)
+        )
+      )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
           (reference "D17") (unit 1)
         )
       )
@@ -2743,6 +2901,11 @@
           (reference "D6") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D6") (unit 1)
+        )
+      )
     )
   )
 
@@ -2772,6 +2935,11 @@
     (instances
       (project "Lyrebird Keyboard Tone Generator"
         (path "/537d5d60-906b-4693-8e63-0cb8324cf822/d33d9903-3ebd-49fd-9802-82bdc7dd531a"
+          (reference "D70") (unit 1)
+        )
+      )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
           (reference "D70") (unit 1)
         )
       )
@@ -2807,6 +2975,11 @@
           (reference "D50") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D50") (unit 1)
+        )
+      )
     )
   )
 
@@ -2836,6 +3009,11 @@
     (instances
       (project "Lyrebird Keyboard Tone Generator"
         (path "/537d5d60-906b-4693-8e63-0cb8324cf822/d33d9903-3ebd-49fd-9802-82bdc7dd531a"
+          (reference "D63") (unit 1)
+        )
+      )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
           (reference "D63") (unit 1)
         )
       )
@@ -2871,6 +3049,11 @@
           (reference "D30") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D30") (unit 1)
+        )
+      )
     )
   )
 
@@ -2900,6 +3083,11 @@
     (instances
       (project "Lyrebird Keyboard Tone Generator"
         (path "/537d5d60-906b-4693-8e63-0cb8324cf822/d33d9903-3ebd-49fd-9802-82bdc7dd531a"
+          (reference "D4") (unit 1)
+        )
+      )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
           (reference "D4") (unit 1)
         )
       )
@@ -2935,6 +3123,11 @@
           (reference "D69") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D69") (unit 1)
+        )
+      )
     )
   )
 
@@ -2967,6 +3160,11 @@
           (reference "D56") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D56") (unit 1)
+        )
+      )
     )
   )
 
@@ -2979,7 +3177,7 @@
     (property "Value" "CD4024BE" (at 54.61 69.85 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "DIP794W53P254L1930H508Q14N" (at 66.04 169.85 0)
+    (property "Footprint" "SamacSys_Parts:DIP794W53P254L1930H508Q14N" (at 66.04 169.85 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-SFU2/DSASFU100028803.pdf" (at 66.04 269.85 0)
@@ -3020,6 +3218,11 @@
           (reference "IC16") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "IC16") (unit 1)
+        )
+      )
     )
   )
 
@@ -3052,6 +3255,11 @@
           (reference "D31") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D31") (unit 1)
+        )
+      )
     )
   )
 
@@ -3064,7 +3272,7 @@
     (property "Value" "CD4024BE" (at 54.61 170.18 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "DIP794W53P254L1930H508Q14N" (at 66.04 270.18 0)
+    (property "Footprint" "SamacSys_Parts:DIP794W53P254L1930H508Q14N" (at 66.04 270.18 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-SFU2/DSASFU100028803.pdf" (at 66.04 370.18 0)
@@ -3105,6 +3313,11 @@
           (reference "IC19") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "IC19") (unit 1)
+        )
+      )
     )
   )
 
@@ -3134,6 +3347,11 @@
     (instances
       (project "Lyrebird Keyboard Tone Generator"
         (path "/537d5d60-906b-4693-8e63-0cb8324cf822/d33d9903-3ebd-49fd-9802-82bdc7dd531a"
+          (reference "D27") (unit 1)
+        )
+      )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
           (reference "D27") (unit 1)
         )
       )
@@ -3169,6 +3387,11 @@
           (reference "D41") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D41") (unit 1)
+        )
+      )
     )
   )
 
@@ -3198,6 +3421,11 @@
     (instances
       (project "Lyrebird Keyboard Tone Generator"
         (path "/537d5d60-906b-4693-8e63-0cb8324cf822/d33d9903-3ebd-49fd-9802-82bdc7dd531a"
+          (reference "D68") (unit 1)
+        )
+      )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
           (reference "D68") (unit 1)
         )
       )
@@ -3233,6 +3461,11 @@
           (reference "D36") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D36") (unit 1)
+        )
+      )
     )
   )
 
@@ -3265,6 +3498,11 @@
           (reference "D64") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D64") (unit 1)
+        )
+      )
     )
   )
 
@@ -3277,7 +3515,7 @@
     (property "Value" "CD4024BE" (at 54.61 102.87 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "DIP794W53P254L1930H508Q14N" (at 66.04 202.87 0)
+    (property "Footprint" "SamacSys_Parts:DIP794W53P254L1930H508Q14N" (at 66.04 202.87 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-SFU2/DSASFU100028803.pdf" (at 66.04 302.87 0)
@@ -3318,6 +3556,11 @@
           (reference "IC17") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "IC17") (unit 1)
+        )
+      )
     )
   )
 
@@ -3347,6 +3590,11 @@
     (instances
       (project "Lyrebird Keyboard Tone Generator"
         (path "/537d5d60-906b-4693-8e63-0cb8324cf822/d33d9903-3ebd-49fd-9802-82bdc7dd531a"
+          (reference "D10") (unit 1)
+        )
+      )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
           (reference "D10") (unit 1)
         )
       )
@@ -3382,6 +3630,11 @@
           (reference "D45") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D45") (unit 1)
+        )
+      )
     )
   )
 
@@ -3411,6 +3664,11 @@
     (instances
       (project "Lyrebird Keyboard Tone Generator"
         (path "/537d5d60-906b-4693-8e63-0cb8324cf822/d33d9903-3ebd-49fd-9802-82bdc7dd531a"
+          (reference "D22") (unit 1)
+        )
+      )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
           (reference "D22") (unit 1)
         )
       )
@@ -3446,6 +3704,11 @@
           (reference "D23") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D23") (unit 1)
+        )
+      )
     )
   )
 
@@ -3478,6 +3741,11 @@
           (reference "D13") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D13") (unit 1)
+        )
+      )
     )
   )
 
@@ -3490,7 +3758,7 @@
     (property "Value" "CD4024BE" (at 54.61 135.89 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "DIP794W53P254L1930H508Q14N" (at 66.04 235.89 0)
+    (property "Footprint" "SamacSys_Parts:DIP794W53P254L1930H508Q14N" (at 66.04 235.89 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-SFU2/DSASFU100028803.pdf" (at 66.04 335.89 0)
@@ -3531,6 +3799,11 @@
           (reference "IC18") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "IC18") (unit 1)
+        )
+      )
     )
   )
 
@@ -3560,6 +3833,11 @@
     (instances
       (project "Lyrebird Keyboard Tone Generator"
         (path "/537d5d60-906b-4693-8e63-0cb8324cf822/d33d9903-3ebd-49fd-9802-82bdc7dd531a"
+          (reference "D72") (unit 1)
+        )
+      )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
           (reference "D72") (unit 1)
         )
       )
@@ -3595,6 +3873,11 @@
           (reference "D16") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D16") (unit 1)
+        )
+      )
     )
   )
 
@@ -3624,6 +3907,11 @@
     (instances
       (project "Lyrebird Keyboard Tone Generator"
         (path "/537d5d60-906b-4693-8e63-0cb8324cf822/d33d9903-3ebd-49fd-9802-82bdc7dd531a"
+          (reference "D48") (unit 1)
+        )
+      )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
           (reference "D48") (unit 1)
         )
       )
@@ -3659,6 +3947,11 @@
           (reference "D12") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D12") (unit 1)
+        )
+      )
     )
   )
 
@@ -3688,6 +3981,11 @@
     (instances
       (project "Lyrebird Keyboard Tone Generator"
         (path "/537d5d60-906b-4693-8e63-0cb8324cf822/d33d9903-3ebd-49fd-9802-82bdc7dd531a"
+          (reference "D5") (unit 1)
+        )
+      )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
           (reference "D5") (unit 1)
         )
       )
@@ -3723,6 +4021,11 @@
           (reference "D1") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D1") (unit 1)
+        )
+      )
     )
   )
 
@@ -3752,6 +4055,11 @@
     (instances
       (project "Lyrebird Keyboard Tone Generator"
         (path "/537d5d60-906b-4693-8e63-0cb8324cf822/d33d9903-3ebd-49fd-9802-82bdc7dd531a"
+          (reference "D40") (unit 1)
+        )
+      )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
           (reference "D40") (unit 1)
         )
       )
@@ -3787,6 +4095,11 @@
           (reference "D25") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D25") (unit 1)
+        )
+      )
     )
   )
 
@@ -3816,6 +4129,11 @@
     (instances
       (project "Lyrebird Keyboard Tone Generator"
         (path "/537d5d60-906b-4693-8e63-0cb8324cf822/d33d9903-3ebd-49fd-9802-82bdc7dd531a"
+          (reference "D9") (unit 1)
+        )
+      )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
           (reference "D9") (unit 1)
         )
       )
@@ -3851,6 +4169,11 @@
           (reference "D7") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D7") (unit 1)
+        )
+      )
     )
   )
 
@@ -3880,6 +4203,11 @@
     (instances
       (project "Lyrebird Keyboard Tone Generator"
         (path "/537d5d60-906b-4693-8e63-0cb8324cf822/d33d9903-3ebd-49fd-9802-82bdc7dd531a"
+          (reference "D28") (unit 1)
+        )
+      )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
           (reference "D28") (unit 1)
         )
       )
@@ -3915,6 +4243,11 @@
           (reference "D62") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D62") (unit 1)
+        )
+      )
     )
   )
 
@@ -3944,6 +4277,11 @@
     (instances
       (project "Lyrebird Keyboard Tone Generator"
         (path "/537d5d60-906b-4693-8e63-0cb8324cf822/d33d9903-3ebd-49fd-9802-82bdc7dd531a"
+          (reference "D65") (unit 1)
+        )
+      )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
           (reference "D65") (unit 1)
         )
       )
@@ -3979,6 +4317,11 @@
           (reference "D37") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D37") (unit 1)
+        )
+      )
     )
   )
 
@@ -4008,6 +4351,11 @@
     (instances
       (project "Lyrebird Keyboard Tone Generator"
         (path "/537d5d60-906b-4693-8e63-0cb8324cf822/d33d9903-3ebd-49fd-9802-82bdc7dd531a"
+          (reference "D20") (unit 1)
+        )
+      )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
           (reference "D20") (unit 1)
         )
       )
@@ -4043,6 +4391,11 @@
           (reference "D34") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D34") (unit 1)
+        )
+      )
     )
   )
 
@@ -4072,6 +4425,11 @@
     (instances
       (project "Lyrebird Keyboard Tone Generator"
         (path "/537d5d60-906b-4693-8e63-0cb8324cf822/d33d9903-3ebd-49fd-9802-82bdc7dd531a"
+          (reference "D8") (unit 1)
+        )
+      )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
           (reference "D8") (unit 1)
         )
       )
@@ -4107,6 +4465,11 @@
           (reference "D21") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D21") (unit 1)
+        )
+      )
     )
   )
 
@@ -4136,6 +4499,11 @@
     (instances
       (project "Lyrebird Keyboard Tone Generator"
         (path "/537d5d60-906b-4693-8e63-0cb8324cf822/d33d9903-3ebd-49fd-9802-82bdc7dd531a"
+          (reference "D49") (unit 1)
+        )
+      )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
           (reference "D49") (unit 1)
         )
       )
@@ -4171,6 +4539,11 @@
           (reference "D67") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D67") (unit 1)
+        )
+      )
     )
   )
 
@@ -4200,6 +4573,11 @@
     (instances
       (project "Lyrebird Keyboard Tone Generator"
         (path "/537d5d60-906b-4693-8e63-0cb8324cf822/d33d9903-3ebd-49fd-9802-82bdc7dd531a"
+          (reference "D58") (unit 1)
+        )
+      )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
           (reference "D58") (unit 1)
         )
       )
@@ -4235,6 +4613,11 @@
           (reference "D15") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D15") (unit 1)
+        )
+      )
     )
   )
 
@@ -4264,6 +4647,11 @@
     (instances
       (project "Lyrebird Keyboard Tone Generator"
         (path "/537d5d60-906b-4693-8e63-0cb8324cf822/d33d9903-3ebd-49fd-9802-82bdc7dd531a"
+          (reference "D11") (unit 1)
+        )
+      )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
           (reference "D11") (unit 1)
         )
       )
@@ -4299,6 +4687,11 @@
           (reference "D61") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D61") (unit 1)
+        )
+      )
     )
   )
 
@@ -4331,6 +4724,11 @@
           (reference "D29") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D29") (unit 1)
+        )
+      )
     )
   )
 
@@ -4343,7 +4741,7 @@
     (property "Value" "CD4024BE" (at 54.61 204.47 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "DIP794W53P254L1930H508Q14N" (at 66.04 304.47 0)
+    (property "Footprint" "SamacSys_Parts:DIP794W53P254L1930H508Q14N" (at 66.04 304.47 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-SFU2/DSASFU100028803.pdf" (at 66.04 404.47 0)
@@ -4384,6 +4782,11 @@
           (reference "IC20") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "IC20") (unit 1)
+        )
+      )
     )
   )
 
@@ -4413,6 +4816,11 @@
     (instances
       (project "Lyrebird Keyboard Tone Generator"
         (path "/537d5d60-906b-4693-8e63-0cb8324cf822/d33d9903-3ebd-49fd-9802-82bdc7dd531a"
+          (reference "D42") (unit 1)
+        )
+      )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
           (reference "D42") (unit 1)
         )
       )
@@ -4448,6 +4856,11 @@
           (reference "D57") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D57") (unit 1)
+        )
+      )
     )
   )
 
@@ -4477,6 +4890,11 @@
     (instances
       (project "Lyrebird Keyboard Tone Generator"
         (path "/537d5d60-906b-4693-8e63-0cb8324cf822/d33d9903-3ebd-49fd-9802-82bdc7dd531a"
+          (reference "D32") (unit 1)
+        )
+      )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
           (reference "D32") (unit 1)
         )
       )
@@ -4512,6 +4930,11 @@
           (reference "D33") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D33") (unit 1)
+        )
+      )
     )
   )
 
@@ -4541,6 +4964,11 @@
     (instances
       (project "Lyrebird Keyboard Tone Generator"
         (path "/537d5d60-906b-4693-8e63-0cb8324cf822/d33d9903-3ebd-49fd-9802-82bdc7dd531a"
+          (reference "D54") (unit 1)
+        )
+      )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
           (reference "D54") (unit 1)
         )
       )
@@ -4576,6 +5004,11 @@
           (reference "D55") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D55") (unit 1)
+        )
+      )
     )
   )
 
@@ -4605,6 +5038,11 @@
     (instances
       (project "Lyrebird Keyboard Tone Generator"
         (path "/537d5d60-906b-4693-8e63-0cb8324cf822/d33d9903-3ebd-49fd-9802-82bdc7dd531a"
+          (reference "D43") (unit 1)
+        )
+      )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
           (reference "D43") (unit 1)
         )
       )
@@ -4640,6 +5078,11 @@
           (reference "D46") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D46") (unit 1)
+        )
+      )
     )
   )
 
@@ -4669,6 +5112,11 @@
     (instances
       (project "Lyrebird Keyboard Tone Generator"
         (path "/537d5d60-906b-4693-8e63-0cb8324cf822/d33d9903-3ebd-49fd-9802-82bdc7dd531a"
+          (reference "D14") (unit 1)
+        )
+      )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
           (reference "D14") (unit 1)
         )
       )
@@ -4704,6 +5152,11 @@
           (reference "D47") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D47") (unit 1)
+        )
+      )
     )
   )
 
@@ -4733,6 +5186,11 @@
     (instances
       (project "Lyrebird Keyboard Tone Generator"
         (path "/537d5d60-906b-4693-8e63-0cb8324cf822/d33d9903-3ebd-49fd-9802-82bdc7dd531a"
+          (reference "D53") (unit 1)
+        )
+      )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
           (reference "D53") (unit 1)
         )
       )
@@ -4768,6 +5226,11 @@
           (reference "D26") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D26") (unit 1)
+        )
+      )
     )
   )
 
@@ -4797,6 +5260,11 @@
     (instances
       (project "Lyrebird Keyboard Tone Generator"
         (path "/537d5d60-906b-4693-8e63-0cb8324cf822/d33d9903-3ebd-49fd-9802-82bdc7dd531a"
+          (reference "D38") (unit 1)
+        )
+      )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
           (reference "D38") (unit 1)
         )
       )
@@ -4832,6 +5300,11 @@
           (reference "D39") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D39") (unit 1)
+        )
+      )
     )
   )
 
@@ -4861,6 +5334,11 @@
     (instances
       (project "Lyrebird Keyboard Tone Generator"
         (path "/537d5d60-906b-4693-8e63-0cb8324cf822/d33d9903-3ebd-49fd-9802-82bdc7dd531a"
+          (reference "D71") (unit 1)
+        )
+      )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
           (reference "D71") (unit 1)
         )
       )
@@ -4896,6 +5374,11 @@
           (reference "D59") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D59") (unit 1)
+        )
+      )
     )
   )
 
@@ -4908,7 +5391,7 @@
     (property "Value" "CD4024BE" (at 54.61 36.83 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "DIP794W53P254L1930H508Q14N" (at 66.04 136.83 0)
+    (property "Footprint" "SamacSys_Parts:DIP794W53P254L1930H508Q14N" (at 66.04 136.83 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-SFU2/DSASFU100028803.pdf" (at 66.04 236.83 0)
@@ -4949,6 +5432,11 @@
           (reference "IC15") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "IC15") (unit 1)
+        )
+      )
     )
   )
 
@@ -4981,6 +5469,11 @@
           (reference "D18") (unit 1)
         )
       )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
+          (reference "D18") (unit 1)
+        )
+      )
     )
   )
 
@@ -5010,6 +5503,11 @@
     (instances
       (project "Lyrebird Keyboard Tone Generator"
         (path "/537d5d60-906b-4693-8e63-0cb8324cf822/d33d9903-3ebd-49fd-9802-82bdc7dd531a"
+          (reference "D44") (unit 1)
+        )
+      )
+      (project "Lyrebird Keyboard Piano Card"
+        (path "/945315a3-bb93-4053-96a2-a7b5ebfbced4/fca3d957-da98-43a0-a2e7-c7e61fa23cb4"
           (reference "D44") (unit 1)
         )
       )
