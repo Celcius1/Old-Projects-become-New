@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "NE5517")(type "KiCad")(uri "${KIPRJMOD}/Components/NE5517/NE5517.pretty")(options "")(descr ""))
+)
