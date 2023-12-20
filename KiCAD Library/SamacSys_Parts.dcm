@@ -1,0 +1,585 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP IRFR5305TRPBF
+D -55V Single P-Channel HEXFET Power MOSFET in a D-Pak package
+K
+F https://www.infineon.com/dgdl/Infineon-IRFR5305-DataSheet-v01_01-EN.pdf?fileId=5546d462533600a401535632522820ff
+$ENDCMP
+#
+$CMP IRFR2905ZTRPBF
+D MOSFET 55V 1 N-CH HEXFET 14.5mOhms 29nC
+K
+F https://www.infineon.com/dgdl/irfr2905zpbf.pdf?fileId=5546d462533600a401535630e7222088
+$ENDCMP
+#
+$CMP IRS21867STRPBF
+D Infineon IRS21867STRPBF, DC Motor Driver IC, 600 V 4A 8-Pin, SOIC
+K
+F https://www.infineon.com/cms/en/product/power/gate-driver-ics/?
+$ENDCMP
+#
+$CMP US1M-E3_5AT
+D Vishay 1000V 1A, Diode, 2-Pin DO-214AC US1M-E3/5AT
+K
+F https://www.vishay.com/docs/88768/us1.pdf
+$ENDCMP
+#
+$CMP MCP6022-I_SN
+D Dual 2.3V 10MHz Op Amp,MCP6022-I/SN
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA24/1612719.pdf
+$ENDCMP
+#
+$CMP LF351DT
+D JFET inputs, low input bias & offset current, (15nV/sqrtHz & 0.01%)
+K
+F https://www.st.com/resource/en/datasheet/lf351.pdf
+$ENDCMP
+#
+$CMP ES3D
+D DIODE GEN PURP 200V 3A SMC
+K
+F 
+$ENDCMP
+#
+$CMP 3224W-1-504E
+D Bourns 3224W Series 12-Turn SMD Cermet Trimmer Resistor with J-Hook Terminations, 500k +/-10% 0.25W +/-100ppm/C Top Adjust
+K
+F https://www.bourns.com/docs/Product-Datasheets/3224.pdf
+$ENDCMP
+#
+$CMP BZD27C5V1P-E3-08
+D Vishay, 5.1V Zener Diode 6% 800 mW SMT 2-Pin DO-219AB
+K
+F https://www.vishay.com/docs/85153/bzd27series.pdf
+$ENDCMP
+#
+$CMP PVG3A202C01R00
+D Res Cermet Trimmer 2K Ohm 20% 0.25W(1/4W) 1(Elec)/1(Mech)Turns 2.2mm (3.6 X 3.6 X 2mm) J-Hook SMD T/R
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/db4b10663a027a846805e39c0e426696.pdf
+$ENDCMP
+#
+$CMP AZV3002S-13
+D Analog Comparators Dual Ch Comparator 6uA 1pA 1.6 to 5.5V
+K
+F 
+$ENDCMP
+#
+$CMP TSM4YL503KB25
+D Vishay TSM4 YJ Series 11 (Electrical), 13 (Mechanical)-Turn SMD Cermet Trimmer Resistor with Gull Wing Terminations,
+K
+F 
+$ENDCMP
+#
+$CMP 1776119-2
+D Fixed Terminal Blocks 2P SIDE ENTRY 5.08mm
+K
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1776119%7FB7%7Fpdf%7FEnglish%7FENG_CD_1776119_B7.pdf%7F1776119-2
+$ENDCMP
+#
+$CMP Si2338DS-T1-GE3
+D Vishay Si2338DS-T1-GE3 N-channel MOSFET Transistor, 6 A, 30 V, 3-Pin SOT-23
+K
+F 
+$ENDCMP
+#
+$CMP 1056TR
+D Coin Cell Battery Holders S/M COINCELL HLDR TR FOR 1220 BTTY-500PC
+K
+F http://www.keyelco.com/product-pdf.cfm?p=4028
+$ENDCMP
+#
+$CMP PTL01-15R0-103B1
+D Bourns PTL Series Slide Potentiometer with a 2.05 mm Dia. Shaft, 10k, +/-20%, 0.1 (Audio) W, 0.2 (Linear) W SMD
+K
+F https://www.bourns.com/docs/Product-Datasheets/PTL.pdf
+$ENDCMP
+#
+$CMP CTB0708_12
+D TB, WIRE TO BRD, 12POS, 12AWG,24A/320V UL=16A/300V, VDE&IMQ=24A/450V. 
+K
+F https://www.camdenboss.com/products/datasheet/ctb0758_series_D.pdf
+$ENDCMP
+#
+$CMP 744071039
+D Wurth WE-TPC Series Shielded Wire-wound SMD Inductor with a Ferrite Core, 3.9 uH +/-30% 4.9A Idc
+K
+F 
+$ENDCMP
+#
+$CMP MSS1278T-392NLD
+D COILCRAFT - MSS1278T-392NLD - Power Inductor (SMD), 3.9 H, 7.7 A, Shielded, 16.52 A, MSS1278T, 12mm x 12mm x 7.8mm
+K
+F https://4donline.ihs.com/images/VipMasterIC/IC/COLC/COLC-S-A0014468445/COLC-S-A0014481328-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0
+$ENDCMP
+#
+$CMP 784325042
+D WURTH ELEKTRONIK - 784325042 - Power Inductor (SMD), 4.2 H, 11 A, Shielded, 15.7 A, WE-HCIA Series
+K
+F https://www.we-online.com/components/products/datasheet/784325042.pdf
+$ENDCMP
+#
+$CMP 5988270107F
+D Dialight 5988270107F, 598 Series Green LED, 570 nm 3016 (1206), Rectangle Lens SMD package
+K
+F https://s3-us-west-2.amazonaws.com/catsy.557/Dialight_CBI_data_598-1206_Apr2018.pdf
+$ENDCMP
+#
+$CMP PS2505L-1-F3-A
+D Support is limited to customers who have already adopted these products.The PS2505-1, -4 and PS2505L-1, -4 are optically coupled isolators containing GaAs light emitting diodes and an NPN silicon phototransistor. The PS2505-1, -4 are in a plastic DIP (Dual In-line Package) and the PS2505L-1, -4 are lead bending type (Gullwing) for surface mount.
+K
+F https://datasheet.lcsc.com/szlcsc/1902271205_RENESAS-PS2505L-1-F3-A_C350662.pdf
+$ENDCMP
+#
+$CMP SFH617A-1X007T
+D Transistor Output Optocouplers Phototransistor Out Single CTR > 40-80%
+K
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP 74HC4017D,653
+D 74HC(T)4017 - Johnson decade counter with 10 decoded outputs@en-us
+K
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT4017.pdf
+$ENDCMP
+#
+$CMP L-793GD
+D LED Uni-Color Green 565nm 2-Pin
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-19/DSA-377207.pdf
+$ENDCMP
+#
+$CMP 74LVC2G08DC,125
+D NXP 74LVC2G08DC,125, Dual 2-Input AND Logic Gate, 1.65  5.5 V, 8-Pin VSSOP
+K
+F https://assets.nexperia.com/documents/data-sheet/74LVC2G08.pdf
+$ENDCMP
+#
+$CMP HLMP-Y502-F0000
+D BROADCOM LIMITED - HLMP-Y502-F0000 - LED, 3MM, GREEN, 40MCD, 573NM
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA13/1163641.pdf
+$ENDCMP
+#
+$CMP C503B-BCN-CV0Z0462
+D Cree C503B-BCN-CV0Z0462 Blue LED, 480 nm, 5mm (T-1 3/4), Round Lens Through Hole Package
+K
+F https://componentsearchengine.com/Datasheets/1/C503B-BCN-CV0Z0462.pdf
+$ENDCMP
+#
+$CMP 74HC08S14-13
+D 74HC Quad 2-input AND Gate SO14
+K
+F https://www.diodes.com/assets/Datasheets/74HC00.pdf
+$ENDCMP
+#
+$CMP HEF4069UBT,653
+D HEF4069UB - Hex inverter@en-us
+K
+F https://assets.nexperia.com/documents/data-sheet/HEF4069UB.pdf
+$ENDCMP
+#
+$CMP 12061C105KAT2A
+D Capacitor MLCC 1206 1uF 100V AVX 1206 FlEXITERM 1??F Ceramic Multilayer Capacitor, 100 V dc X7R Dielectric ??10% SMD
+K
+F http://datasheets.avx.com/X7RDielectric.pdf
+$ENDCMP
+#
+$CMP 12065C472KAT2A
+D AVX - 12065C472KAT2A - SMD Multilayer Ceramic Capacitor, 4700 pF, 50 V, 1206 [3216 Metric], +/- 10%, X7R, AVX 1206 MLCC
+K
+F https://spicat.kyocera-avx.com/product/mlcc/chartview/12065C472KAT2A/DataSheet/X7R
+$ENDCMP
+#
+$CMP 16TZV100M6.3X6.1
+D Aluminum Electrolytic Capacitors - SMD LOW ESR ELECTROLYTIC CAPACITORS
+K
+F http://www.rubycon.co.jp/catalog/j_pdfs/aluminum/j_TZV.pdf
+$ENDCMP
+#
+$CMP 12065C102KAT2A
+D AVX - 12065C102KAT2A - SMD Multilayer Ceramic Capacitor, 1000 pF, 50 V, 1206 [3216 Metric], +/- 10%, X7R, AVX 1206 MLCC
+K
+F https://spicat.kyocera-avx.com/product/mlcc/chartview/12065C102KAT2A/DataSheet/X7R
+$ENDCMP
+#
+$CMP EEEFK1C221XP
+D Panasonic Aluminium Electrolytic Capacitor 220uF 16V dc 6.3mm D8 FK SMD Series, Surface Mount Electrolytic, +/-20%
+K
+F http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1181.pdf
+$ENDCMP
+#
+$CMP ERA8AEB103V
+D Res Thin Film 1206 0.25W 10K 0.1% Panasonic ERA Series Thin Film Surface Mount Resistor 1206 Case 10k +/-0.1% 0.25W +/-25ppm/C
+K
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
+$CMP LT1782CS5#TRMPBF
+D Linear Technology LT1782CS5#TRMPBF Micropower Op Amp, 200kHz Rail-Rail, 3, 5 V, 5-Pin
+K
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1782fc.pdf
+$ENDCMP
+#
+$CMP 3214W-1-502E
+D 3214W top adj SMT cermet trimmer,5K 4mm Bourns 3214W Series 5-Turn SMD Cermet Trimmer Resistor with J-Hook Terminations, 5k +/-10% 1/4W +/-100ppm/C Top Adjust
+K
+F http://www.bourns.com/docs/Product-Datasheets/3214.pdf
+$ENDCMP
+#
+$CMP 3386P-1-472LF
+D Bourns 3386P Series Through Hole Cermet Trimmer Resistor with Solder Pin Terminations, 4.7k +/-10% 0.5W +/-100ppm/C
+K
+F http://www.bourns.com/docs/Product-Datasheets/3386.pdf
+$ENDCMP
+#
+$CMP FSM4JSMATR
+D Tactile switch,SMT,SPST,raised actuator
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA6/576850.pdf
+$ENDCMP
+#
+$CMP 06035C473KAT2A
+D AVX 0603 Standard 47nF Ceramic Multilayer Capacitor, 50 V dc, +125C, X7R Dielectric, +/-10% SMD
+K
+F https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf
+$ENDCMP
+#
+$CMP 12061C473KAT2A
+D AVX 1206 47nF Ceramic Multilayer Capacitor, 100 V dc, +125C, X7R Dielectric, +/-10%
+K
+F https://spicat.kyocera-avx.com/product/mlcc/chartview/12061C473KAT2A/DataSheet/X7R
+$ENDCMP
+#
+$CMP 3310Y-001-503L
+D Bourns 3310Y Series Conductive Plastic Potentiometer with a 3.17 mm Dia. Shaft, 50k, +/-20%, 0.25W, +/-1000ppm/C
+K
+F http://www.bourns.com/data/global/pdfs/3310.pdf
+$ENDCMP
+#
+$CMP 12065A150JAT2A
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 15pF C0G 1206 5%
+K
+F https://componentsearchengine.com/Datasheets/2/12065A150JAT2A.pdf
+$ENDCMP
+#
+$CMP TC33X-2-503E
+D SMD single turn trimmer 50K 25% top adj Bourns TC33 Series SMD Trimmer Resistor with Solder Pad Terminations, 50k +/-25% 0.1W +/-250ppm/C Top Adjust
+K
+F https://componentsearchengine.com/Datasheets/1/TC33X-2-503E.pdf
+$ENDCMP
+#
+$CMP PTV09A-4025S-A102
+D Potentiometers PANEL CONTROL - 9MM-ST-CA 1 kohms 25 mm
+K
+F https://www.bourns.com/docs/Product-Datasheets/PTV09.pdf
+$ENDCMP
+#
+$CMP KSEK43G_LFS
+D Switch Tactile N.O. SPST Round Button Gull Wing 0.05A 32VDC 1VA 300000Cycles 2.25N SMD  T/R
+K
+F https://www.ckswitches.com/media/1458/kse.pdf
+$ENDCMP
+#
+$CMP ATMEGA2560V-8AU
+D ATMEGA2560V-8AU, 8 bit AVR Microcontroller 8MHz 4, 256kb Flash, 8kb RAM, I2C SPI 100-Pin TQFP
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/4a5a397fa76c39b5297f4121ace1d84e.pdf
+$ENDCMP
+#
+$CMP ATMEGA2560-16AUR
+D Microchip Technology ATMEGA2560-16AUR, 8bit AVR Microcontroller, 16MHz, 256 kB Flash, 100-Pin TQFP
+K
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf
+$ENDCMP
+#
+$CMP ATMEGA16A-AUR
+D 8-bit Microcontrollers - MCU AVR LCD 16KB FLSH EE 512B 1KB SRAM-16MHZ
+K
+F https://componentsearchengine.com/Datasheets/2/ATMEGA16A-AUR.pdf
+$ENDCMP
+#
+$CMP SS495A
+D Minature ratiometric hall effect sensor Ratiometric Hall Effect Sensor, 1.5 mA, 4.5  10.5 V dc
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-305/74162.pdf
+$ENDCMP
+#
+$CMP ATMEGA328PB-AU
+D ATMEL - ATMEGA328PB-AU - MCU, 8BIT, ATMEGA, 20MHZ, TQFP-32
+K
+F 
+$ENDCMP
+#
+$CMP LFXTAL059585
+D 20 MHz +/-15ppm Crystal 10pF 120 Ohms 4-SMD, No Lead
+K
+F https://www.iqdfrequencyproducts.com/products/pn/LFXTAL059585Reel.pdf
+$ENDCMP
+#
+$CMP 2N2646
+D MULTICOMP - 2N2646 - Unijunction (UJT) Transistor, 2 A, 1 ?A, 6 mA, TO-18, 3 Pin, 125 ?C
+K
+F https://componentsearchengine.com/Datasheets/2/2N2646.pdf
+$ENDCMP
+#
+$CMP SN74LS73AN
+D DUAL J-K FLIP-FLOPS WITH CLEAR
+K
+F http://www.ti.com/lit/gpn/sn74ls73a
+$ENDCMP
+#
+$CMP C1206C106K4RACTU
+D SMD Comm X7R, Ceramic, 10 uF, 10%, 16 VDC, 40 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 10 % , 10 MOhms, 41 mg, 1206, 3.2mm, 1.6mm, 1.6mm, 0.5mm, 2000, 78  Weeks, 80
+K
+F https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf
+$ENDCMP
+#
+$CMP 74HC73D-Q100J
+D Flip Flops 74HC73D-Q100/SOT108/SO14
+K
+F https://assets.nexperia.com/documents/data-sheet/74HC73_Q100.pdf
+$ENDCMP
+#
+$CMP 79527141
+D Cylindrical Battery Contacts, Clips, Holders & Springs Battery Holder 1 Li Coin Cell WA-BCMC
+K
+F 
+$ENDCMP
+#
+$CMP LM340T-15_NOPB
+D 3-Terminal Positive Reg  LM340T-15 LM340T-15/NOPB, Voltage Regulator, 2.4A 15 V, +/-2%, 3-Pin TO-220
+K
+F http://www.ti.com/lit/ds/symlink/lm340.pdf
+$ENDCMP
+#
+$CMP L7915CV
+D L7915CV, Voltage Regulator, Negative 1.5A -15 V, 3-Pin TO-220
+K
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00000450.pdf
+$ENDCMP
+#
+$CMP L78S15CV
+D L78S15CV, Voltage Regulator, 2A 15 V, 3-Pin TO-220
+K
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00000449.pdf
+$ENDCMP
+#
+$CMP 86093967113765E1LF
+D Din Headers and Receptacles, Backplane connectors, Right Angle Header Solder-to-Board Style C 96 ways, Class I
+K
+F https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/c-8609-0250.pdf
+$ENDCMP
+#
+$CMP PCIE-098-02-F-D-TH
+D Samtec PCIE Series, Female PCB Edge Connector, Through Hole Mount, 98 Way, 2 Row, 1mm Pitch, 2.5A
+K
+F http://suddendocs.samtec.com/catalog_english/pcie.pdf
+$ENDCMP
+#
+$CMP 10018784-10212TLF
+D PCI Express / PCI Connectors
+K
+F https://componentsearchengine.com/Datasheets/1/10018784-10212TLF.pdf
+$ENDCMP
+#
+$CMP 87715-9306
+D PCI Express/PCI Connectors VERT THRU-HOLE 164P 30 plated
+K
+F https://www.molex.com/pdm_docs/sd/877159306_sd.pdf
+$ENDCMP
+#
+$CMP DF06S
+D Bridge Rectifier Single Phase, 1.5A 600V, 4-Pin SDIP
+K
+F http://componentsearchengine.com/Datasheets/1/DF06S.pdf
+$ENDCMP
+#
+$CMP ECA1HHG222
+D Panasonic Aluminium Electrolytic Capacitor 2200uF 50V dc 16mm Through Hole NHG Series +105C
+K
+F http://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1215.pdf
+$ENDCMP
+#
+$CMP EEUFC1H4R7
+D PANASONIC - EEUFC1H4R7 - Electrolytic Capacitor, 4.7 F, 50 V, EEUFC Series, +/- 20%, Radial Leaded, 5 mm
+K
+F http://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1209.pdf
+$ENDCMP
+#
+$CMP MCMHR50V104M4X7
+D MULTICOMP - MCMHR50V104M4X7 - CAP, ALU ELEC, 100NF, 50V, RAD
+K
+F https://componentsearchengine.com/Datasheets/2/MCMHR50V104M4X7.pdf
+$ENDCMP
+#
+$CMP 1N4002G
+D 
+K
+F http://www.onsemi.com/pub/Collateral/1N4001-D.PDF
+$ENDCMP
+#
+$CMP MRS25000C1801FCT00
+D Vishay MRS25 Series Axial Thin Film Resistor 1.8k +/-1% 0.6W +/-50ppm/C
+K
+F http://www.vishay.com/docs/28724/mrs16m25.pdf
+$ENDCMP
+#
+$CMP 3362P-1-102LF
+D Bourns 3362P Series Through Hole Trimmer Resistor with Pin Terminations, 1k +/-10% 0.5W +/-100ppm/C Top Adjust
+K
+F https://www.bourns.com/docs/Product-Datasheets/3362.pdf
+$ENDCMP
+#
+$CMP 30310-6002HB
+D Headers & Wire Housings 10P STRT 4WALL GLDFL
+K
+F http://multimedia.3m.com/mws/media/22504O/3mtm-100-in-loprof-hdr-100x-100strt-ra-4-wall-ts0818.pdf
+$ENDCMP
+#
+$CMP MC-254-16-00-ST-DIP
+D CONNECTOR, HEADER, 16POS, 2ROW, 2.54MM
+K
+F 
+$ENDCMP
+#
+$CMP MCP6022-E_SN
+D OP Amp Dual GP R-R I/O 5.5V
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-34/DSA-675022.pdf
+$ENDCMP
+#
+$CMP T73YP103KT20
+D Res Cermet Trimmer 10K Ohm 10% 0.5W(1/2W) 1(Elec)/1(Mech)Turns (6.6 X 7 X 4.7mm) Pin Thru-Hole Tube
+K
+F https://www.vishay.com/docs/51016/t73.pdf
+$ENDCMP
+#
+$CMP IR2113SPBF
+D Gate Drivers HI LO SIDE DRVR 600V 2A 120ns
+K
+F https://www.infineon.com/cms/en/product/power/gate-driver-ics/?
+$ENDCMP
+#
+$CMP SRN8040-220M
+D Bourns SRN8040 Series Type 8040 Shielded Wire-wound SMD Inductor with a Ferrite Core, 22 uH +/-20% Wire-Wound 2.2A Idc
+K
+F https://www.bourns.com/docs/Product-Datasheets/SRN8040.pdf
+$ENDCMP
+#
+$CMP EEEFK1H221P
+D Ecap 220uF 50V G case Panasonic Aluminium Electrolytic Capacitor 220uF 50 V dc 10mm Surface Mount series FK SMD lifetime 2000h
+K
+F http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1181.pdf
+$ENDCMP
+#
+$CMP LM358DT
+D LM358DT, Dual Operational Amplifier 1.1MHz 5 to 28V, 8-Pin SO
+K
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000464.pdf
+$ENDCMP
+#
+$CMP PDZVTFTR4.7B
+D 1W 4.7V, SOD-128, High Power Zener Diode for Automotive
+K
+F https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/zener/pdzvtftr4.7b-e.pdf
+$ENDCMP
+#
+$CMP CT-9EW104
+D Trimmer Resistors - Through Hole 100 KW 9mm sq. multi turn top adjust, in-line pins
+K
+F https://www.mouser.it/datasheet/2/972/ct-9-1827449.pdf
+$ENDCMP
+#
+$CMP L7805ACD2T-TR
+D Voltage Regulator 5V 1A D2PAK STMicroelectronics L78xx L7805ACD2T-TR, Single Linear Voltage Regulator, 1.5A 5 V, +/-2%, 3-Pin D2PAK
+K
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00000444.pdf
+$ENDCMP
+#
+$CMP SQMR54K7J
+D Res Metal Oxide 4.7K Ohm 5% 5W +/-300ppm/C Ceramic RDL Box/Loose
+K
+F https://datasheet.datasheetarchive.com/originals/dk/DKDS42/DSANUWW0051575.pdf
+$ENDCMP
+#
+$CMP CTB0508_3
+D Conn Terminal Block 3 POS 5.08mm Solder ST Thru-Hole 14A
+K
+F 
+$ENDCMP
+#
+$CMP MC14024BDG
+D 
+K
+F http://www.onsemi.com/pub/Collateral/MC14024B-D.PDF
+$ENDCMP
+#
+$CMP CD4024BE
+D CMOS 7-Stage Ripple-Carry Binary Counter/Divider
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-SFU2/DSASFU100028803.pdf
+$ENDCMP
+#
+$CMP T491A225K016AT
+D T491, Tantalum, MnO2 Tantalum, Commercial Grade, 2.2 uF, 10%, 16 VDC, 125C, -55C, 85C, SMD, MnO2, Molded, 6 % , 6 Ohms, 500 nA, 58.6 mg, 3216, 1.6mm, Height Max = 1.8mm, 2000, 156  Weeks
+K
+F https://content.kemet.com/datasheets/KEM_T2005_T491.pdf
+$ENDCMP
+#
+$CMP TAJB225K025RNJ
+D AVX 2.2
+K
+F http://datasheets.avx.com/TAJ.pdf
+$ENDCMP
+#
+$CMP TAJB475K035RNJ
+D TAJ SMT tant capacitor,Case B,35V,4.7uF AVX +/-10% 4.7uF 35 V dc SMD Tantalum Electrolytic Capacitor, 3528-21 ESR 3.1 +125C TAJ
+K
+F http://datasheets.avx.com/TAJ.pdf
+$ENDCMP
+#
+$CMP LF347DT
+D STMicroelectronics LF347DT, Quad JFET Op Amp, 4MHz, 14-Pin SOIC
+K
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/c7/4b/9c/8a/ff/08/43/1d/CD00000452.pdf/files/CD00000452.pdf/jcr:content/translations/en.CD00000452.pdf
+$ENDCMP
+#
+$CMP C1206C104J3RACTU
+D SMD Comm X7R, Ceramic, 0.1 uF, 5%, 25 VDC, 62.5 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 3.5 % , 10 GOhms, 17 mg, 1206, 3.2mm, 1.6mm, 0.78mm, 0.5mm, 4000, 78  Weeks, 80
+K
+F https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf
+$ENDCMP
+#
+$CMP SN74LVC00APWR
+D Texas Instruments SN74LVC00APWR, Quad 2-Input NAND Logic Gate, 1.65  3.6 V, 14-Pin TSSOP
+K
+F http://www.ti.com/lit/gpn/sn74lvc00a
+$ENDCMP
+#
+$CMP 3214W-1-223E
+D TRIMMER, POT, 22K, 5TURN, SMD; Trimpot Type:Multi Turn; Element Material:Cermet; Adjustment Type:Top Adjust; Track Resistance:22kohm; Potentiometer Mounting:Surface Mount; No. of Turns:5Turns; Product Range:3214 Series; MSL:- RoHS Compliant: Yes
+K
+F https://componentsearchengine.com/Datasheets/1/3214W-1-205E.pdf
+$ENDCMP
+#
+$CMP 3313J-1-473E
+D Bourns SMD Cermet Trimmer Resistor with J-Hook Terminations, 47k +/-20% 0.125W +/-100ppm/C
+K
+F https://www.bourns.com/docs/Product-Datasheets/3313.pdf
+$ENDCMP
+#
+$CMP 341-010-521-202
+D Card Edge Connector, Dual Side, 1.57 mm, 10 Contacts, Through Hole Mount, Straight, Solder
+K
+F https://files.edac.net/edac/content/341/341-010-521-202%20-%20EDAC%20Card%20Edge%20Connector.PDF
+$ENDCMP
+#
+#End Doc Library

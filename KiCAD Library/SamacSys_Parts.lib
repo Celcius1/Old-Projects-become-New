@@ -1,0 +1,3090 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model IRFR5305TRPBF
+#/419453/1235424/2.50/3/3/MOSFET (P-Channel)
+DEF IRFR5305TRPBF Q 0 30 Y Y 1 F N
+F0 "Q" 450 150 50 H V L CNN
+F1 "IRFR5305TRPBF" 450 50 50 H V L CNN
+F2 "IRFR5305TRPBF" 450 -50 50 H I L CNN
+F3 "https://www.infineon.com/dgdl/Infineon-IRFR5305-DataSheet-v01_01-EN.pdf?fileId=5546d462533600a401535632522820ff" 450 -150 50 H I L CNN
+F4 "-55V Single P-Channel HEXFET Power MOSFET in a D-Pak package" 450 -250 50 H I L CNN "Description"
+F5 "2.507" 450 -350 50 H I L CNN "Height"
+F6 "" 450 -450 50 H I L CNN "element14 Part Number"
+F7 "" 450 -550 50 H I L CNN "element14 Price/Stock"
+F8 "Infineon" 450 -650 50 H I L CNN "Manufacturer_Name"
+F9 "IRFR5305TRPBF" 450 -750 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 300 400 100 D 50 50 0 0 P
+X ~ 3 300 -200 100 U 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 2 0 1 6 300 200 300 300 N
+P 3 0 1 6 100 0 200 0 200 200 N
+P 2 0 1 6 300 100 230 100 N
+P 2 0 1 6 300 200 230 200 N
+P 2 0 1 6 230 0 300 0 N
+P 2 0 1 6 230 220 230 180 N
+P 2 0 1 6 230 -20 230 20 N
+P 2 0 1 6 230 80 230 120 N
+C 250 100 150 0 1 10 N
+P 4 0 1 10 300 100 260 120 260 80 300 100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model IRFR2905ZTRPBF
+#/2003650/1235424/2.50/3/3/MOSFET (N-Channel)
+DEF IRFR2905ZTRPBF Q 0 30 Y Y 1 F N
+F0 "Q" 450 150 50 H V L CNN
+F1 "IRFR2905ZTRPBF" 450 50 50 H V L CNN
+F2 "IRFR2905ZTRPBF" 450 -50 50 H I L CNN
+F3 "https://www.infineon.com/dgdl/irfr2905zpbf.pdf?fileId=5546d462533600a401535630e7222088" 450 -150 50 H I L CNN
+F4 "MOSFET 55V 1 N-CH HEXFET 14.5mOhms 29nC" 450 -250 50 H I L CNN "Description"
+F5 "2.52" 450 -350 50 H I L CNN "Height"
+F6 "" 450 -450 50 H I L CNN "element14 Part Number"
+F7 "" 450 -550 50 H I L CNN "element14 Price/Stock"
+F8 "Infineon" 450 -650 50 H I L CNN "Manufacturer_Name"
+F9 "IRFR2905ZTRPBF" 450 -750 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 300 400 100 D 50 50 0 0 P
+X ~ 3 300 -200 100 U 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 2 0 1 6 300 200 300 300 N
+P 3 0 1 6 100 0 200 0 200 200 N
+P 2 0 1 6 300 100 230 100 N
+P 2 0 1 6 300 200 230 200 N
+P 2 0 1 6 230 0 300 0 N
+P 2 0 1 6 230 220 230 180 N
+P 2 0 1 6 230 -20 230 20 N
+P 2 0 1 6 230 80 230 120 N
+C 250 100 150 0 1 10 N
+P 4 0 1 10 230 100 270 120 270 80 230 100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model IRS21867STRPBF
+#/560287/1235424/2.50/8/2/Integrated Circuit
+DEF IRS21867STRPBF IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "IRS21867STRPBF" 850 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 850 100 50 H I L CNN
+F3 "https://www.infineon.com/cms/en/product/power/gate-driver-ics/?" 850 0 50 H I L CNN
+F4 "Infineon IRS21867STRPBF, DC Motor Driver IC, 600 V 4A 8-Pin, SOIC" 850 -100 50 H I L CNN "Description"
+F5 "1.75" 850 -200 50 H I L CNN "Height"
+F6 "" 850 -300 50 H I L CNN "element14 Part Number"
+F7 "" 850 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Infineon" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "IRS21867STRPBF" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X VCC 1 0 0 200 R 50 50 0 0 P
+X HIN 2 0 -100 200 R 50 50 0 0 P
+X LIN 3 0 -200 200 R 50 50 0 0 P
+X COM 4 0 -300 200 R 50 50 0 0 P
+X VB 8 1000 0 200 L 50 50 0 0 P
+X HO 7 1000 -100 200 L 50 50 0 0 P
+X VS 6 1000 -200 200 L 50 50 0 0 P
+X LO 5 1000 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model US1M-E3_5AT
+#/794312/1235424/2.50/2/3/Diode
+DEF US1M-E3_5AT D 0 30 Y Y 1 F N
+F0 "D" 450 200 50 H V L CNN
+F1 "US1M-E3_5AT" 450 100 50 H V L CNN
+F2 "DIOM5127X229N" 450 0 50 H I L CNN
+F3 "https://www.vishay.com/docs/88768/us1.pdf" 450 -100 50 H I L CNN
+F4 "Vishay 1000V 1A, Diode, 2-Pin DO-214AC US1M-E3/5AT" 450 -200 50 H I L CNN "Description"
+F5 "2.29" 450 -300 50 H I L CNN "Height"
+F6 "" 450 -400 50 H I L CNN "element14 Part Number"
+F7 "" 450 -500 50 H I L CNN "element14 Price/Stock"
+F8 "Vishay" 450 -600 50 H I L CNN "Manufacturer_Name"
+F9 "US1M-E3/5AT" 450 -700 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MCP6022-I_SN
+#/159311/1235424/2.50/8/3/Integrated Circuit
+DEF MCP6022-I_SN IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "MCP6022-I_SN" 1050 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 100 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA24/1612719.pdf" 1050 0 50 H I L CNN
+F4 "Dual 2.3V 10MHz Op Amp,MCP6022-I/SN" 1050 -100 50 H I L CNN "Description"
+F5 "1.75" 1050 -200 50 H I L CNN "Height"
+F6 "" 1050 -300 50 H I L CNN "element14 Part Number"
+F7 "" 1050 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Microchip" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "MCP6022-I/SN" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X VOUTA 1 0 0 200 R 50 50 0 0 P
+X VINA- 2 0 -100 200 R 50 50 0 0 P
+X VINA+ 3 0 -200 200 R 50 50 0 0 P
+X VSS 4 0 -300 200 R 50 50 0 0 P
+X VDD 8 1200 0 200 L 50 50 0 0 P
+X VOUTB 7 1200 -100 200 L 50 50 0 0 P
+X VINB- 6 1200 -200 200 L 50 50 0 0 P
+X VINB+ 5 1200 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model LF351DT
+#/766776/1235424/2.50/8/2/Integrated Circuit
+DEF LF351DT IC 0 30 Y Y 1 F N
+F0 "IC" 2150 300 50 H V L CNN
+F1 "LF351DT" 2150 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 2150 100 50 H I L CNN
+F3 "https://www.st.com/resource/en/datasheet/lf351.pdf" 2150 0 50 H I L CNN
+F4 "JFET inputs, low input bias & offset current, (15nV/sqrtHz & 0.01%)" 2150 -100 50 H I L CNN "Description"
+F5 "1.75" 2150 -200 50 H I L CNN "Height"
+F6 "" 2150 -300 50 H I L CNN "element14 Part Number"
+F7 "" 2150 -400 50 H I L CNN "element14 Price/Stock"
+F8 "STMicroelectronics" 2150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "LF351DT" 2150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X OFFSET_NULL_1 1 0 0 200 R 50 50 0 0 P
+X INVERTING_INPUT 2 0 -100 200 R 50 50 0 0 P
+X NON-INVERTING_INPUT 3 0 -200 200 R 50 50 0 0 P
+X VCC- 4 0 -300 200 R 50 50 0 0 P
+X N.C. 8 2300 0 200 L 50 50 0 0 N
+X VCC+ 7 2300 -100 200 L 50 50 0 0 P
+X OUTPUT 6 2300 -200 200 L 50 50 0 0 P
+X OFFSET_NULL_2 5 2300 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 2100 100 2100 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ES3D
+#/1006943/1235424/2.50/2/4/Zener Diode
+DEF ES3D Z 0 30 Y Y 1 F N
+F0 "Z" 400 350 50 H V L CNN
+F1 "ES3D" 400 250 50 H V L CNN
+F2 "DIOM8059X265N" 400 150 50 H I L CNN
+F3 "" 400 50 50 H I L CNN
+F4 "DIODE GEN PURP 200V 3A SMC" 400 -50 50 H I L CNN "Description"
+F5 "2.65" 400 -150 50 H I L CNN "Height"
+F6 "" 400 -250 50 H I L CNN "element14 Part Number"
+F7 "" 400 -350 50 H I L CNN "element14 Price/Stock"
+F8 "onsemi" 400 -450 50 H I L CNN "Manufacturer_Name"
+F9 "ES3D" 400 -550 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 2 0 1 6 200 80 200 -80 N
+P 2 0 1 6 200 80 240 100 N
+P 2 0 1 6 160 -100 200 -80 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 500 0 400 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 3224W-1-504E
+#/523859/1235424/2.50/3/4/Variable Resistor
+DEF 3224W-1-504E VR 0 30 Y Y 1 F N
+F0 "VR" 950 300 50 H V L CNN
+F1 "3224W-1-504E" 950 200 50 H V L CNN
+F2 "3224W1205E" 950 100 50 H I L CNN
+F3 "https://www.bourns.com/docs/Product-Datasheets/3224.pdf" 950 0 50 H I L CNN
+F4 "Bourns 3224W Series 12-Turn SMD Cermet Trimmer Resistor with J-Hook Terminations, 500k +/-10% 0.25W +/-100ppm/C Top Adjust" 950 -100 50 H I L CNN "Description"
+F5 "5" 950 -200 50 H I L CNN "Height"
+F6 "" 950 -300 50 H I L CNN "element14 Part Number"
+F7 "" 950 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Bourns" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "3224W-1-504E" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X CCW 1 1100 -100 200 L 50 50 0 0 P
+X WIPER 2 0 0 200 R 50 50 0 0 P
+X CW 3 1100 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model BZD27C5V1P-E3-08
+#/814111/1235424/2.50/2/3/Zener Diode
+DEF BZD27C5V1P-E3-08 Z 0 30 Y Y 1 F N
+F0 "Z" 400 350 50 H V L CNN
+F1 "BZD27C5V1P-E3-08" 400 250 50 H V L CNN
+F2 "SODFL3718X108N" 400 150 50 H I L CNN
+F3 "https://www.vishay.com/docs/85153/bzd27series.pdf" 400 50 50 H I L CNN
+F4 "Vishay, 5.1V Zener Diode 6% 800 mW SMT 2-Pin DO-219AB" 400 -50 50 H I L CNN "Description"
+F5 "1.08" 400 -150 50 H I L CNN "Height"
+F6 "" 400 -250 50 H I L CNN "element14 Part Number"
+F7 "" 400 -350 50 H I L CNN "element14 Price/Stock"
+F8 "Vishay" 400 -450 50 H I L CNN "Manufacturer_Name"
+F9 "BZD27C5V1P-E3-08" 400 -550 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 2 0 1 6 200 80 200 -80 N
+P 2 0 1 6 200 80 240 100 N
+P 2 0 1 6 160 -100 200 -80 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 500 0 400 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model PVG3A202C01R00
+#/994344/1235424/2.50/3/4/Connector
+DEF PVG3A202C01R00 J 0 30 Y Y 1 F N
+F0 "J" 950 300 50 H V L CNN
+F1 "PVG3A202C01R00" 950 200 50 H V L CNN
+F2 "PVG3A202C01R00" 950 100 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/db4b10663a027a846805e39c0e426696.pdf" 950 0 50 H I L CNN
+F4 "Res Cermet Trimmer 2K Ohm 20% 0.25W(1/4W) 1(Elec)/1(Mech)Turns 2.2mm (3.6 X 3.6 X 2mm) J-Hook SMD T/R" 950 -100 50 H I L CNN "Description"
+F5 "2" 950 -200 50 H I L CNN "Height"
+F6 "" 950 -300 50 H I L CNN "element14 Part Number"
+F7 "" 950 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Bourns" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "PVG3A202C01R00" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X CCW 1 0 -100 200 R 50 50 0 0 P
+X WIPER 2 1100 0 200 L 50 50 0 0 P
+X CW 3 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model AZV3002S-13
+#/260223/1235424/2.50/8/3/Integrated Circuit
+DEF AZV3002S-13 IC 0 30 Y Y 1 F N
+F0 "IC" 1250 300 50 H V L CNN
+F1 "AZV3002S-13" 1250 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1250 100 50 H I L CNN
+F3 "" 1250 0 50 H I L CNN
+F4 "Analog Comparators Dual Ch Comparator 6uA 1pA 1.6 to 5.5V" 1250 -100 50 H I L CNN "Description"
+F5 "1.75" 1250 -200 50 H I L CNN "Height"
+F6 "" 1250 -300 50 H I L CNN "element14 Part Number"
+F7 "" 1250 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Diodes Inc." 1250 -500 50 H I L CNN "Manufacturer_Name"
+F9 "AZV3002S-13" 1250 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X OUTPUT1 1 0 0 200 R 50 50 0 0 P
+X INPUT1- 2 0 -100 200 R 50 50 0 0 P
+X INPUT1+ 3 0 -200 200 R 50 50 0 0 P
+X GND 4 0 -300 200 R 50 50 0 0 P
+X VCC 8 1400 0 200 L 50 50 0 0 P
+X OUTPUT2 7 1400 -100 200 L 50 50 0 0 P
+X INPUT2- 6 1400 -200 200 L 50 50 0 0 P
+X INPUT2+ 5 1400 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1200 100 1200 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TSM4YL503KB25
+#/404365/1235424/2.50/3/3/Variable Resistor
+DEF TSM4YL503KB25 VR 0 30 Y Y 1 F N
+F0 "VR" 950 300 50 H V L CNN
+F1 "TSM4YL503KB25" 950 200 50 H V L CNN
+F2 "TSM4YL503KB25" 950 100 50 H I L CNN
+F3 "" 950 0 50 H I L CNN
+F4 "Vishay TSM4 YJ Series 11 (Electrical), 13 (Mechanical)-Turn SMD Cermet Trimmer Resistor with Gull Wing Terminations," 950 -100 50 H I L CNN "Description"
+F5 "5.8" 950 -200 50 H I L CNN "Height"
+F6 "" 950 -300 50 H I L CNN "element14 Part Number"
+F7 "" 950 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Vishay" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TSM4YL503KB25" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X CCW 1 0 0 200 R 50 50 0 0 P
+X WIPER 2 1100 0 200 L 50 50 0 0 P
+X CW 3 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 1776119-2
+#/793169/1235424/2.50/2/4/Connector
+DEF 1776119-2 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "1776119-2" 650 200 50 H V L CNN
+F2 "17761192" 650 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1776119%7FB7%7Fpdf%7FEnglish%7FENG_CD_1776119_B7.pdf%7F1776119-2" 650 0 50 H I L CNN
+F4 "Fixed Terminal Blocks 2P SIDE ENTRY 5.08mm" 650 -100 50 H I L CNN "Description"
+F5 "10.15" 650 -200 50 H I L CNN "Height"
+F6 "" 650 -300 50 H I L CNN "element14 Part Number"
+F7 "" 650 -400 50 H I L CNN "element14 Price/Stock"
+F8 "TE Connectivity" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "1776119-2" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model Si2338DS-T1-GE3
+#/331984/1235424/2.50/3/3/MOSFET (N-Channel)
+DEF Si2338DS-T1-GE3 Q 0 30 Y Y 1 F N
+F0 "Q" 450 150 50 H V L CNN
+F1 "Si2338DS-T1-GE3" 450 50 50 H V L CNN
+F2 "SOT95P237X112-3N" 450 -50 50 H I L CNN
+F3 "" 450 -150 50 H I L CNN
+F4 "Vishay Si2338DS-T1-GE3 N-channel MOSFET Transistor, 6 A, 30 V, 3-Pin SOT-23" 450 -250 50 H I L CNN "Description"
+F5 "1.12" 450 -350 50 H I L CNN "Height"
+F6 "" 450 -450 50 H I L CNN "element14 Part Number"
+F7 "" 450 -550 50 H I L CNN "element14 Price/Stock"
+F8 "Vishay" 450 -650 50 H I L CNN "Manufacturer_Name"
+F9 "Si2338DS-T1-GE3" 450 -750 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 I
+X ~ 3 300 400 100 D 50 50 0 0 B
+X ~ 2 300 -200 100 U 50 50 0 0 B
+P 2 0 1 6 300 100 300 -100 N
+P 2 0 1 6 300 200 300 300 N
+P 3 0 1 6 100 0 200 0 200 200 N
+P 2 0 1 6 300 100 230 100 N
+P 2 0 1 6 300 200 230 200 N
+P 2 0 1 6 230 0 300 0 N
+P 2 0 1 6 230 220 230 180 N
+P 2 0 1 6 230 -20 230 20 N
+P 2 0 1 6 230 80 230 120 N
+C 250 100 150 0 1 10 N
+P 4 0 1 10 230 100 270 120 270 80 230 100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 1056TR
+#/340315/1235424/2.50/2/4/Undefined or Miscellaneous
+DEF 1056TR U 0 30 Y Y 1 F N
+F0 "U" 650 300 50 H V L CNN
+F1 "1056TR" 650 200 50 H V L CNN
+F2 "1056TR" 650 100 50 H I L CNN
+F3 "http://www.keyelco.com/product-pdf.cfm?p=4028" 650 0 50 H I L CNN
+F4 "Coin Cell Battery Holders S/M COINCELL HLDR TR FOR 1220 BTTY-500PC" 650 -100 50 H I L CNN "Description"
+F5 "" 650 -200 50 H I L CNN "Height"
+F6 "" 650 -300 50 H I L CNN "element14 Part Number"
+F7 "" 650 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Keystone Electronics" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "1056TR" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model PTL01-15R0-103B1
+#/932419/1235424/2.50/8/4/Variable Resistor
+DEF PTL01-15R0-103B1 VR 0 30 Y Y 1 F N
+F0 "VR" 950 300 50 H V L CNN
+F1 "PTL01-15R0-103B1" 950 200 50 H V L CNN
+F2 "PTL0115R0103B1" 950 100 50 H I L CNN
+F3 "https://www.bourns.com/docs/Product-Datasheets/PTL.pdf" 950 0 50 H I L CNN
+F4 "Bourns PTL Series Slide Potentiometer with a 2.05 mm Dia. Shaft, 10k, +/-20%, 0.1 (Audio) W, 0.2 (Linear) W SMD" 950 -100 50 H I L CNN "Description"
+F5 "23" 950 -200 50 H I L CNN "Height"
+F6 "" 950 -300 50 H I L CNN "element14 Part Number"
+F7 "" 950 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Bourns" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "PTL01-15R0-103B1" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X CCW 1 0 0 200 R 50 50 0 0 P
+X WIPER 2 0 -100 200 R 50 50 0 0 P
+X CW 3 0 -200 200 R 50 50 0 0 P
+X B B1 0 -300 200 R 50 50 0 0 P
+X E E1 1100 0 200 L 50 50 0 0 P
+X L L1 1100 -100 200 L 50 50 0 0 P
+X MH1 MH1 1100 -200 200 L 50 50 0 0 P
+X MH2 MH2 1100 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model CTB0708_12
+#/1551593/1235424/2.50/12/3/Connector
+DEF CTB0708_12 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "CTB0708_12" 650 200 50 H V L CNN
+F2 "CTB070812" 650 100 50 H I L CNN
+F3 "https://www.camdenboss.com/products/datasheet/ctb0758_series_D.pdf" 650 0 50 H I L CNN
+F4 "TB, WIRE TO BRD, 12POS, 12AWG,24A/320V UL=16A/300V, VDE&IMQ=24A/450V. " 650 -100 50 H I L CNN "Description"
+F5 "18" 650 -200 50 H I L CNN "Height"
+F6 "" 650 -300 50 H I L CNN "element14 Part Number"
+F7 "" 650 -400 50 H I L CNN "element14 Price/Stock"
+F8 "CAMDENBOSS" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "CTB0708/12" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 0 -500 200 R 50 50 0 0 P
+X 7 7 0 -600 200 R 50 50 0 0 P
+X 8 8 0 -700 200 R 50 50 0 0 P
+X 9 9 0 -800 200 R 50 50 0 0 P
+X 10 10 0 -900 200 R 50 50 0 0 P
+X 11 11 0 -1000 200 R 50 50 0 0 P
+X 12 12 0 -1100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -1200 200 -1200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 744071039
+#/464869/1235424/2.50/2/0/Inductor
+DEF 744071039 L 0 30 Y Y 1 F N
+F0 "L" 650 250 50 H V L CNN
+F1 "744071039" 650 150 50 H V L CNN
+F2 "WE-TPC_8020/804392" 650 50 50 H I L CNN
+F3 "" 650 -50 50 H I L CNN
+F4 "Wurth WE-TPC Series Shielded Wire-wound SMD Inductor with a Ferrite Core, 3.9 uH +/-30% 4.9A Idc" 650 -150 50 H I L CNN "Description"
+F5 "" 650 -250 50 H I L CNN "Height"
+F6 "" 650 -350 50 H I L CNN "element14 Part Number"
+F7 "" 650 -450 50 H I L CNN "element14 Price/Stock"
+F8 "Wurth Elektronik" 650 -550 50 H I L CNN "Manufacturer_Name"
+F9 "744071039" 650 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 800 0 200 L 50 50 0 0 P
+A 250 -2 50 1777 -23 0 1 6 N 300 0 200 0
+A 350 -2 50 1777 -23 0 1 6 N 400 0 300 0
+A 450 -2 50 1777 -23 0 1 6 N 500 0 400 0
+A 550 -2 50 1777 -23 0 1 6 N 600 0 500 0
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MSS1278T-392NLD
+#/16451475/1235424/2.50/2/3/Inductor
+DEF MSS1278T-392NLD L 0 30 Y Y 1 F N
+F0 "L" 650 250 50 H V L CNN
+F1 "MSS1278T-392NLD" 650 150 50 H V L CNN
+F2 "INDPM120120X805N" 650 50 50 H I L CNN
+F3 "https://4donline.ihs.com/images/VipMasterIC/IC/COLC/COLC-S-A0014468445/COLC-S-A0014481328-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0" 650 -50 50 H I L CNN
+F4 "COILCRAFT - MSS1278T-392NLD - Power Inductor (SMD), 3.9 H, 7.7 A, Shielded, 16.52 A, MSS1278T, 12mm x 12mm x 7.8mm" 650 -150 50 H I L CNN "Description"
+F5 "8.05" 650 -250 50 H I L CNN "Height"
+F6 "" 650 -350 50 H I L CNN "element14 Part Number"
+F7 "" 650 -450 50 H I L CNN "element14 Price/Stock"
+F8 "COILCRAFT" 650 -550 50 H I L CNN "Manufacturer_Name"
+F9 "MSS1278T-392NLD" 650 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 800 0 200 L 50 50 0 0 P
+A 250 -2 50 1777 -23 0 1 6 N 300 0 200 0
+A 350 -2 50 1777 -23 0 1 6 N 400 0 300 0
+A 450 -2 50 1777 -23 0 1 6 N 500 0 400 0
+A 550 -2 50 1777 -23 0 1 6 N 600 0 500 0
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 784325042
+#/16245520/1235424/2.50/2/3/Inductor
+DEF 784325042 L 0 30 Y Y 1 F N
+F0 "L" 650 250 50 H V L CNN
+F1 "784325042" 650 150 50 H V L CNN
+F2 "INDPM105100X463N" 650 50 50 H I L CNN
+F3 "https://www.we-online.com/components/products/datasheet/784325042.pdf" 650 -50 50 H I L CNN
+F4 "WURTH ELEKTRONIK - 784325042 - Power Inductor (SMD), 4.2 H, 11 A, Shielded, 15.7 A, WE-HCIA Series" 650 -150 50 H I L CNN "Description"
+F5 "4.63" 650 -250 50 H I L CNN "Height"
+F6 "" 650 -350 50 H I L CNN "element14 Part Number"
+F7 "" 650 -450 50 H I L CNN "element14 Price/Stock"
+F8 "Wurth Elektronik" 650 -550 50 H I L CNN "Manufacturer_Name"
+F9 "784325042" 650 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 800 0 200 L 50 50 0 0 P
+A 250 -2 50 1777 -23 0 1 6 N 300 0 200 0
+A 350 -2 50 1777 -23 0 1 6 N 400 0 300 0
+A 450 -2 50 1777 -23 0 1 6 N 500 0 400 0
+A 550 -2 50 1777 -23 0 1 6 N 600 0 500 0
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 5988270107F
+#/536281/1235424/2.50/2/3/LED
+DEF 5988270107F LED 0 30 Y Y 1 F N
+F0 "LED" 500 350 50 H V L BNN
+F1 "5988270107F" 500 250 50 H V L BNN
+F2 "5988270107F" 500 150 50 H I L BNN
+F3 "https://s3-us-west-2.amazonaws.com/catsy.557/Dialight_CBI_data_598-1206_Apr2018.pdf" 500 50 50 H I L BNN
+F4 "Dialight 5988270107F, 598 Series Green LED, 570 nm 3016 (1206), Rectangle Lens SMD package" 500 -50 50 H I L BNN "Description"
+F5 "0.9" 500 -150 50 H I L BNN "Height"
+F6 "" 500 -250 50 H I L BNN "element14 Part Number"
+F7 "" 500 -350 50 H I L BNN "element14 Price/Stock"
+F8 "Dialight" 500 -450 50 H I L BNN "Manufacturer_Name"
+F9 "5988270107F" 500 -550 50 H I L BNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 250 100 150 200 N
+P 2 0 1 6 350 100 250 200 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+P 4 0 1 10 210 170 180 140 150 200 210 170 F
+P 4 0 1 10 310 170 280 140 250 200 310 170 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model PS2505L-1-F3-A
+#/1651572/1235424/2.50/4/2/Integrated Circuit
+DEF PS2505L-1-F3-A IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "PS2505L-1-F3-A" 850 200 50 H V L CNN
+F2 "SOP254P960X380-4N" 850 100 50 H I L CNN
+F3 "https://datasheet.lcsc.com/szlcsc/1902271205_RENESAS-PS2505L-1-F3-A_C350662.pdf" 850 0 50 H I L CNN
+F4 "Support is limited to customers who have already adopted these products.The PS2505-1, -4 and PS2505L-1, -4 are optically coupled isolators containing GaAs light emitting diodes and an NPN silicon phototransistor. The PS2505-1, -4 are in a plastic DIP (Dual In-line Package) and the PS2505L-1, -4 are lead bending type (Gullwing) for surface mount." 850 -100 50 H I L CNN "Description"
+F5 "3.8" 850 -200 50 H I L CNN "Height"
+F6 "" 850 -300 50 H I L CNN "element14 Part Number"
+F7 "" 850 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Renesas Electronics" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "PS2505L-1-F3-A" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X A_K 1 0 0 200 R 50 50 0 0 P
+X K_A 2 0 -100 200 R 50 50 0 0 P
+X C 4 1000 0 200 L 50 50 0 0 P
+X E 3 1000 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SFH617A-1X007T
+#/1581491/1235424/2.50/4/3/Phototransistor
+DEF SFH617A-1X007T Q 0 30 Y Y 1 F N
+F0 "Q" 850 300 50 H V L CNN
+F1 "SFH617A-1X007T" 850 200 50 H V L CNN
+F2 "SOP254P1016X440-4N" 850 100 50 H I L CNN
+F3 "http://www.vishay.com/docs/83740/sfh617a.pdf" 850 0 50 H I L CNN
+F4 "Transistor Output Optocouplers Phototransistor Out Single CTR > 40-80%" 850 -100 50 H I L CNN "Description"
+F5 "4.4" 850 -200 50 H I L CNN "Height"
+F6 "" 850 -300 50 H I L CNN "element14 Part Number"
+F7 "" 850 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Vishay" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "SFH617A-1X007T" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X A 1 0 0 200 R 50 50 0 0 P
+X C_1 2 0 -100 200 R 50 50 0 0 P
+X C_2 4 1000 0 200 L 50 50 0 0 P
+X E 3 1000 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 74HC4017D,653
+#/162955/1235424/2.50/16/3/Integrated Circuit
+DEF 74HC4017D,653 IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "74HC4017D,653" 950 200 50 H V L CNN
+F2 "SOIC127P600X175-16N" 950 100 50 H I L CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT4017.pdf" 950 0 50 H I L CNN
+F4 "74HC(T)4017 - Johnson decade counter with 10 decoded outputs@en-us" 950 -100 50 H I L CNN "Description"
+F5 "1.75" 950 -200 50 H I L CNN "Height"
+F6 "" 950 -300 50 H I L CNN "element14 Part Number"
+F7 "" 950 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Nexperia" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "74HC4017D,653" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X Q5 1 0 0 200 R 50 50 0 0 P
+X Q1 2 0 -100 200 R 50 50 0 0 P
+X Q0 3 0 -200 200 R 50 50 0 0 P
+X Q2 4 0 -300 200 R 50 50 0 0 P
+X Q6 5 0 -400 200 R 50 50 0 0 P
+X Q7 6 0 -500 200 R 50 50 0 0 P
+X Q3 7 0 -600 200 R 50 50 0 0 P
+X GND 8 0 -700 200 R 50 50 0 0 P
+X VCC 16 1100 0 200 L 50 50 0 0 P
+X MR 15 1100 -100 200 L 50 50 0 0 P
+X CP0 14 1100 -200 200 L 50 50 0 0 P
+X ~CP1 13 1100 -300 200 L 50 50 0 0 P
+X ~Q5-9 12 1100 -400 200 L 50 50 0 0 P
+X Q9 11 1100 -500 200 L 50 50 0 0 P
+X Q4 10 1100 -600 200 L 50 50 0 0 P
+X Q8 9 1100 -700 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model L-793GD
+#/281410/1235424/2.50/2/3/LED
+DEF L-793GD LED 0 30 Y Y 1 F N
+F0 "LED" 500 350 50 H V L BNN
+F1 "L-793GD" 500 250 50 H V L BNN
+F2 "L793GD" 500 150 50 H I L BNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-19/DSA-377207.pdf" 500 50 50 H I L BNN
+F4 "LED Uni-Color Green 565nm 2-Pin" 500 -50 50 H I L BNN "Description"
+F5 "12.25" 500 -150 50 H I L BNN "Height"
+F6 "" 500 -250 50 H I L BNN "element14 Part Number"
+F7 "" 500 -350 50 H I L BNN "element14 Price/Stock"
+F8 "Kingbright" 500 -450 50 H I L BNN "Manufacturer_Name"
+F9 "L-793GD" 500 -550 50 H I L BNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 250 100 150 200 N
+P 2 0 1 6 350 100 250 200 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+P 4 0 1 10 210 170 180 140 150 200 210 170 F
+P 4 0 1 10 310 170 280 140 250 200 310 170 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 74LVC2G08DC,125
+#/703910/1235424/2.50/8/2/Integrated Circuit
+DEF 74LVC2G08DC,125 IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "74LVC2G08DC,125" 850 200 50 H V L CNN
+F2 "SOP50P310X100-8N" 850 100 50 H I L CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/74LVC2G08.pdf" 850 0 50 H I L CNN
+F4 "NXP 74LVC2G08DC,125, Dual 2-Input AND Logic Gate, 1.65  5.5 V, 8-Pin VSSOP" 850 -100 50 H I L CNN "Description"
+F5 "1" 850 -200 50 H I L CNN "Height"
+F6 "" 850 -300 50 H I L CNN "element14 Part Number"
+F7 "" 850 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Nexperia" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "74LVC2G08DC,125" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1A 1 0 0 200 R 50 50 0 0 P
+X 1B 2 0 -100 200 R 50 50 0 0 P
+X 2Y 3 0 -200 200 R 50 50 0 0 P
+X GND 4 0 -300 200 R 50 50 0 0 P
+X VCC 8 1000 0 200 L 50 50 0 0 P
+X 1Y 7 1000 -100 200 L 50 50 0 0 P
+X 2B 6 1000 -200 200 L 50 50 0 0 P
+X 2A 5 1000 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model HLMP-Y502-F0000
+#/626895/1235424/2.50/2/4/LED
+DEF HLMP-Y502-F0000 LED 0 30 Y Y 1 F N
+F0 "LED" 500 350 50 H V L BNN
+F1 "HLMP-Y502-F0000" 500 250 50 H V L BNN
+F2 "T-1(3MM)" 500 150 50 H I L BNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA13/1163641.pdf" 500 50 50 H I L BNN
+F4 "BROADCOM LIMITED - HLMP-Y502-F0000 - LED, 3MM, GREEN, 40MCD, 573NM" 500 -50 50 H I L BNN "Description"
+F5 "" 500 -150 50 H I L BNN "Height"
+F6 "" 500 -250 50 H I L BNN "element14 Part Number"
+F7 "" 500 -350 50 H I L BNN "element14 Price/Stock"
+F8 "Avago Technologies" 500 -450 50 H I L BNN "Manufacturer_Name"
+F9 "HLMP-Y502-F0000" 500 -550 50 H I L BNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 250 100 150 200 N
+P 2 0 1 6 350 100 250 200 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+P 4 0 1 10 210 170 180 140 150 200 210 170 F
+P 4 0 1 10 310 170 280 140 250 200 310 170 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model C503B-BCN-CV0Z0462
+#/484166/1235424/2.50/2/4/LED
+DEF C503B-BCN-CV0Z0462 LED 0 30 Y Y 1 F N
+F0 "LED" 500 350 50 H V L BNN
+F1 "C503B-BCN-CV0Z0462" 500 250 50 H V L BNN
+F2 "C503BBCNCV0Z0462" 500 150 50 H I L BNN
+F3 "https://componentsearchengine.com/Datasheets/1/C503B-BCN-CV0Z0462.pdf" 500 50 50 H I L BNN
+F4 "Cree C503B-BCN-CV0Z0462 Blue LED, 480 nm, 5mm (T-1 3/4), Round Lens Through Hole Package" 500 -50 50 H I L BNN "Description"
+F5 "" 500 -150 50 H I L BNN "Height"
+F6 "" 500 -250 50 H I L BNN "element14 Part Number"
+F7 "" 500 -350 50 H I L BNN "element14 Price/Stock"
+F8 "CREE LED" 500 -450 50 H I L BNN "Manufacturer_Name"
+F9 "C503B-BCN-CV0Z0462" 500 -550 50 H I L BNN "Manufacturer_Part_Number"
+DRAW
+X ~ 2 0 0 100 R 50 50 0 0 P
+X ~ 1 600 0 100 L 50 50 0 0 P
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 250 100 150 200 N
+P 2 0 1 6 350 100 250 200 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+P 4 0 1 10 210 170 180 140 150 200 210 170 F
+P 4 0 1 10 310 170 280 140 250 200 310 170 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 74HC08S14-13
+#/357852/1235424/2.50/14/3/Integrated Circuit
+DEF 74HC08S14-13 IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "74HC08S14-13" 850 200 50 H V L CNN
+F2 "SOIC127P600X173-14N" 850 100 50 H I L CNN
+F3 "https://www.diodes.com/assets/Datasheets/74HC00.pdf" 850 0 50 H I L CNN
+F4 "74HC Quad 2-input AND Gate SO14" 850 -100 50 H I L CNN "Description"
+F5 "1.73" 850 -200 50 H I L CNN "Height"
+F6 "" 850 -300 50 H I L CNN "element14 Part Number"
+F7 "" 850 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Diodes Inc." 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "74HC08S14-13" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1A 1 0 0 200 R 50 50 0 0 P
+X 1B 2 0 -100 200 R 50 50 0 0 P
+X 1Y 3 0 -200 200 R 50 50 0 0 P
+X 2A 4 0 -300 200 R 50 50 0 0 P
+X 2B 5 0 -400 200 R 50 50 0 0 P
+X 2Y 6 0 -500 200 R 50 50 0 0 P
+X GND 7 0 -600 200 R 50 50 0 0 P
+X VCC 14 1000 0 200 L 50 50 0 0 P
+X 4B 13 1000 -100 200 L 50 50 0 0 P
+X 4A 12 1000 -200 200 L 50 50 0 0 P
+X 4Y 11 1000 -300 200 L 50 50 0 0 P
+X 3B 10 1000 -400 200 L 50 50 0 0 P
+X 3A 9 1000 -500 200 L 50 50 0 0 P
+X 3Y 8 1000 -600 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model HEF4069UBT,653
+#/647644/1235424/2.50/14/2/Integrated Circuit
+DEF HEF4069UBT,653 IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "HEF4069UBT,653" 850 200 50 H V L CNN
+F2 "SOIC127P600X175-14N" 850 100 50 H I L CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/HEF4069UB.pdf" 850 0 50 H I L CNN
+F4 "HEF4069UB - Hex inverter@en-us" 850 -100 50 H I L CNN "Description"
+F5 "1.75" 850 -200 50 H I L CNN "Height"
+F6 "" 850 -300 50 H I L CNN "element14 Part Number"
+F7 "" 850 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Nexperia" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "HEF4069UBT,653" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1A 1 0 0 200 R 50 50 0 0 P
+X 1Y 2 0 -100 200 R 50 50 0 0 P
+X 2A 3 0 -200 200 R 50 50 0 0 P
+X 2Y 4 0 -300 200 R 50 50 0 0 P
+X 3A 5 0 -400 200 R 50 50 0 0 P
+X 3Y 6 0 -500 200 R 50 50 0 0 P
+X VSS 7 0 -600 200 R 50 50 0 0 P
+X VDD 14 1000 0 200 L 50 50 0 0 P
+X 6A 13 1000 -100 200 L 50 50 0 0 P
+X 6Y 12 1000 -200 200 L 50 50 0 0 P
+X 5A 11 1000 -300 200 L 50 50 0 0 P
+X 5Y 10 1000 -400 200 L 50 50 0 0 P
+X 4A 9 1000 -500 200 L 50 50 0 0 P
+X 4Y 8 1000 -600 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 12061C105KAT2A
+#/166335/1235424/2.50/2/3/Capacitor
+DEF 12061C105KAT2A C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "12061C105KAT2A" 350 150 50 H V L CNN
+F2 "CAPC3216X229N" 350 50 50 H I L CNN
+F3 "http://datasheets.avx.com/X7RDielectric.pdf" 350 -50 50 H I L CNN
+F4 "Capacitor MLCC 1206 1uF 100V AVX 1206 FlEXITERM 1??F Ceramic Multilayer Capacitor, 100 V dc X7R Dielectric ??10% SMD" 350 -150 50 H I L CNN "Description"
+F5 "2.29" 350 -250 50 H I L CNN "Height"
+F6 "" 350 -350 50 H I L CNN "element14 Part Number"
+F7 "" 350 -450 50 H I L CNN "element14 Price/Stock"
+F8 "AVX" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "12061C105KAT2A" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 12065C472KAT2A
+#/242399/1235424/2.50/2/3/Capacitor
+DEF 12065C472KAT2A C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "12065C472KAT2A" 350 150 50 H V L CNN
+F2 "CAPC3216X94N" 350 50 50 H I L CNN
+F3 "https://spicat.kyocera-avx.com/product/mlcc/chartview/12065C472KAT2A/DataSheet/X7R" 350 -50 50 H I L CNN
+F4 "AVX - 12065C472KAT2A - SMD Multilayer Ceramic Capacitor, 4700 pF, 50 V, 1206 [3216 Metric], +/- 10%, X7R, AVX 1206 MLCC" 350 -150 50 H I L CNN "Description"
+F5 "0.94" 350 -250 50 H I L CNN "Height"
+F6 "" 350 -350 50 H I L CNN "element14 Part Number"
+F7 "" 350 -450 50 H I L CNN "element14 Price/Stock"
+F8 "AVX" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "12065C472KAT2A" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 16TZV100M6.3X6.1
+#/381178/1235424/2.50/2/4/Capacitor Polarised
+DEF 16TZV100M6.3X6.1 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "16TZV100M6.3X6.1" 350 150 50 H V L CNN
+F2 "16TZV100M63X61" 350 50 50 H I L CNN
+F3 "http://www.rubycon.co.jp/catalog/j_pdfs/aluminum/j_TZV.pdf" 350 -50 50 H I L CNN
+F4 "Aluminum Electrolytic Capacitors - SMD LOW ESR ELECTROLYTIC CAPACITORS" 350 -150 50 H I L CNN "Description"
+F5 "6.1" 350 -250 50 H I L CNN "Height"
+F6 "" 350 -350 50 H I L CNN "element14 Part Number"
+F7 "" 350 -450 50 H I L CNN "element14 Price/Stock"
+F8 "Rubycon" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "16TZV100M6.3X6.1" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 12065C102KAT2A
+#/295125/1235424/2.50/2/3/Capacitor
+DEF 12065C102KAT2A C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "12065C102KAT2A" 350 150 50 H V L CNN
+F2 "CAPC3216X94N" 350 50 50 H I L CNN
+F3 "https://spicat.kyocera-avx.com/product/mlcc/chartview/12065C102KAT2A/DataSheet/X7R" 350 -50 50 H I L CNN
+F4 "AVX - 12065C102KAT2A - SMD Multilayer Ceramic Capacitor, 1000 pF, 50 V, 1206 [3216 Metric], +/- 10%, X7R, AVX 1206 MLCC" 350 -150 50 H I L CNN "Description"
+F5 "0.94" 350 -250 50 H I L CNN "Height"
+F6 "" 350 -350 50 H I L CNN "element14 Part Number"
+F7 "" 350 -450 50 H I L CNN "element14 Price/Stock"
+F8 "AVX" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "12065C102KAT2A" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model EEEFK1C221XP
+#/173269/1235424/2.50/2/2/Capacitor Polarised
+DEF EEEFK1C221XP C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "EEEFK1C221XP" 350 150 50 H V L CNN
+F2 "EEE0JA331XP" 350 50 50 H I L CNN
+F3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1181.pdf" 350 -50 50 H I L CNN
+F4 "Panasonic Aluminium Electrolytic Capacitor 220uF 16V dc 6.3mm D8 FK SMD Series, Surface Mount Electrolytic, +/-20%" 350 -150 50 H I L CNN "Description"
+F5 "7.8" 350 -250 50 H I L CNN "Height"
+F6 "" 350 -350 50 H I L CNN "element14 Part Number"
+F7 "" 350 -450 50 H I L CNN "element14 Price/Stock"
+F8 "Panasonic" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "EEEFK1C221XP" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ERA8AEB103V
+#/239074/1235424/2.50/2/2/Resistor
+DEF ERA8AEB103V R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "ERA8AEB103V" 550 150 50 H V L CNN
+F2 "RESC3216X70N" 550 50 50 H I L CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 550 -50 50 H I L CNN
+F4 "Res Thin Film 1206 0.25W 10K 0.1% Panasonic ERA Series Thin Film Surface Mount Resistor 1206 Case 10k +/-0.1% 0.25W +/-25ppm/C" 550 -150 50 H I L CNN "Description"
+F5 "0.7" 550 -250 50 H I L CNN "Height"
+F6 "" 550 -350 50 H I L CNN "element14 Part Number"
+F7 "" 550 -450 50 H I L CNN "element14 Price/Stock"
+F8 "Panasonic" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "ERA8AEB103V" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model LT1782CS5#TRMPBF
+#/469416/1235424/2.50/5/3/Integrated Circuit
+DEF LT1782CS5#TRMPBF IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "LT1782CS5#TRMPBF" 1050 200 50 H V L CNN
+F2 "SOT95P280X100-5N" 1050 100 50 H I L CNN
+F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1782fc.pdf" 1050 0 50 H I L CNN
+F4 "Linear Technology LT1782CS5#TRMPBF Micropower Op Amp, 200kHz Rail-Rail, 3, 5 V, 5-Pin" 1050 -100 50 H I L CNN "Description"
+F5 "1" 1050 -200 50 H I L CNN "Height"
+F6 "" 1050 -300 50 H I L CNN "element14 Part Number"
+F7 "" 1050 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Analog Devices" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "LT1782CS5#TRMPBF" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X OUT 1 0 0 200 R 50 50 0 0 P
+X V- 2 0 -100 200 R 50 50 0 0 P
+X +IN 3 0 -200 200 R 50 50 0 0 P
+X -IN 4 1200 0 200 L 50 50 0 0 P
+X V+ 5 1200 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 3214W-1-502E
+#/310956/1235424/2.50/3/4/Variable Resistor
+DEF 3214W-1-502E VR 0 30 Y Y 1 F N
+F0 "VR" 950 300 50 H V L CNN
+F1 "3214W-1-502E" 950 200 50 H V L CNN
+F2 "3214W1502E" 950 100 50 H I L CNN
+F3 "http://www.bourns.com/docs/Product-Datasheets/3214.pdf" 950 0 50 H I L CNN
+F4 "3214W top adj SMT cermet trimmer,5K 4mm Bourns 3214W Series 5-Turn SMD Cermet Trimmer Resistor with J-Hook Terminations, 5k +/-10% 1/4W +/-100ppm/C Top Adjust" 950 -100 50 H I L CNN "Description"
+F5 "5.55" 950 -200 50 H I L CNN "Height"
+F6 "" 950 -300 50 H I L CNN "element14 Part Number"
+F7 "" 950 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Bourns" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "3214W-1-502E" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X CCW 1 0 0 200 R 50 50 0 0 P
+X WIPER 2 1100 0 200 L 50 50 0 0 P
+X CW 3 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 3386P-1-472LF
+#/783488/1235424/2.50/3/4/Variable Resistor
+DEF 3386P-1-472LF VR 0 30 Y Y 1 F N
+F0 "VR" 950 300 50 H V L CNN
+F1 "3386P-1-472LF" 950 200 50 H V L CNN
+F2 "3386P_1" 950 100 50 H I L CNN
+F3 "http://www.bourns.com/docs/Product-Datasheets/3386.pdf" 950 0 50 H I L CNN
+F4 "Bourns 3386P Series Through Hole Cermet Trimmer Resistor with Solder Pin Terminations, 4.7k +/-10% 0.5W +/-100ppm/C" 950 -100 50 H I L CNN "Description"
+F5 "" 950 -200 50 H I L CNN "Height"
+F6 "" 950 -300 50 H I L CNN "element14 Part Number"
+F7 "" 950 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Bourns" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "3386P-1-472LF" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X CCW 1 0 -100 200 R 50 50 0 0 P
+X WIPER 2 1100 0 200 L 50 50 0 0 P
+X CW 3 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model FSM4JSMATR
+#/193132/1235424/2.50/4/3/Switch
+DEF FSM4JSMATR S 0 30 Y Y 1 F N
+F0 "S" 650 300 50 H V L CNN
+F1 "FSM4JSMATR" 650 200 50 H V L CNN
+F2 "FSM4JSMATR" 650 100 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA6/576850.pdf" 650 0 50 H I L CNN
+F4 "Tactile switch,SMT,SPST,raised actuator" 650 -100 50 H I L CNN "Description"
+F5 "" 650 -200 50 H I L CNN "Height"
+F6 "" 650 -300 50 H I L CNN "element14 Part Number"
+F7 "" 650 -400 50 H I L CNN "element14 Price/Stock"
+F8 "TE Connectivity" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "FSM4JSMATR" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 800 0 200 L 50 50 0 0 P
+X 2 2 800 -100 200 L 50 50 0 0 P
+X 3 3 0 0 200 R 50 50 0 0 P
+X 4 4 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 06035C473KAT2A
+#/363451/1235424/2.50/2/5/Capacitor
+DEF 06035C473KAT2A C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "06035C473KAT2A" 350 150 50 H V L CNN
+F2 "CAPC1608X90N" 350 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf" 350 -50 50 H I L CNN
+F4 "AVX 0603 Standard 47nF Ceramic Multilayer Capacitor, 50 V dc, +125C, X7R Dielectric, +/-10% SMD" 350 -150 50 H I L CNN "Description"
+F5 "0.9" 350 -250 50 H I L CNN "Height"
+F6 "" 350 -350 50 H I L CNN "element14 Part Number"
+F7 "" 350 -450 50 H I L CNN "element14 Price/Stock"
+F8 "AVX" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "06035C473KAT2A" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 12061C473KAT2A
+#/390607/1235424/2.50/2/3/Capacitor
+DEF 12061C473KAT2A C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "12061C473KAT2A" 350 150 50 H V L CNN
+F2 "CAPC3216X94N" 350 50 50 H I L CNN
+F3 "https://spicat.kyocera-avx.com/product/mlcc/chartview/12061C473KAT2A/DataSheet/X7R" 350 -50 50 H I L CNN
+F4 "AVX 1206 47nF Ceramic Multilayer Capacitor, 100 V dc, +125C, X7R Dielectric, +/-10%" 350 -150 50 H I L CNN "Description"
+F5 "0.94" 350 -250 50 H I L CNN "Height"
+F6 "" 350 -350 50 H I L CNN "element14 Part Number"
+F7 "" 350 -450 50 H I L CNN "element14 Price/Stock"
+F8 "AVX" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "12061C473KAT2A" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 3310Y-001-503L
+#/856930/1235424/2.50/3/3/Variable Resistor
+DEF 3310Y-001-503L VR 0 30 Y Y 1 F N
+F0 "VR" 1050 300 50 H V L CNN
+F1 "3310Y-001-503L" 1050 200 50 H V L CNN
+F2 "3310Y001503L" 1050 100 50 H I L CNN
+F3 "http://www.bourns.com/data/global/pdfs/3310.pdf" 1050 0 50 H I L CNN
+F4 "Bourns 3310Y Series Conductive Plastic Potentiometer with a 3.17 mm Dia. Shaft, 50k, +/-20%, 0.25W, +/-1000ppm/C" 1050 -100 50 H I L CNN "Description"
+F5 "18.9" 1050 -200 50 H I L CNN "Height"
+F6 "" 1050 -300 50 H I L CNN "element14 Part Number"
+F7 "" 1050 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Bourns" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "3310Y-001-503L" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X CCW 1 1200 -100 200 L 50 50 0 0 P
+X WIPER_ 2 0 0 200 R 50 50 0 0 P
+X CW 3 1200 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 12065A150JAT2A
+#/693824/1235424/2.50/2/3/Capacitor
+DEF 12065A150JAT2A C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "12065A150JAT2A" 350 150 50 H V L CNN
+F2 "CAPC3216X94N" 350 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/12065A150JAT2A.pdf" 350 -50 50 H I L CNN
+F4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 15pF C0G 1206 5%" 350 -150 50 H I L CNN "Description"
+F5 "0.94" 350 -250 50 H I L CNN "Height"
+F6 "" 350 -350 50 H I L CNN "element14 Part Number"
+F7 "" 350 -450 50 H I L CNN "element14 Price/Stock"
+F8 "AVX" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "12065A150JAT2A" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TC33X-2-503E
+#/376385/1235424/2.50/3/4/Variable Resistor
+DEF TC33X-2-503E VR 0 30 Y Y 1 F N
+F0 "VR" 950 300 50 H V L CNN
+F1 "TC33X-2-503E" 950 200 50 H V L CNN
+F2 "TC33X2503E" 950 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/TC33X-2-503E.pdf" 950 0 50 H I L CNN
+F4 "SMD single turn trimmer 50K 25% top adj Bourns TC33 Series SMD Trimmer Resistor with Solder Pad Terminations, 50k +/-25% 0.1W +/-250ppm/C Top Adjust" 950 -100 50 H I L CNN "Description"
+F5 "1.2" 950 -200 50 H I L CNN "Height"
+F6 "" 950 -300 50 H I L CNN "element14 Part Number"
+F7 "" 950 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Bourns" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TC33X-2-503E" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X CCW 1 0 0 200 R 50 50 0 0 P
+X WIPER 2 1100 0 200 L 50 50 0 0 P
+X CW 3 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model PTV09A-4025S-A102
+#/1165242/1235424/2.50/5/3/Variable Resistor
+DEF PTV09A-4025S-A102 VR 0 30 Y Y 1 F N
+F0 "VR" 950 300 50 H V L CNN
+F1 "PTV09A-4025S-A102" 950 200 50 H V L CNN
+F2 "PTV09A4025SA102" 950 100 50 H I L CNN
+F3 "https://www.bourns.com/docs/Product-Datasheets/PTV09.pdf" 950 0 50 H I L CNN
+F4 "Potentiometers PANEL CONTROL - 9MM-ST-CA 1 kohms 25 mm" 950 -100 50 H I L CNN "Description"
+F5 "25.5" 950 -200 50 H I L CNN "Height"
+F6 "" 950 -300 50 H I L CNN "element14 Part Number"
+F7 "" 950 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Bourns" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "PTV09A-4025S-A102" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X CCW 1 0 0 200 R 50 50 0 0 P
+X WIPER 2 0 -100 200 R 50 50 0 0 P
+X CW 3 0 -200 200 R 50 50 0 0 P
+X MH1 MH1 1100 0 200 L 50 50 0 0 P
+X MH2 MH2 1100 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model KSEK43G_LFS
+#/356790/1235424/2.50/4/3/Switch
+DEF KSEK43G_LFS S 0 30 Y Y 1 F N
+F0 "S" 1050 300 50 H V L CNN
+F1 "KSEK43G_LFS" 1050 200 50 H V L CNN
+F2 "KSEK43GLFS" 1050 100 50 H I L CNN
+F3 "https://www.ckswitches.com/media/1458/kse.pdf" 1050 0 50 H I L CNN
+F4 "Switch Tactile N.O. SPST Round Button Gull Wing 0.05A 32VDC 1VA 300000Cycles 2.25N SMD  T/R" 1050 -100 50 H I L CNN "Description"
+F5 "4.3" 1050 -200 50 H I L CNN "Height"
+F6 "C & K COMPONENTS" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "KSEK43G LFS" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "KSEK43G LFS" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ksek43glfs/ck?region=nac" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X NO_1 1 0 0 200 R 50 50 0 0 P
+X COM_1 2 0 -100 200 R 50 50 0 0 P
+X COM_2 3 1200 -100 200 L 50 50 0 0 P
+X NO_2 4 1200 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ATMEGA2560V-8AU
+#/4581/1235424/2.50/100/3/Integrated Circuit
+DEF ATMEGA2560V-8AU IC 0 30 Y Y 1 F N
+F0 "IC" 2650 700 50 H V L CNN
+F1 "ATMEGA2560V-8AU" 2650 600 50 H V L CNN
+F2 "QFP50P1600X1600X120-100N" 2650 500 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/4a5a397fa76c39b5297f4121ace1d84e.pdf" 2650 400 50 H I L CNN
+F4 "ATMEGA2560V-8AU, 8 bit AVR Microcontroller 8MHz 4, 256kb Flash, 8kb RAM, I2C SPI 100-Pin TQFP" 2650 300 50 H I L CNN "Description"
+F5 "1.2" 2650 200 50 H I L CNN "Height"
+F6 "" 2650 100 50 H I L CNN "element14 Part Number"
+F7 "" 2650 0 50 H I L CNN "element14 Price/Stock"
+F8 "Microchip" 2650 -100 50 H I L CNN "Manufacturer_Name"
+F9 "ATMEGA2560V-8AU" 2650 -200 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X (OC0B)_PG5 1 0 0 200 R 50 50 0 0 P
+X (RXD0/PCINT8)_PE0 2 0 -100 200 R 50 50 0 0 P
+X (TXD0)_PE1 3 0 -200 200 R 50 50 0 0 P
+X (XCK0/AIN0)_PE2 4 0 -300 200 R 50 50 0 0 P
+X (OC3A/AIN1)_PE3 5 0 -400 200 R 50 50 0 0 P
+X (OC3B/INT4)_PE4 6 0 -500 200 R 50 50 0 0 P
+X (OC3C/INT5)_PE5 7 0 -600 200 R 50 50 0 0 P
+X (T3/INT6)_PE6 8 0 -700 200 R 50 50 0 0 P
+X (CLKO/ICP3/INT7)_PE7 9 0 -800 200 R 50 50 0 0 P
+X VCC_1 10 1200 700 200 D 50 50 0 0 P
+X GND_1 11 1200 -5300 200 U 50 50 0 0 P
+X (RXD2)_PH0 12 0 -900 200 R 50 50 0 0 P
+X (TXD2)_PH1 13 0 -1000 200 R 50 50 0 0 P
+X (XCK2)_PH2 14 0 -1100 200 R 50 50 0 0 P
+X (OC4A)_PH3 15 0 -1200 200 R 50 50 0 0 P
+X (OC4B)_PH4 16 0 -1300 200 R 50 50 0 0 P
+X (OC4C)_PH5 17 0 -1400 200 R 50 50 0 0 P
+X (OC2B)_PH6 18 0 -1500 200 R 50 50 0 0 P
+X (~SS~/PCINT0)_PB0 19 0 -1600 200 R 50 50 0 0 P
+X (SCK/PCINT1)_PB1 20 0 -1700 200 R 50 50 0 0 P
+X (MOSI/PCINT2)_PB2 21 0 -1800 200 R 50 50 0 0 P
+X (MISO/PCINT3)_PB3 22 0 -1900 200 R 50 50 0 0 P
+X (OC2A/PCINT4)_PB4 23 0 -2000 200 R 50 50 0 0 P
+X (OC1A/PCINT5)_PB5 24 0 -2100 200 R 50 50 0 0 P
+X (OC1B/PCINT6)_PB6 25 0 -2300 200 R 50 50 0 0 P
+X (OC0A/OC1C/PCINT7)_PB7 26 0 -2400 200 R 50 50 0 0 P
+X (T4)_PH7 27 0 -2500 200 R 50 50 0 0 P
+X (TOSC2)_PG3 28 0 -2600 200 R 50 50 0 0 P
+X (TOSC1)_PG4 29 0 -2700 200 R 50 50 0 0 P
+X ~RESET 30 0 -2800 200 R 50 50 0 0 P
+X VCC_2 31 1300 700 200 D 50 50 0 0 P
+X GND_2 32 1300 -5300 200 U 50 50 0 0 P
+X XTAL2 33 0 -2900 200 R 50 50 0 0 P
+X XTAL1 34 0 -3000 200 R 50 50 0 0 P
+X (ICP4)_PL0 35 0 -3100 200 R 50 50 0 0 P
+X (ICP5)_PL1 36 0 -3200 200 R 50 50 0 0 P
+X (T5)_PL2 37 0 -3300 200 R 50 50 0 0 P
+X (OC5A)_PL3 38 0 -3400 200 R 50 50 0 0 P
+X (OC5B)_PL4 39 0 -3500 200 R 50 50 0 0 P
+X (OC5C)_PL5 40 0 -3600 200 R 50 50 0 0 P
+X PL6 41 0 -3700 200 R 50 50 0 0 P
+X PL7 42 0 -3800 200 R 50 50 0 0 P
+X (SCL/INT0)_PD0 43 0 -3900 200 R 50 50 0 0 P
+X (SDA/INT1)_PD1 44 0 -4000 200 R 50 50 0 0 P
+X (RXD1/INT2)_PD2 45 0 -4100 200 R 50 50 0 0 P
+X (TXD1/INT3)_PD3 46 0 -4200 200 R 50 50 0 0 P
+X (ICP1)_PD4 47 0 -4300 200 R 50 50 0 0 P
+X (XCK1)_PD5 48 0 -4400 200 R 50 50 0 0 P
+X (T1)_PD6 49 0 -4500 200 R 50 50 0 0 P
+X (T0)_PD7 50 0 -4600 200 R 50 50 0 0 P
+X PG0_(~WR) 51 2800 0 200 L 50 50 0 0 P
+X PG1_(~RD) 52 2800 -100 200 L 50 50 0 0 P
+X PC0_(A8) 53 2800 -200 200 L 50 50 0 0 P
+X PC1_(A9) 54 2800 -300 200 L 50 50 0 0 P
+X PC2_(A10) 55 2800 -400 200 L 50 50 0 0 P
+X PC3_(A11) 56 2800 -500 200 L 50 50 0 0 P
+X PC4_(A12) 57 2800 -600 200 L 50 50 0 0 P
+X PC5_(A13) 58 2800 -700 200 L 50 50 0 0 P
+X PC6_(A14) 59 2800 -800 200 L 50 50 0 0 P
+X PC7_(A15) 60 2800 -900 200 L 50 50 0 0 P
+X VCC_3 61 1400 700 200 D 50 50 0 0 P
+X GND_3 62 1400 -5300 200 U 50 50 0 0 P
+X PJ0_(RXD3/PCINT9) 63 2800 -1000 200 L 50 50 0 0 P
+X PJ1_(TXD3/PCINT10) 64 2800 -1100 200 L 50 50 0 0 P
+X PJ2_(XCK3/PCINT11) 65 2800 -1200 200 L 50 50 0 0 P
+X PJ3_(PCINT12) 66 2800 -1300 200 L 50 50 0 0 P
+X PJ4_(PCINT13) 67 2800 -1400 200 L 50 50 0 0 P
+X PJ5_(PCINT14) 68 2800 -1500 200 L 50 50 0 0 P
+X PJ6_(PCINT15) 69 2800 -1600 200 L 50 50 0 0 P
+X PG2_(ALE) 70 2800 -1700 200 L 50 50 0 0 P
+X PA7_(AD7) 71 2800 -1800 200 L 50 50 0 0 P
+X PA6_(AD6) 72 2800 -1900 200 L 50 50 0 0 P
+X PA5_(AD5) 73 2800 -2000 200 L 50 50 0 0 P
+X PA4_(AD4) 74 2800 -2100 200 L 50 50 0 0 P
+X PA3_(AD3) 75 2800 -2300 200 L 50 50 0 0 P
+X PA2_(AD2) 76 2800 -2400 200 L 50 50 0 0 P
+X PA1_(AD1) 77 2800 -2500 200 L 50 50 0 0 P
+X PA0_(AD0) 78 2800 -2600 200 L 50 50 0 0 P
+X PJ7 79 2800 -2700 200 L 50 50 0 0 P
+X VCC_4 80 1500 700 200 D 50 50 0 0 P
+X GND_4 81 1500 -5300 200 U 50 50 0 0 P
+X PK7_(ADC15/PCINT23) 82 2800 -2800 200 L 50 50 0 0 P
+X PK6_(ADC14/PCINT22) 83 2800 -2900 200 L 50 50 0 0 P
+X PK5_(ADC13/PCINT21) 84 2800 -3000 200 L 50 50 0 0 P
+X PK4_(ADC12/PCINT20) 85 2800 -3100 200 L 50 50 0 0 P
+X PK3_(ADC11/PCINT19) 86 2800 -3200 200 L 50 50 0 0 P
+X PK2_(ADC10/PCINT18) 87 2800 -3300 200 L 50 50 0 0 P
+X PK1_(ADC9/PCINT17) 88 2800 -3400 200 L 50 50 0 0 P
+X PK0_(ADC8/PCINT16) 89 2800 -3500 200 L 50 50 0 0 P
+X PF7_(ADC7/TDI) 90 2800 -3600 200 L 50 50 0 0 P
+X PF6_(ADC6/TDO) 91 2800 -3700 200 L 50 50 0 0 P
+X PF5_(ADC5/TMS) 92 2800 -3800 200 L 50 50 0 0 P
+X PF4_(ADC4/TCK) 93 2800 -3900 200 L 50 50 0 0 P
+X PF3_(ADC3) 94 2800 -4000 200 L 50 50 0 0 P
+X PF2_(ADC2) 95 2800 -4100 200 L 50 50 0 0 P
+X PF1_(ADC1) 96 2800 -4200 200 L 50 50 0 0 P
+X PF0_(ADC0) 97 2800 -4300 200 L 50 50 0 0 P
+X AREF 98 2800 -4400 200 L 50 50 0 0 P
+X GND_5 99 1600 -5300 200 U 50 50 0 0 P
+X AVCC 100 1600 700 200 D 50 50 0 0 P
+P 5 0 1 6 200 500 2600 500 2600 -5100 200 -5100 200 500 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ATMEGA2560-16AUR
+#/308908/1235424/2.50/100/3/Integrated Circuit
+DEF ATMEGA2560-16AUR IC 0 30 Y Y 1 F N
+F0 "IC" 2850 1400 50 H V L CNN
+F1 "ATMEGA2560-16AUR" 2850 1300 50 H V L CNN
+F2 "QFP50P1600X1600X120-100N" 2850 1200 50 H I L CNN
+F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf" 2850 1100 50 H I L CNN
+F4 "Microchip Technology ATMEGA2560-16AUR, 8bit AVR Microcontroller, 16MHz, 256 kB Flash, 100-Pin TQFP" 2850 1000 50 H I L CNN "Description"
+F5 "1.2" 2850 900 50 H I L CNN "Height"
+F6 "" 2850 800 50 H I L CNN "element14 Part Number"
+F7 "" 2850 700 50 H I L CNN "element14 Price/Stock"
+F8 "Microchip" 2850 600 50 H I L CNN "Manufacturer_Name"
+F9 "ATMEGA2560-16AUR" 2850 500 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X (OC0B)_PG5 1 0 0 200 R 50 50 0 0 P
+X (RXD0/PCINT8)_PE0 2 0 -100 200 R 50 50 0 0 P
+X (TXD0)_PE1 3 0 -200 200 R 50 50 0 0 P
+X (XCK0/AIN0)_PE2 4 0 -300 200 R 50 50 0 0 P
+X (OC3A/AIN1)_PE3 5 0 -400 200 R 50 50 0 0 P
+X (OC3B/INT4)_PE4 6 0 -500 200 R 50 50 0 0 P
+X (OC3C/INT5)_PE5 7 0 -600 200 R 50 50 0 0 P
+X (T3/INT6)_PE6 8 0 -700 200 R 50 50 0 0 P
+X (CLKO/ICP3/INT7)_PE7 9 0 -800 200 R 50 50 0 0 P
+X VCC_1 10 0 -900 200 R 50 50 0 0 P
+X GND_1 11 0 -1000 200 R 50 50 0 0 P
+X (RXD2)_PH0 12 0 -1100 200 R 50 50 0 0 P
+X (TXD2)_PH1 13 0 -1200 200 R 50 50 0 0 P
+X (XCK2)_PH2 14 0 -1300 200 R 50 50 0 0 P
+X (OC4A)_PH3 15 0 -1400 200 R 50 50 0 0 P
+X (OC4B)_PH4 16 0 -1500 200 R 50 50 0 0 P
+X (OC4C)_PH5 17 0 -1600 200 R 50 50 0 0 P
+X (OC2B)_PH6 18 0 -1700 200 R 50 50 0 0 P
+X (~SS~/PCINT0)_PB0 19 0 -1800 200 R 50 50 0 0 P
+X (SCK/PCINT1)_PB1 20 0 -1900 200 R 50 50 0 0 P
+X (MOSI/PCINT2)_PB2 21 0 -2000 200 R 50 50 0 0 P
+X (MISO/PCINT3)_PB3 22 0 -2100 200 R 50 50 0 0 P
+X (OC2A/PCINT4)_PB4 23 0 -2200 200 R 50 50 0 0 P
+X (OC1A/PCINT5)_PB5 24 0 -2300 200 R 50 50 0 0 P
+X (OC1B/PCINT6)_PB6 25 0 -2400 200 R 50 50 0 0 P
+X (OC0A/OC1C/PCINT7)_PB7 26 300 -3900 200 U 50 50 0 0 P
+X (T4)_PH7 27 400 -3900 200 U 50 50 0 0 P
+X (TOSC2)_PG3 28 500 -3900 200 U 50 50 0 0 P
+X (TOSC1)_PG4 29 600 -3900 200 U 50 50 0 0 P
+X ~RESET 30 700 -3900 200 U 50 50 0 0 P
+X VCC_2 31 800 -3900 200 U 50 50 0 0 P
+X GND_2 32 900 -3900 200 U 50 50 0 0 P
+X XTAL2 33 1000 -3900 200 U 50 50 0 0 P
+X XTAL1 34 1100 -3900 200 U 50 50 0 0 P
+X (ICP4)_PL0 35 1200 -3900 200 U 50 50 0 0 P
+X (ICP5)_PL1 36 1300 -3900 200 U 50 50 0 0 P
+X (T5)_PL2 37 1400 -3900 200 U 50 50 0 0 P
+X (OC5A)_PL3 38 1500 -3900 200 U 50 50 0 0 P
+X (OC5B)_PL4 39 1600 -3900 200 U 50 50 0 0 P
+X (OC5C)_PL5 40 1700 -3900 200 U 50 50 0 0 P
+X PL6 41 1800 -3900 200 U 50 50 0 0 P
+X PL7 42 1900 -3900 200 U 50 50 0 0 P
+X (SCL/INT0)_PD0 43 2000 -3900 200 U 50 50 0 0 P
+X (SDA/INT1)_PD1 44 2100 -3900 200 U 50 50 0 0 P
+X (RXD1/INT2)_PD2 45 2200 -3900 200 U 50 50 0 0 P
+X (TXD1/INT3)_PD3 46 2300 -3900 200 U 50 50 0 0 P
+X (ICP1)_PD4 47 2400 -3900 200 U 50 50 0 0 P
+X (XCK1)_PD5 48 2500 -3900 200 U 50 50 0 0 P
+X (T1)_PD6 49 2600 -3900 200 U 50 50 0 0 P
+X (T0)_PD7 50 2700 -3900 200 U 50 50 0 0 P
+X PA3_(AD3) 75 3000 0 200 L 50 50 0 0 P
+X PA4_(AD4) 74 3000 -100 200 L 50 50 0 0 P
+X PA5_(AD5) 73 3000 -200 200 L 50 50 0 0 P
+X PA6_(AD6) 72 3000 -300 200 L 50 50 0 0 P
+X PA7_(AD7) 71 3000 -400 200 L 50 50 0 0 P
+X PG2_(ALE) 70 3000 -500 200 L 50 50 0 0 P
+X PJ6_(PCINT15) 69 3000 -600 200 L 50 50 0 0 P
+X PJ5_(PCINT14) 68 3000 -700 200 L 50 50 0 0 P
+X PJ4_(PCINT13) 67 3000 -800 200 L 50 50 0 0 P
+X PJ3_(PCINT12) 66 3000 -900 200 L 50 50 0 0 P
+X PJ2_(XCK3/PCINT11) 65 3000 -1000 200 L 50 50 0 0 P
+X PJ1_(TXD3/PCINT10) 64 3000 -1100 200 L 50 50 0 0 P
+X PJ0_(RXD3/PCINT9) 63 3000 -1200 200 L 50 50 0 0 P
+X GND_3 62 3000 -1300 200 L 50 50 0 0 P
+X VCC_3 61 3000 -1400 200 L 50 50 0 0 P
+X PC7_(A15) 60 3000 -1500 200 L 50 50 0 0 P
+X PC6_(A14) 59 3000 -1600 200 L 50 50 0 0 P
+X PC5_(A13) 58 3000 -1700 200 L 50 50 0 0 P
+X PC4_(A12) 57 3000 -1800 200 L 50 50 0 0 P
+X PC3_(A11) 56 3000 -1900 200 L 50 50 0 0 P
+X PC2_(A10) 55 3000 -2000 200 L 50 50 0 0 P
+X PC1_(A9) 54 3000 -2100 200 L 50 50 0 0 P
+X PC0(A8) 53 3000 -2200 200 L 50 50 0 0 P
+X PG1_(~RD) 52 3000 -2300 200 L 50 50 0 0 P
+X PG0_(~WR) 51 3000 -2400 200 L 50 50 0 0 P
+X AVCC 100 300 1400 200 D 50 50 0 0 P
+X GND_5 99 400 1400 200 D 50 50 0 0 P
+X AREF 98 500 1400 200 D 50 50 0 0 P
+X PF0_(ADC0) 97 600 1400 200 D 50 50 0 0 P
+X PF1_(ADC1) 96 700 1400 200 D 50 50 0 0 P
+X PF2_(ADC2) 95 800 1400 200 D 50 50 0 0 P
+X PF3_(ADC3) 94 900 1400 200 D 50 50 0 0 P
+X PF4_(ADC4/TCK) 93 1000 1400 200 D 50 50 0 0 P
+X PF5_(ADC5/TMS) 92 1100 1400 200 D 50 50 0 0 P
+X PF6_(ADC6/TDO) 91 1200 1400 200 D 50 50 0 0 P
+X PF7_(ADC7/TDI) 90 1300 1400 200 D 50 50 0 0 P
+X PK0_(ADC8/PCINT16) 89 1400 1400 200 D 50 50 0 0 P
+X PK1_(ADC9/PCINT17) 88 1500 1400 200 D 50 50 0 0 P
+X PK2_(ADC10/PCINT18) 87 1600 1400 200 D 50 50 0 0 P
+X PK3_(ADC11/PCINT19) 86 1700 1400 200 D 50 50 0 0 P
+X PK4_(ADC12/PCINT20) 85 1800 1400 200 D 50 50 0 0 P
+X PK5_(ADC13/PCINT21) 84 1900 1400 200 D 50 50 0 0 P
+X PK6_(ADC14/PCINT22) 83 2000 1400 200 D 50 50 0 0 P
+X PK7_(ADC15/PCINT23) 82 2100 1400 200 D 50 50 0 0 P
+X GND_4 81 2200 1400 200 D 50 50 0 0 P
+X VCC_4 80 2300 1400 200 D 50 50 0 0 P
+X PJ7 79 2400 1400 200 D 50 50 0 0 P
+X PA0(AD0) 78 2500 1400 200 D 50 50 0 0 P
+X PA1_(AD1) 77 2600 1400 200 D 50 50 0 0 P
+X PA2_(AD2) 76 2700 1400 200 D 50 50 0 0 P
+P 5 0 1 6 200 1200 2800 1200 2800 -3700 200 -3700 200 1200 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ATMEGA16A-AUR
+#/315550/1235424/2.50/44/3/Integrated Circuit
+DEF ATMEGA16A-AUR IC 0 30 Y Y 1 F N
+F0 "IC" 1650 1200 50 H V L CNN
+F1 "ATMEGA16A-AUR" 1650 1100 50 H V L CNN
+F2 "QFP80P1200X1200X120-44N" 1650 1000 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/ATMEGA16A-AUR.pdf" 1650 900 50 H I L CNN
+F4 "8-bit Microcontrollers - MCU AVR LCD 16KB FLSH EE 512B 1KB SRAM-16MHZ" 1650 800 50 H I L CNN "Description"
+F5 "1.2" 1650 700 50 H I L CNN "Height"
+F6 "" 1650 600 50 H I L CNN "element14 Part Number"
+F7 "" 1650 500 50 H I L CNN "element14 Price/Stock"
+F8 "Microchip" 1650 400 50 H I L CNN "Manufacturer_Name"
+F9 "ATMEGA16A-AUR" 1650 300 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X (MOSI)_PB5 1 0 0 200 R 50 50 0 0 P
+X (MISO)_PB6 2 0 -100 200 R 50 50 0 0 P
+X (SCK)_PB7 3 0 -200 200 R 50 50 0 0 P
+X ~RESET 4 0 -300 200 R 50 50 0 0 P
+X VCC_1 5 0 -400 200 R 50 50 0 0 P
+X GND_1 6 0 -500 200 R 50 50 0 0 P
+X XTAL2 7 0 -600 200 R 50 50 0 0 P
+X XTAL1 8 0 -700 200 R 50 50 0 0 P
+X (RXD)_PD0 9 0 -800 200 R 50 50 0 0 P
+X (TXD)_PD1 10 0 -900 200 R 50 50 0 0 P
+X (INT0)_PD2 11 0 -1000 200 R 50 50 0 0 P
+X (INT1)_PD3 12 400 -1900 200 U 50 50 0 0 P
+X (OC1B)_PD4 13 500 -1900 200 U 50 50 0 0 P
+X (OC1A)_PD5 14 600 -1900 200 U 50 50 0 0 P
+X (ICP1)_PD6 15 700 -1900 200 U 50 50 0 0 P
+X (OC2)_PD7 16 800 -1900 200 U 50 50 0 0 P
+X VCC_2 17 900 -1900 200 U 50 50 0 0 P
+X GND_2 18 1000 -1900 200 U 50 50 0 0 P
+X (SCL)_PC0 19 1100 -1900 200 U 50 50 0 0 P
+X (SDA)_PC1 20 1200 -1900 200 U 50 50 0 0 P
+X (TCK)_PC2 21 1300 -1900 200 U 50 50 0 0 P
+X (TMS)_PC3 22 1400 -1900 200 U 50 50 0 0 P
+X PA4_(ADC4) 33 1800 0 200 L 50 50 0 0 P
+X PA5_(ADC5) 32 1800 -100 200 L 50 50 0 0 P
+X PA6_(ADC6) 31 1800 -200 200 L 50 50 0 0 P
+X PA7_(ADC7) 30 1800 -300 200 L 50 50 0 0 P
+X AREF 29 1800 -400 200 L 50 50 0 0 P
+X GND_3 28 1800 -500 200 L 50 50 0 0 P
+X AVCC 27 1800 -600 200 L 50 50 0 0 P
+X PC7_(TOSC2) 26 1800 -700 200 L 50 50 0 0 P
+X PC6_(TOSC1) 25 1800 -800 200 L 50 50 0 0 P
+X PC5_(TDI) 24 1800 -900 200 L 50 50 0 0 P
+X PC4_(TDO) 23 1800 -1000 200 L 50 50 0 0 P
+X PB4_(~SS) 44 400 1200 200 D 50 50 0 0 P
+X PB3_(AIN1/OC0) 43 500 1200 200 D 50 50 0 0 P
+X PB2_(AIN0/INT2) 42 600 1200 200 D 50 50 0 0 P
+X PB1_(T1) 41 700 1200 200 D 50 50 0 0 P
+X PB0_(XCK/T0) 40 800 1200 200 D 50 50 0 0 P
+X GND_4 39 900 1200 200 D 50 50 0 0 P
+X VCC_3 38 1000 1200 200 D 50 50 0 0 P
+X PA0_(ADC0) 37 1100 1200 200 D 50 50 0 0 P
+X PA1_(ADC1) 36 1200 1200 200 D 50 50 0 0 P
+X PA2_(ADC2) 35 1300 1200 200 D 50 50 0 0 P
+X PA3_(ADC3) 34 1400 1200 200 D 50 50 0 0 P
+P 5 0 1 6 200 1000 1600 1000 1600 -1700 200 -1700 200 1000 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SS495A
+#/270576/1235424/2.50/4/3/Integrated Circuit
+DEF SS495A IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "SS495A" 1050 200 50 H V L CNN
+F2 "SS495A" 1050 100 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-305/74162.pdf" 1050 0 50 H I L CNN
+F4 "Minature ratiometric hall effect sensor Ratiometric Hall Effect Sensor, 1.5 mA, 4.5  10.5 V dc" 1050 -100 50 H I L CNN "Description"
+F5 "" 1050 -200 50 H I L CNN "Height"
+F6 "" 1050 -300 50 H I L CNN "element14 Part Number"
+F7 "" 1050 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Honeywell" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "SS495A" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X V- 1 0 0 200 R 50 50 0 0 P
+X OUTPUT 2 0 -100 200 R 50 50 0 0 P
+X VS+ 3 1200 0 200 L 50 50 0 0 P
+X TAB 4 1200 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ATMEGA328PB-AU
+#/323433/1235424/2.50/32/3/Integrated Circuit
+DEF ATMEGA328PB-AU IC 0 30 Y Y 1 F N
+F0 "IC" 3050 1700 50 H V L CNN
+F1 "ATMEGA328PB-AU" 3050 1600 50 H V L CNN
+F2 "QFP80P900X900X120-32N" 3050 1500 50 H I L CNN
+F3 "" 3050 1400 50 H I L CNN
+F4 "ATMEL - ATMEGA328PB-AU - MCU, 8BIT, ATMEGA, 20MHZ, TQFP-32" 3050 1300 50 H I L CNN "Description"
+F5 "1.2" 3050 1200 50 H I L CNN "Height"
+F6 "" 3050 1100 50 H I L CNN "element14 Part Number"
+F7 "" 3050 1000 50 H I L CNN "element14 Price/Stock"
+F8 "Microchip" 3050 900 50 H I L CNN "Manufacturer_Name"
+F9 "ATMEGA328PB-AU" 3050 800 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X (OC2B/INT1/PTCXY)_PD3 1 0 0 200 R 50 50 0 0 P
+X (XCK0/T0/PTCXY)_PD4 2 0 -100 200 R 50 50 0 0 P
+X (SDA1/ICP4/ACO/PTCXY)_PE0 3 0 -200 200 R 50 50 0 0 P
+X VCC 4 0 -300 200 R 50 50 0 0 P
+X GND_1 5 0 -400 200 R 50 50 0 0 P
+X (SCL1/T4/PTCXY)_PE1 6 0 -500 200 R 50 50 0 0 P
+X (XTAL1/TOSC1)_PB6 7 0 -600 200 R 50 50 0 0 P
+X (XTAL2/TOSC2)_PB7 8 0 -700 200 R 50 50 0 0 P
+X (OC0B/T1/PTCXY)_PD5 9 1200 -2500 200 U 50 50 0 0 P
+X (OC0A/PTCXY/AIN0)_PD6 10 1300 -2500 200 U 50 50 0 0 P
+X (PTCXY/AIN1)_PD7 11 1400 -2500 200 U 50 50 0 0 P
+X (ICP1/CLKO/PTCXY)_PB0 12 1500 -2500 200 U 50 50 0 0 P
+X (OC1A/PTCXY)_PB1 13 1600 -2500 200 U 50 50 0 0 P
+X (~SS0~/OC1B/PTCXY)_PB2 14 1700 -2500 200 U 50 50 0 0 P
+X (MOSI0/TXD1/OC2A/PTCXY)_PB3 15 1800 -2500 200 U 50 50 0 0 P
+X (MISO0/RXD1/PTCXY)_PB4 16 1900 -2500 200 U 50 50 0 0 P
+X PC1_(ADC1/PTCY/SCK1) 24 3200 0 200 L 50 50 0 0 P
+X PC0_(ADC0/PTCY/MISO1) 23 3200 -100 200 L 50 50 0 0 P
+X PE3_(ADC7/PTCY/T3/MOSI1) 22 3200 -200 200 L 50 50 0 0 P
+X GND_2 21 3200 -300 200 L 50 50 0 0 P
+X AREF 20 3200 -400 200 L 50 50 0 0 P
+X PE2_(ADC6/PTCY/ICP3/~SS1) 19 3200 -500 200 L 50 50 0 0 P
+X AVCC 18 3200 -600 200 L 50 50 0 0 P
+X PB5_(PTCXY/XCK0/SCK0) 17 3200 -700 200 L 50 50 0 0 P
+X PD2_(PTCXY/INT0/OC3B/OC4B) 32 1200 1700 200 D 50 50 0 0 P
+X PD1_(PTCXY/OC4A/TXD0) 31 1300 1700 200 D 50 50 0 0 P
+X PD0_(PTCXY/OC3A/RXD0) 30 1400 1700 200 D 50 50 0 0 P
+X PC6_(~RESET) 29 1500 1700 200 D 50 50 0 0 P
+X PC5_(ADC5/PTCY/SCL0) 28 1600 1700 200 D 50 50 0 0 P
+X PC4_(ADC4/PTCY/SDA0) 27 1700 1700 200 D 50 50 0 0 P
+X PC3_(ADC3/PTCY) 26 1800 1700 200 D 50 50 0 0 P
+X PC2_(ADC2/PTCY) 25 1900 1700 200 D 50 50 0 0 P
+P 5 0 1 6 200 1500 3000 1500 3000 -2300 200 -2300 200 1500 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model LFXTAL059585
+#/2187548/1235424/2.50/4/3/Crystal or Oscillator
+DEF LFXTAL059585 Y 0 30 Y Y 1 F N
+F0 "Y" 1550 300 50 H V L CNN
+F1 "LFXTAL059585" 1550 200 50 H V L CNN
+F2 "LFXTAL059585" 1550 100 50 H I L CNN
+F3 "https://www.iqdfrequencyproducts.com/products/pn/LFXTAL059585Reel.pdf" 1550 0 50 H I L CNN
+F4 "20 MHz +/-15ppm Crystal 10pF 120 Ohms 4-SMD, No Lead" 1550 -100 50 H I L CNN "Description"
+F5 "0.5" 1550 -200 50 H I L CNN "Height"
+F6 "IQD" 1550 -300 50 H I L CNN "Manufacturer_Name"
+F7 "LFXTAL059585" 1550 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 1550 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 1550 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1550 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 1550 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X CRYSTAL__1 1 0 -100 200 R 50 50 0 0 P
+X GND_1 2 1700 -100 200 L 50 50 0 0 P
+X CRYSTAL__2 3 1700 0 200 L 50 50 0 0 P
+X GND_2 4 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 1500 100 1500 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 2N2646
+#/659302/1235424/2.50/3/4/Transistor
+DEF 2N2646 Q 0 30 Y Y 1 F N
+F0 "Q" 1250 300 50 H V L CNN
+F1 "2N2646" 1250 200 50 H V L CNN
+F2 "2N2646" 1250 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/2N2646.pdf" 1250 0 50 H I L CNN
+F4 "MULTICOMP - 2N2646 - Unijunction (UJT) Transistor, 2 A, 1 ?A, 6 mA, TO-18, 3 Pin, 125 ?C" 1250 -100 50 H I L CNN "Description"
+F5 "5.3" 1250 -200 50 H I L CNN "Height"
+F6 "" 1250 -300 50 H I L CNN "element14 Part Number"
+F7 "" 1250 -400 50 H I L CNN "element14 Price/Stock"
+F8 "MULTICOMP" 1250 -500 50 H I L CNN "Manufacturer_Name"
+F9 "2N2646" 1250 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X EMITTER 1 1400 0 200 L 50 50 0 0 P
+X BASE_1 2 0 -100 200 R 50 50 0 0 P
+X BASE_2 3 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 1200 100 1200 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SN74LS73AN
+#/259865/1235424/2.50/14/3/Integrated Circuit
+DEF SN74LS73AN IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "SN74LS73AN" 950 200 50 H V L CNN
+F2 "DIP794W53P254L1930H508Q14N" 950 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/sn74ls73a" 950 0 50 H I L CNN
+F4 "DUAL J-K FLIP-FLOPS WITH CLEAR" 950 -100 50 H I L CNN "Description"
+F5 "5.08" 950 -200 50 H I L CNN "Height"
+F6 "" 950 -300 50 H I L CNN "element14 Part Number"
+F7 "" 950 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Texas Instruments" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "SN74LS73AN" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1CLK 1 0 0 200 R 50 50 0 0 P
+X 1~CLR 2 0 -100 200 R 50 50 0 0 P
+X 1K 3 0 -200 200 R 50 50 0 0 P
+X VCC 4 0 -300 200 R 50 50 0 0 P
+X 2CLK 5 0 -400 200 R 50 50 0 0 P
+X 2~CLR 6 0 -500 200 R 50 50 0 0 P
+X 2J 7 0 -600 200 R 50 50 0 0 P
+X 1J 14 1100 0 200 L 50 50 0 0 P
+X 1~Q 13 1100 -100 200 L 50 50 0 0 P
+X 1Q 12 1100 -200 200 L 50 50 0 0 P
+X GND 11 1100 -300 200 L 50 50 0 0 P
+X 2K 10 1100 -400 200 L 50 50 0 0 P
+X 2Q 9 1100 -500 200 L 50 50 0 0 P
+X 2~Q 8 1100 -600 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model C1206C106K4RACTU
+#/239189/1235424/2.50/2/2/Capacitor
+DEF C1206C106K4RACTU C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "C1206C106K4RACTU" 350 150 50 H V L CNN
+F2 "C1206" 350 50 50 H I L CNN
+F3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" 350 -50 50 H I L CNN
+F4 "SMD Comm X7R, Ceramic, 10 uF, 10%, 16 VDC, 40 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 10 % , 10 MOhms, 41 mg, 1206, 3.2mm, 1.6mm, 1.6mm, 0.5mm, 2000, 78  Weeks, 80" 350 -150 50 H I L CNN "Description"
+F5 "" 350 -250 50 H I L CNN "Height"
+F6 "" 350 -350 50 H I L CNN "element14 Part Number"
+F7 "" 350 -450 50 H I L CNN "element14 Price/Stock"
+F8 "KEMET" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "C1206C106K4RACTU" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 74HC73D-Q100J
+#/14049418/1235424/2.50/14/2/Integrated Circuit
+DEF 74HC73D-Q100J IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "74HC73D-Q100J" 950 200 50 H V L CNN
+F2 "SOIC127P600X175-14N" 950 100 50 H I L CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/74HC73_Q100.pdf" 950 0 50 H I L CNN
+F4 "Flip Flops 74HC73D-Q100/SOT108/SO14" 950 -100 50 H I L CNN "Description"
+F5 "1.75" 950 -200 50 H I L CNN "Height"
+F6 "Nexperia" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "74HC73D-Q100J" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "771-74HC73D-Q100J" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Nexperia/74HC73D-Q100J?qs=pUKx8fyJudByElzduIQmUw%3D%3D" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 950 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 950 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1~CP 1 0 0 200 R 50 50 0 0 P
+X 1~R 2 0 -100 200 R 50 50 0 0 P
+X 1K 3 0 -200 200 R 50 50 0 0 P
+X VCC 4 0 -300 200 R 50 50 0 0 P
+X 2~CP 5 0 -400 200 R 50 50 0 0 P
+X 2~R 6 0 -500 200 R 50 50 0 0 P
+X 2J 7 0 -600 200 R 50 50 0 0 P
+X 1J 14 1100 0 200 L 50 50 0 0 P
+X 1~Q 13 1100 -100 200 L 50 50 0 0 P
+X 1Q 12 1100 -200 200 L 50 50 0 0 P
+X GND 11 1100 -300 200 L 50 50 0 0 P
+X 2K 10 1100 -400 200 L 50 50 0 0 P
+X 2Q 9 1100 -500 200 L 50 50 0 0 P
+X 2~Q 8 1100 -600 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 79527141
+#/1387013/1235424/2.50/2/4/Undefined or Miscellaneous
+DEF 79527141 U 0 30 Y Y 1 F N
+F0 "U" 650 300 50 H V L CNN
+F1 "79527141" 650 200 50 H V L CNN
+F2 "79527141" 650 100 50 H I L CNN
+F3 "" 650 0 50 H I L CNN
+F4 "Cylindrical Battery Contacts, Clips, Holders & Springs Battery Holder 1 Li Coin Cell WA-BCMC" 650 -100 50 H I L CNN "Description"
+F5 "5.9" 650 -200 50 H I L CNN "Height"
+F6 "" 650 -300 50 H I L CNN "element14 Part Number"
+F7 "" 650 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Wurth Elektronik" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "79527141" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model LM340T-15_NOPB
+#/243440/1235424/2.50/3/4/Integrated Circuit
+DEF LM340T-15_NOPB IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "LM340T-15_NOPB" 850 200 50 H V L CNN
+F2 "TO254P470X1028X1955-3P" 850 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/lm340.pdf" 850 0 50 H I L CNN
+F4 "3-Terminal Positive Reg  LM340T-15 LM340T-15/NOPB, Voltage Regulator, 2.4A 15 V, +/-2%, 3-Pin TO-220" 850 -100 50 H I L CNN "Description"
+F5 "4.7" 850 -200 50 H I L CNN "Height"
+F6 "" 850 -300 50 H I L CNN "element14 Part Number"
+F7 "" 850 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Texas Instruments" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "LM340T-15/NOPB" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X INPUT 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X OUTPUT 3 0 -200 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model L7915CV
+#/179540/1235424/2.50/3/3/Integrated Circuit
+DEF L7915CV IC 0 30 Y Y 1 F N
+F0 "IC" 750 300 50 H V L CNN
+F1 "L7915CV" 750 200 50 H V L CNN
+F2 "TO270P460X1020X2008-3P" 750 100 50 H I L CNN
+F3 "http://www.st.com/web/en/resource/technical/document/datasheet/CD00000450.pdf" 750 0 50 H I L CNN
+F4 "L7915CV, Voltage Regulator, Negative 1.5A -15 V, 3-Pin TO-220" 750 -100 50 H I L CNN "Description"
+F5 "4.6" 750 -200 50 H I L CNN "Height"
+F6 "" 750 -300 50 H I L CNN "element14 Part Number"
+F7 "" 750 -400 50 H I L CNN "element14 Price/Stock"
+F8 "STMicroelectronics" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "L7915CV" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X GND 1 0 0 200 R 50 50 0 0 W
+X IN 2 0 -100 200 R 50 50 0 0 W
+X OUT 3 0 -200 200 R 50 50 0 0 W
+P 5 0 1 6 200 100 700 100 700 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model L78S15CV
+#/179525/1235424/2.50/3/3/Integrated Circuit
+DEF L78S15CV IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "L78S15CV" 850 200 50 H V L CNN
+F2 "TO255P460X1020X2008-3P" 850 100 50 H I L CNN
+F3 "http://www.st.com/web/en/resource/technical/document/datasheet/CD00000449.pdf" 850 0 50 H I L CNN
+F4 "L78S15CV, Voltage Regulator, 2A 15 V, 3-Pin TO-220" 850 -100 50 H I L CNN "Description"
+F5 "4.6" 850 -200 50 H I L CNN "Height"
+F6 "" 850 -300 50 H I L CNN "element14 Part Number"
+F7 "" 850 -400 50 H I L CNN "element14 Price/Stock"
+F8 "STMicroelectronics" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "L78S15CV" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X INPUT 1 0 0 200 R 50 50 0 0 P
+X GROUND 2 0 -100 200 R 50 50 0 0 P
+X OUTPUT 3 0 -200 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 86093967113765E1LF
+#/18753711/1235424/2.50/98/2/Connector
+DEF 86093967113765E1LF J 0 30 Y Y 1 F N
+F0 "J" 850 300 50 H V L CNN
+F1 "86093967113765E1LF" 850 200 50 H V L CNN
+F2 "86093967113765E1LF" 850 100 50 H I L CNN
+F3 "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/c-8609-0250.pdf" 850 0 50 H I L CNN
+F4 "Din Headers and Receptacles, Backplane connectors, Right Angle Header Solder-to-Board Style C 96 ways, Class I" 850 -100 50 H I L CNN "Description"
+F5 "11.1" 850 -200 50 H I L CNN "Height"
+F6 "" 850 -300 50 H I L CNN "element14 Part Number"
+F7 "" 850 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Amphenol Communications Solutions" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "86093967113765E1LF" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X A1 A1 0 0 200 R 50 50 0 0 P
+X A2 A2 0 -100 200 R 50 50 0 0 P
+X A3 A3 0 -200 200 R 50 50 0 0 P
+X A4 A4 0 -300 200 R 50 50 0 0 P
+X A5 A5 0 -400 200 R 50 50 0 0 P
+X A6 A6 0 -500 200 R 50 50 0 0 P
+X A7 A7 0 -600 200 R 50 50 0 0 P
+X A8 A8 0 -700 200 R 50 50 0 0 P
+X A9 A9 0 -800 200 R 50 50 0 0 P
+X A10 A10 0 -900 200 R 50 50 0 0 P
+X A11 A11 0 -1000 200 R 50 50 0 0 P
+X A12 A12 0 -1100 200 R 50 50 0 0 P
+X A13 A13 0 -1200 200 R 50 50 0 0 P
+X A14 A14 0 -1300 200 R 50 50 0 0 P
+X A15 A15 0 -1400 200 R 50 50 0 0 P
+X A16 A16 0 -1500 200 R 50 50 0 0 P
+X A17 A17 0 -1600 200 R 50 50 0 0 P
+X A18 A18 0 -1700 200 R 50 50 0 0 P
+X A19 A19 0 -1800 200 R 50 50 0 0 P
+X A20 A20 0 -1900 200 R 50 50 0 0 P
+X A21 A21 0 -2000 200 R 50 50 0 0 P
+X A22 A22 0 -2100 200 R 50 50 0 0 P
+X A23 A23 0 -2200 200 R 50 50 0 0 P
+X A24 A24 0 -2300 200 R 50 50 0 0 P
+X A25 A25 0 -2400 200 R 50 50 0 0 P
+X A26 A26 0 -2500 200 R 50 50 0 0 P
+X A27 A27 0 -2600 200 R 50 50 0 0 P
+X A28 A28 0 -2700 200 R 50 50 0 0 P
+X A29 A29 0 -2800 200 R 50 50 0 0 P
+X A30 A30 0 -2900 200 R 50 50 0 0 P
+X A31 A31 0 -3000 200 R 50 50 0 0 P
+X A32 A32 0 -3100 200 R 50 50 0 0 P
+X B1 B1 0 -3200 200 R 50 50 0 0 P
+X B2 B2 0 -3300 200 R 50 50 0 0 P
+X B3 B3 0 -3400 200 R 50 50 0 0 P
+X B4 B4 0 -3500 200 R 50 50 0 0 P
+X B5 B5 0 -3600 200 R 50 50 0 0 P
+X B6 B6 0 -3700 200 R 50 50 0 0 P
+X B7 B7 0 -3800 200 R 50 50 0 0 P
+X B8 B8 0 -3900 200 R 50 50 0 0 P
+X B9 B9 0 -4000 200 R 50 50 0 0 P
+X B10 B10 0 -4100 200 R 50 50 0 0 P
+X B11 B11 0 -4200 200 R 50 50 0 0 P
+X B12 B12 0 -4300 200 R 50 50 0 0 P
+X B13 B13 0 -4400 200 R 50 50 0 0 P
+X B14 B14 0 -4500 200 R 50 50 0 0 P
+X B15 B15 0 -4600 200 R 50 50 0 0 P
+X B16 B16 0 -4700 200 R 50 50 0 0 P
+X B17 B17 0 -4800 200 R 50 50 0 0 P
+X B18 B18 1000 0 200 L 50 50 0 0 P
+X B19 B19 1000 -100 200 L 50 50 0 0 P
+X B20 B20 1000 -200 200 L 50 50 0 0 P
+X B21 B21 1000 -300 200 L 50 50 0 0 P
+X B22 B22 1000 -400 200 L 50 50 0 0 P
+X B23 B23 1000 -500 200 L 50 50 0 0 P
+X B24 B24 1000 -600 200 L 50 50 0 0 P
+X B25 B25 1000 -700 200 L 50 50 0 0 P
+X B26 B26 1000 -800 200 L 50 50 0 0 P
+X B27 B27 1000 -900 200 L 50 50 0 0 P
+X B28 B28 1000 -1000 200 L 50 50 0 0 P
+X B29 B29 1000 -1100 200 L 50 50 0 0 P
+X B30 B30 1000 -1200 200 L 50 50 0 0 P
+X B31 B31 1000 -1300 200 L 50 50 0 0 P
+X B32 B32 1000 -1400 200 L 50 50 0 0 P
+X C1 C1 1000 -1500 200 L 50 50 0 0 P
+X C2 C2 1000 -1600 200 L 50 50 0 0 P
+X C3 C3 1000 -1700 200 L 50 50 0 0 P
+X C4 C4 1000 -1800 200 L 50 50 0 0 P
+X C5 C5 1000 -1900 200 L 50 50 0 0 P
+X C6 C6 1000 -2000 200 L 50 50 0 0 P
+X C7 C7 1000 -2100 200 L 50 50 0 0 P
+X C8 C8 1000 -2200 200 L 50 50 0 0 P
+X C9 C9 1000 -2300 200 L 50 50 0 0 P
+X C10 C10 1000 -2400 200 L 50 50 0 0 P
+X C11 C11 1000 -2500 200 L 50 50 0 0 P
+X C12 C12 1000 -2600 200 L 50 50 0 0 P
+X C13 C13 1000 -2700 200 L 50 50 0 0 P
+X C14 C14 1000 -2800 200 L 50 50 0 0 P
+X C15 C15 1000 -2900 200 L 50 50 0 0 P
+X C16 C16 1000 -3000 200 L 50 50 0 0 P
+X C17 C17 1000 -3100 200 L 50 50 0 0 P
+X C18 C18 1000 -3200 200 L 50 50 0 0 P
+X C19 C19 1000 -3300 200 L 50 50 0 0 P
+X C20 C20 1000 -3400 200 L 50 50 0 0 P
+X C21 C21 1000 -3500 200 L 50 50 0 0 P
+X C22 C22 1000 -3600 200 L 50 50 0 0 P
+X C23 C23 1000 -3700 200 L 50 50 0 0 P
+X C24 C24 1000 -3800 200 L 50 50 0 0 P
+X C25 C25 1000 -3900 200 L 50 50 0 0 P
+X C26 C26 1000 -4000 200 L 50 50 0 0 P
+X C27 C27 1000 -4100 200 L 50 50 0 0 P
+X C28 C28 1000 -4200 200 L 50 50 0 0 P
+X C29 C29 1000 -4300 200 L 50 50 0 0 P
+X C30 C30 1000 -4400 200 L 50 50 0 0 P
+X C31 C31 1000 -4500 200 L 50 50 0 0 P
+X C32 C32 1000 -4600 200 L 50 50 0 0 P
+X MH1 MH1 1000 -4700 200 L 50 50 0 0 P
+X MH2 MH2 1000 -4800 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -4900 200 -4900 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model PCIE-098-02-F-D-TH
+#/277370/1235424/2.50/98/3/Connector
+DEF PCIE-098-02-F-D-TH J 0 30 Y Y 1 F N
+F0 "J" 850 300 50 H V L CNN
+F1 "PCIE-098-02-F-D-TH" 850 200 50 H V L CNN
+F2 "PCIE09802FDTH" 850 100 50 H I L CNN
+F3 "http://suddendocs.samtec.com/catalog_english/pcie.pdf" 850 0 50 H I L CNN
+F4 "Samtec PCIE Series, Female PCB Edge Connector, Through Hole Mount, 98 Way, 2 Row, 1mm Pitch, 2.5A" 850 -100 50 H I L CNN "Description"
+F5 "11.05" 850 -200 50 H I L CNN "Height"
+F6 "" 850 -300 50 H I L CNN "element14 Part Number"
+F7 "" 850 -400 50 H I L CNN "element14 Price/Stock"
+F8 "SAMTEC" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "PCIE-098-02-F-D-TH" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X A1 A1 0 0 200 R 50 50 0 0 P
+X A2 A2 0 -100 200 R 50 50 0 0 P
+X A3 A3 0 -200 200 R 50 50 0 0 P
+X A4 A4 0 -300 200 R 50 50 0 0 P
+X A5 A5 0 -400 200 R 50 50 0 0 P
+X A6 A6 0 -500 200 R 50 50 0 0 P
+X A7 A7 0 -600 200 R 50 50 0 0 P
+X A8 A8 0 -700 200 R 50 50 0 0 P
+X A9 A9 0 -800 200 R 50 50 0 0 P
+X A10 A10 0 -900 200 R 50 50 0 0 P
+X A11 A11 0 -1000 200 R 50 50 0 0 P
+X A12 A12 0 -1100 200 R 50 50 0 0 P
+X A13 A13 0 -1200 200 R 50 50 0 0 P
+X A14 A14 0 -1300 200 R 50 50 0 0 P
+X A15 A15 0 -1400 200 R 50 50 0 0 P
+X A16 A16 0 -1500 200 R 50 50 0 0 P
+X A17 A17 0 -1600 200 R 50 50 0 0 P
+X A18 A18 0 -1700 200 R 50 50 0 0 P
+X A19 A19 0 -1800 200 R 50 50 0 0 P
+X A20 A20 0 -1900 200 R 50 50 0 0 P
+X A21 A21 0 -2000 200 R 50 50 0 0 P
+X A22 A22 0 -2100 200 R 50 50 0 0 P
+X A23 A23 0 -2200 200 R 50 50 0 0 P
+X A24 A24 0 -2300 200 R 50 50 0 0 P
+X A25 A25 0 -2400 200 R 50 50 0 0 P
+X A26 A26 0 -2500 200 R 50 50 0 0 P
+X A27 A27 0 -2600 200 R 50 50 0 0 P
+X A28 A28 0 -2700 200 R 50 50 0 0 P
+X A29 A29 0 -2800 200 R 50 50 0 0 P
+X A30 A30 0 -2900 200 R 50 50 0 0 P
+X A31 A31 0 -3000 200 R 50 50 0 0 P
+X A32 A32 0 -3100 200 R 50 50 0 0 P
+X A33 A33 0 -3200 200 R 50 50 0 0 P
+X A34 A34 0 -3300 200 R 50 50 0 0 P
+X A35 A35 0 -3400 200 R 50 50 0 0 P
+X A36 A36 0 -3500 200 R 50 50 0 0 P
+X A37 A37 0 -3600 200 R 50 50 0 0 P
+X A38 A38 0 -3700 200 R 50 50 0 0 P
+X A39 A39 0 -3800 200 R 50 50 0 0 P
+X A40 A40 0 -3900 200 R 50 50 0 0 P
+X A41 A41 0 -4000 200 R 50 50 0 0 P
+X A42 A42 0 -4100 200 R 50 50 0 0 P
+X A43 A43 0 -4200 200 R 50 50 0 0 P
+X A44 A44 0 -4300 200 R 50 50 0 0 P
+X A45 A45 0 -4400 200 R 50 50 0 0 P
+X A46 A46 0 -4500 200 R 50 50 0 0 P
+X A47 A47 0 -4600 200 R 50 50 0 0 P
+X A48 A48 0 -4700 200 R 50 50 0 0 P
+X A49 A49 0 -4800 200 R 50 50 0 0 P
+X B1 B1 1000 0 200 L 50 50 0 0 P
+X B2 B2 1000 -100 200 L 50 50 0 0 P
+X B3 B3 1000 -200 200 L 50 50 0 0 P
+X B4 B4 1000 -300 200 L 50 50 0 0 P
+X B5 B5 1000 -400 200 L 50 50 0 0 P
+X B6 B6 1000 -500 200 L 50 50 0 0 P
+X B7 B7 1000 -600 200 L 50 50 0 0 P
+X B8 B8 1000 -700 200 L 50 50 0 0 P
+X B9 B9 1000 -800 200 L 50 50 0 0 P
+X B10 B10 1000 -900 200 L 50 50 0 0 P
+X B11 B11 1000 -1000 200 L 50 50 0 0 P
+X B12 B12 1000 -1100 200 L 50 50 0 0 P
+X B13 B13 1000 -1200 200 L 50 50 0 0 P
+X B14 B14 1000 -1300 200 L 50 50 0 0 P
+X B15 B15 1000 -1400 200 L 50 50 0 0 P
+X B16 B16 1000 -1500 200 L 50 50 0 0 P
+X B17 B17 1000 -1600 200 L 50 50 0 0 P
+X B18 B18 1000 -1700 200 L 50 50 0 0 P
+X B19 B19 1000 -1800 200 L 50 50 0 0 P
+X B20 B20 1000 -1900 200 L 50 50 0 0 P
+X B21 B21 1000 -2000 200 L 50 50 0 0 P
+X B22 B22 1000 -2100 200 L 50 50 0 0 P
+X B23 B23 1000 -2200 200 L 50 50 0 0 P
+X B24 B24 1000 -2300 200 L 50 50 0 0 P
+X B25 B25 1000 -2400 200 L 50 50 0 0 P
+X B26 B26 1000 -2500 200 L 50 50 0 0 P
+X B27 B27 1000 -2600 200 L 50 50 0 0 P
+X B28 B28 1000 -2700 200 L 50 50 0 0 P
+X B29 B29 1000 -2800 200 L 50 50 0 0 P
+X B30 B30 1000 -2900 200 L 50 50 0 0 P
+X B31 B31 1000 -3000 200 L 50 50 0 0 P
+X B32 B32 1000 -3100 200 L 50 50 0 0 P
+X B33 B33 1000 -3200 200 L 50 50 0 0 P
+X B34 B34 1000 -3300 200 L 50 50 0 0 P
+X B35 B35 1000 -3400 200 L 50 50 0 0 P
+X B36 B36 1000 -3500 200 L 50 50 0 0 P
+X B37 B37 1000 -3600 200 L 50 50 0 0 P
+X B38 B38 1000 -3700 200 L 50 50 0 0 P
+X B39 B39 1000 -3800 200 L 50 50 0 0 P
+X B40 B40 1000 -3900 200 L 50 50 0 0 P
+X B41 B41 1000 -4000 200 L 50 50 0 0 P
+X B42 B42 1000 -4100 200 L 50 50 0 0 P
+X B43 B43 1000 -4200 200 L 50 50 0 0 P
+X B44 B44 1000 -4300 200 L 50 50 0 0 P
+X B45 B45 1000 -4400 200 L 50 50 0 0 P
+X B46 B46 1000 -4500 200 L 50 50 0 0 P
+X B47 B47 1000 -4600 200 L 50 50 0 0 P
+X B48 B48 1000 -4700 200 L 50 50 0 0 P
+X B49 B49 1000 -4800 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -4900 200 -4900 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 10018784-10212TLF
+#/675244/1235424/2.50/98/4/Connector
+DEF 10018784-10212TLF J 0 30 Y Y 1 F N
+F0 "J" 850 300 50 H V L CNN
+F1 "10018784-10212TLF" 850 200 50 H V L CNN
+F2 "1001878410212TLF" 850 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/10018784-10212TLF.pdf" 850 0 50 H I L CNN
+F4 "PCI Express / PCI Connectors" 850 -100 50 H I L CNN "Description"
+F5 "11.25" 850 -200 50 H I L CNN "Height"
+F6 "" 850 -300 50 H I L CNN "element14 Part Number"
+F7 "" 850 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Amphenol" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "10018784-10212TLF" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X A1 A1 0 0 200 R 50 50 0 0 P
+X A2 A2 0 -100 200 R 50 50 0 0 P
+X A3 A3 0 -200 200 R 50 50 0 0 P
+X A4 A4 0 -300 200 R 50 50 0 0 P
+X A5 A5 0 -400 200 R 50 50 0 0 P
+X A6 A6 0 -500 200 R 50 50 0 0 P
+X A7 A7 0 -600 200 R 50 50 0 0 P
+X A8 A8 0 -700 200 R 50 50 0 0 P
+X A9 A9 0 -800 200 R 50 50 0 0 P
+X A10 A10 0 -900 200 R 50 50 0 0 P
+X A11 A11 0 -1000 200 R 50 50 0 0 P
+X A12 A12 0 -1100 200 R 50 50 0 0 P
+X A13 A13 0 -1200 200 R 50 50 0 0 P
+X A14 A14 0 -1300 200 R 50 50 0 0 P
+X A15 A15 0 -1400 200 R 50 50 0 0 P
+X A16 A16 0 -1500 200 R 50 50 0 0 P
+X A17 A17 0 -1600 200 R 50 50 0 0 P
+X A18 A18 0 -1700 200 R 50 50 0 0 P
+X A19 A19 0 -1800 200 R 50 50 0 0 P
+X A20 A20 0 -1900 200 R 50 50 0 0 P
+X A21 A21 0 -2000 200 R 50 50 0 0 P
+X A22 A22 0 -2100 200 R 50 50 0 0 P
+X A23 A23 0 -2200 200 R 50 50 0 0 P
+X A24 A24 0 -2300 200 R 50 50 0 0 P
+X A25 A25 0 -2400 200 R 50 50 0 0 P
+X A26 A26 0 -2500 200 R 50 50 0 0 P
+X A27 A27 0 -2600 200 R 50 50 0 0 P
+X A28 A28 0 -2700 200 R 50 50 0 0 P
+X A29 A29 0 -2800 200 R 50 50 0 0 P
+X A30 A30 0 -2900 200 R 50 50 0 0 P
+X A31 A31 0 -3000 200 R 50 50 0 0 P
+X A32 A32 0 -3100 200 R 50 50 0 0 P
+X A33 A33 0 -3200 200 R 50 50 0 0 P
+X A34 A34 0 -3300 200 R 50 50 0 0 P
+X A35 A35 0 -3400 200 R 50 50 0 0 P
+X A36 A36 0 -3500 200 R 50 50 0 0 P
+X A37 A37 0 -3600 200 R 50 50 0 0 P
+X A38 A38 0 -3700 200 R 50 50 0 0 P
+X A39 A39 0 -3800 200 R 50 50 0 0 P
+X A40 A40 0 -3900 200 R 50 50 0 0 P
+X A41 A41 0 -4000 200 R 50 50 0 0 P
+X A42 A42 0 -4100 200 R 50 50 0 0 P
+X A43 A43 0 -4200 200 R 50 50 0 0 P
+X A44 A44 0 -4300 200 R 50 50 0 0 P
+X A45 A45 0 -4400 200 R 50 50 0 0 P
+X A46 A46 0 -4500 200 R 50 50 0 0 P
+X A47 A47 0 -4600 200 R 50 50 0 0 P
+X A48 A48 0 -4700 200 R 50 50 0 0 P
+X A49 A49 0 -4800 200 R 50 50 0 0 P
+X B1 B1 1000 0 200 L 50 50 0 0 P
+X B2 B2 1000 -100 200 L 50 50 0 0 P
+X B3 B3 1000 -200 200 L 50 50 0 0 P
+X B4 B4 1000 -300 200 L 50 50 0 0 P
+X B5 B5 1000 -400 200 L 50 50 0 0 P
+X B6 B6 1000 -500 200 L 50 50 0 0 P
+X B7 B7 1000 -600 200 L 50 50 0 0 P
+X B8 B8 1000 -700 200 L 50 50 0 0 P
+X B9 B9 1000 -800 200 L 50 50 0 0 P
+X B10 B10 1000 -900 200 L 50 50 0 0 P
+X B11 B11 1000 -1000 200 L 50 50 0 0 P
+X B12 B12 1000 -1100 200 L 50 50 0 0 P
+X B13 B13 1000 -1200 200 L 50 50 0 0 P
+X B14 B14 1000 -1300 200 L 50 50 0 0 P
+X B15 B15 1000 -1400 200 L 50 50 0 0 P
+X B16 B16 1000 -1500 200 L 50 50 0 0 P
+X B17 B17 1000 -1600 200 L 50 50 0 0 P
+X B18 B18 1000 -1700 200 L 50 50 0 0 P
+X B19 B19 1000 -1800 200 L 50 50 0 0 P
+X B20 B20 1000 -1900 200 L 50 50 0 0 P
+X B21 B21 1000 -2000 200 L 50 50 0 0 P
+X B22 B22 1000 -2100 200 L 50 50 0 0 P
+X B23 B23 1000 -2200 200 L 50 50 0 0 P
+X B24 B24 1000 -2300 200 L 50 50 0 0 P
+X B25 B25 1000 -2400 200 L 50 50 0 0 P
+X B26 B26 1000 -2500 200 L 50 50 0 0 P
+X B27 B27 1000 -2600 200 L 50 50 0 0 P
+X B28 B28 1000 -2700 200 L 50 50 0 0 P
+X B29 B29 1000 -2800 200 L 50 50 0 0 P
+X B30 B30 1000 -2900 200 L 50 50 0 0 P
+X B31 B31 1000 -3000 200 L 50 50 0 0 P
+X B32 B32 1000 -3100 200 L 50 50 0 0 P
+X B33 B33 1000 -3200 200 L 50 50 0 0 P
+X B34 B34 1000 -3300 200 L 50 50 0 0 P
+X B35 B35 1000 -3400 200 L 50 50 0 0 P
+X B36 B36 1000 -3500 200 L 50 50 0 0 P
+X B37 B37 1000 -3600 200 L 50 50 0 0 P
+X B38 B38 1000 -3700 200 L 50 50 0 0 P
+X B39 B39 1000 -3800 200 L 50 50 0 0 P
+X B40 B40 1000 -3900 200 L 50 50 0 0 P
+X B41 B41 1000 -4000 200 L 50 50 0 0 P
+X B42 B42 1000 -4100 200 L 50 50 0 0 P
+X B43 B43 1000 -4200 200 L 50 50 0 0 P
+X B44 B44 1000 -4300 200 L 50 50 0 0 P
+X B45 B45 1000 -4400 200 L 50 50 0 0 P
+X B46 B46 1000 -4500 200 L 50 50 0 0 P
+X B47 B47 1000 -4600 200 L 50 50 0 0 P
+X B48 B48 1000 -4700 200 L 50 50 0 0 P
+X B49 B49 1000 -4800 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -4900 200 -4900 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 87715-9306
+#/729972/1235424/2.50/164/4/Connector
+DEF 87715-9306 J 0 30 Y Y 1 F N
+F0 "J" 850 300 50 H V L CNN
+F1 "87715-9306" 850 200 50 H V L CNN
+F2 "877159306" 850 100 50 H I L CNN
+F3 "https://www.molex.com/pdm_docs/sd/877159306_sd.pdf" 850 0 50 H I L CNN
+F4 "PCI Express/PCI Connectors VERT THRU-HOLE 164P 30 plated" 850 -100 50 H I L CNN "Description"
+F5 "11.25" 850 -200 50 H I L CNN "Height"
+F6 "" 850 -300 50 H I L CNN "element14 Part Number"
+F7 "" 850 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Molex" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "87715-9306" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X A1 A1 0 0 200 R 50 50 0 0 P
+X A2 A2 0 -100 200 R 50 50 0 0 P
+X A3 A3 0 -200 200 R 50 50 0 0 P
+X A4 A4 0 -300 200 R 50 50 0 0 P
+X A5 A5 0 -400 200 R 50 50 0 0 P
+X A6 A6 0 -500 200 R 50 50 0 0 P
+X A7 A7 0 -600 200 R 50 50 0 0 P
+X A8 A8 0 -700 200 R 50 50 0 0 P
+X A9 A9 0 -800 200 R 50 50 0 0 P
+X A10 A10 0 -900 200 R 50 50 0 0 P
+X A11 A11 0 -1000 200 R 50 50 0 0 P
+X A12 A12 0 -1100 200 R 50 50 0 0 P
+X A13 A13 0 -1200 200 R 50 50 0 0 P
+X A14 A14 0 -1300 200 R 50 50 0 0 P
+X A15 A15 0 -1400 200 R 50 50 0 0 P
+X A16 A16 0 -1500 200 R 50 50 0 0 P
+X A17 A17 0 -1600 200 R 50 50 0 0 P
+X A18 A18 0 -1700 200 R 50 50 0 0 P
+X A19 A19 0 -1800 200 R 50 50 0 0 P
+X A20 A20 0 -1900 200 R 50 50 0 0 P
+X A21 A21 0 -2000 200 R 50 50 0 0 P
+X A22 A22 0 -2100 200 R 50 50 0 0 P
+X A23 A23 0 -2200 200 R 50 50 0 0 P
+X A24 A24 0 -2300 200 R 50 50 0 0 P
+X A25 A25 0 -2400 200 R 50 50 0 0 P
+X A26 A26 0 -2500 200 R 50 50 0 0 P
+X A27 A27 0 -2600 200 R 50 50 0 0 P
+X A28 A28 0 -2700 200 R 50 50 0 0 P
+X A29 A29 0 -2800 200 R 50 50 0 0 P
+X A30 A30 0 -2900 200 R 50 50 0 0 P
+X A31 A31 0 -3000 200 R 50 50 0 0 P
+X A32 A32 0 -3100 200 R 50 50 0 0 P
+X A33 A33 0 -3200 200 R 50 50 0 0 P
+X A34 A34 0 -3300 200 R 50 50 0 0 P
+X A35 A35 0 -3400 200 R 50 50 0 0 P
+X A36 A36 0 -3500 200 R 50 50 0 0 P
+X A37 A37 0 -3600 200 R 50 50 0 0 P
+X A38 A38 0 -3700 200 R 50 50 0 0 P
+X A39 A39 0 -3800 200 R 50 50 0 0 P
+X A40 A40 0 -3900 200 R 50 50 0 0 P
+X A41 A41 0 -4000 200 R 50 50 0 0 P
+X A42 A42 0 -4100 200 R 50 50 0 0 P
+X A43 A43 0 -4200 200 R 50 50 0 0 P
+X A44 A44 0 -4300 200 R 50 50 0 0 P
+X A45 A45 0 -4400 200 R 50 50 0 0 P
+X A46 A46 0 -4500 200 R 50 50 0 0 P
+X A47 A47 0 -4600 200 R 50 50 0 0 P
+X A48 A48 0 -4700 200 R 50 50 0 0 P
+X A49 A49 0 -4800 200 R 50 50 0 0 P
+X A50 A50 0 -4900 200 R 50 50 0 0 P
+X A51 A51 0 -5000 200 R 50 50 0 0 P
+X A52 A52 0 -5100 200 R 50 50 0 0 P
+X A53 A53 0 -5200 200 R 50 50 0 0 P
+X A54 A54 0 -5300 200 R 50 50 0 0 P
+X A55 A55 0 -5400 200 R 50 50 0 0 P
+X A56 A56 0 -5500 200 R 50 50 0 0 P
+X A57 A57 0 -5600 200 R 50 50 0 0 P
+X A58 A58 0 -5700 200 R 50 50 0 0 P
+X A59 A59 0 -5800 200 R 50 50 0 0 P
+X A60 A60 0 -5900 200 R 50 50 0 0 P
+X A61 A61 0 -6000 200 R 50 50 0 0 P
+X A62 A62 0 -6100 200 R 50 50 0 0 P
+X A63 A63 0 -6200 200 R 50 50 0 0 P
+X A64 A64 0 -6300 200 R 50 50 0 0 P
+X A65 A65 0 -6400 200 R 50 50 0 0 P
+X A66 A66 0 -6500 200 R 50 50 0 0 P
+X A67 A67 0 -6600 200 R 50 50 0 0 P
+X A68 A68 0 -6700 200 R 50 50 0 0 P
+X A69 A69 0 -6800 200 R 50 50 0 0 P
+X A70 A70 0 -6900 200 R 50 50 0 0 P
+X A71 A71 0 -7000 200 R 50 50 0 0 P
+X A72 A72 0 -7100 200 R 50 50 0 0 P
+X A73 A73 0 -7200 200 R 50 50 0 0 P
+X A74 A74 0 -7300 200 R 50 50 0 0 P
+X A75 A75 0 -7400 200 R 50 50 0 0 P
+X A76 A76 0 -7500 200 R 50 50 0 0 P
+X A77 A77 0 -7600 200 R 50 50 0 0 P
+X A78 A78 0 -7700 200 R 50 50 0 0 P
+X A79 A79 0 -7800 200 R 50 50 0 0 P
+X A80 A80 0 -7900 200 R 50 50 0 0 P
+X A81 A81 0 -8000 200 R 50 50 0 0 P
+X A82 A82 0 -8100 200 R 50 50 0 0 P
+X B1 B1 1000 0 200 L 50 50 0 0 P
+X B2 B2 1000 -100 200 L 50 50 0 0 P
+X B3 B3 1000 -200 200 L 50 50 0 0 P
+X B4 B4 1000 -300 200 L 50 50 0 0 P
+X B5 B5 1000 -400 200 L 50 50 0 0 P
+X B6 B6 1000 -500 200 L 50 50 0 0 P
+X B7 B7 1000 -600 200 L 50 50 0 0 P
+X B8 B8 1000 -700 200 L 50 50 0 0 P
+X B9 B9 1000 -800 200 L 50 50 0 0 P
+X B10 B10 1000 -900 200 L 50 50 0 0 P
+X B11 B11 1000 -1000 200 L 50 50 0 0 P
+X B12 B12 1000 -1100 200 L 50 50 0 0 P
+X B13 B13 1000 -1200 200 L 50 50 0 0 P
+X B14 B14 1000 -1300 200 L 50 50 0 0 P
+X B15 B15 1000 -1400 200 L 50 50 0 0 P
+X B16 B16 1000 -1500 200 L 50 50 0 0 P
+X B17 B17 1000 -1600 200 L 50 50 0 0 P
+X B18 B18 1000 -1700 200 L 50 50 0 0 P
+X B19 B19 1000 -1800 200 L 50 50 0 0 P
+X B20 B20 1000 -1900 200 L 50 50 0 0 P
+X B21 B21 1000 -2000 200 L 50 50 0 0 P
+X B22 B22 1000 -2100 200 L 50 50 0 0 P
+X B23 B23 1000 -2200 200 L 50 50 0 0 P
+X B24 B24 1000 -2300 200 L 50 50 0 0 P
+X B25 B25 1000 -2400 200 L 50 50 0 0 P
+X B26 B26 1000 -2500 200 L 50 50 0 0 P
+X B27 B27 1000 -2600 200 L 50 50 0 0 P
+X B28 B28 1000 -2700 200 L 50 50 0 0 P
+X B29 B29 1000 -2800 200 L 50 50 0 0 P
+X B30 B30 1000 -2900 200 L 50 50 0 0 P
+X B31 B31 1000 -3000 200 L 50 50 0 0 P
+X B32 B32 1000 -3100 200 L 50 50 0 0 P
+X B33 B33 1000 -3200 200 L 50 50 0 0 P
+X B34 B34 1000 -3300 200 L 50 50 0 0 P
+X B35 B35 1000 -3400 200 L 50 50 0 0 P
+X B36 B36 1000 -3500 200 L 50 50 0 0 P
+X B37 B37 1000 -3600 200 L 50 50 0 0 P
+X B38 B38 1000 -3700 200 L 50 50 0 0 P
+X B39 B39 1000 -3800 200 L 50 50 0 0 P
+X B40 B40 1000 -3900 200 L 50 50 0 0 P
+X B41 B41 1000 -4000 200 L 50 50 0 0 P
+X B42 B42 1000 -4100 200 L 50 50 0 0 P
+X B43 B43 1000 -4200 200 L 50 50 0 0 P
+X B44 B44 1000 -4300 200 L 50 50 0 0 P
+X B45 B45 1000 -4400 200 L 50 50 0 0 P
+X B46 B46 1000 -4500 200 L 50 50 0 0 P
+X B47 B47 1000 -4600 200 L 50 50 0 0 P
+X B48 B48 1000 -4700 200 L 50 50 0 0 P
+X B49 B49 1000 -4800 200 L 50 50 0 0 P
+X B50 B50 1000 -4900 200 L 50 50 0 0 P
+X B51 B51 1000 -5000 200 L 50 50 0 0 P
+X B52 B52 1000 -5100 200 L 50 50 0 0 P
+X B53 B53 1000 -5200 200 L 50 50 0 0 P
+X B54 B54 1000 -5300 200 L 50 50 0 0 P
+X B55 B55 1000 -5400 200 L 50 50 0 0 P
+X B56 B56 1000 -5500 200 L 50 50 0 0 P
+X B57 B57 1000 -5600 200 L 50 50 0 0 P
+X B58 B58 1000 -5700 200 L 50 50 0 0 P
+X B59 B59 1000 -5800 200 L 50 50 0 0 P
+X B60 B60 1000 -5900 200 L 50 50 0 0 P
+X B61 B61 1000 -6000 200 L 50 50 0 0 P
+X B62 B62 1000 -6100 200 L 50 50 0 0 P
+X B63 B63 1000 -6200 200 L 50 50 0 0 P
+X B64 B64 1000 -6300 200 L 50 50 0 0 P
+X B65 B65 1000 -6400 200 L 50 50 0 0 P
+X B66 B66 1000 -6500 200 L 50 50 0 0 P
+X B67 B67 1000 -6600 200 L 50 50 0 0 P
+X B68 B68 1000 -6700 200 L 50 50 0 0 P
+X B69 B69 1000 -6800 200 L 50 50 0 0 P
+X B70 B70 1000 -6900 200 L 50 50 0 0 P
+X B71 B71 1000 -7000 200 L 50 50 0 0 P
+X B72 B72 1000 -7100 200 L 50 50 0 0 P
+X B73 B73 1000 -7200 200 L 50 50 0 0 P
+X B74 B74 1000 -7300 200 L 50 50 0 0 P
+X B75 B75 1000 -7400 200 L 50 50 0 0 P
+X B76 B76 1000 -7500 200 L 50 50 0 0 P
+X B77 B77 1000 -7600 200 L 50 50 0 0 P
+X B78 B78 1000 -7700 200 L 50 50 0 0 P
+X B79 B79 1000 -7800 200 L 50 50 0 0 P
+X B80 B80 1000 -7900 200 L 50 50 0 0 P
+X B81 B81 1000 -8000 200 L 50 50 0 0 P
+X B82 B82 1000 -8100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -8200 200 -8200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model DF06S
+#/5442/1235424/2.50/4/0/Undefined or Miscellaneous
+DEF DF06S U 0 30 Y Y 1 F N
+F0 "U" 950 300 50 H V L CNN
+F1 "DF06S" 950 200 50 H V L CNN
+F2 "SOT508P985X260-4N" 950 100 50 H I L CNN
+F3 "http://componentsearchengine.com/Datasheets/1/DF06S.pdf" 950 0 50 H I L CNN
+F4 "Bridge Rectifier Single Phase, 1.5A 600V, 4-Pin SDIP" 950 -100 50 H I L CNN "Description"
+F5 "" 950 -200 50 H I L CNN "Height"
+F6 "" 950 -300 50 H I L CNN "element14 Part Number"
+F7 "" 950 -400 50 H I L CNN "element14 Price/Stock"
+F8 "onsemi" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "DF06S" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X OUT+ 1 0 0 200 R 50 50 0 0 P
+X OUT- 2 0 -100 200 R 50 50 0 0 P
+X AC 3 1100 -100 200 L 50 50 0 0 P
+X AC_2 4 1100 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ECA1HHG222
+#/171914/1235424/2.50/2/2/Capacitor Polarised
+DEF ECA1HHG222 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "ECA1HHG222" 350 150 50 H V L CNN
+F2 "CAPPRD750W85D1600H3350" 350 50 50 H I L CNN
+F3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1215.pdf" 350 -50 50 H I L CNN
+F4 "Panasonic Aluminium Electrolytic Capacitor 2200uF 50V dc 16mm Through Hole NHG Series +105C" 350 -150 50 H I L CNN "Description"
+F5 "33.5" 350 -250 50 H I L CNN "Height"
+F6 "" 350 -350 50 H I L CNN "element14 Part Number"
+F7 "" 350 -450 50 H I L CNN "element14 Price/Stock"
+F8 "Panasonic" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "ECA1HHG222" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model EEUFC1H4R7
+#/174124/1235424/2.50/2/2/Capacitor Polarised
+DEF EEUFC1H4R7 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "EEUFC1H4R7" 350 150 50 H V L CNN
+F2 "CAPPRD200W55D500H1250" 350 50 50 H I L CNN
+F3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1209.pdf" 350 -50 50 H I L CNN
+F4 "PANASONIC - EEUFC1H4R7 - Electrolytic Capacitor, 4.7 F, 50 V, EEUFC Series, +/- 20%, Radial Leaded, 5 mm" 350 -150 50 H I L CNN "Description"
+F5 "12.5" 350 -250 50 H I L CNN "Height"
+F6 "" 350 -350 50 H I L CNN "element14 Part Number"
+F7 "" 350 -450 50 H I L CNN "element14 Price/Stock"
+F8 "Panasonic" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "EEUFC1H4R7" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MCMHR50V104M4X7
+#/557950/1235424/2.50/2/4/Capacitor Polarised
+DEF MCMHR50V104M4X7 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "MCMHR50V104M4X7" 350 150 50 H V L CNN
+F2 "CAPPRD150W47D425H800" 350 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/MCMHR50V104M4X7.pdf" 350 -50 50 H I L CNN
+F4 "MULTICOMP - MCMHR50V104M4X7 - CAP, ALU ELEC, 100NF, 50V, RAD" 350 -150 50 H I L CNN "Description"
+F5 "8" 350 -250 50 H I L CNN "Height"
+F6 "" 350 -350 50 H I L CNN "element14 Part Number"
+F7 "" 350 -450 50 H I L CNN "element14 Price/Stock"
+F8 "Multicomp Pro" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "MCMHR50V104M4X7" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 1N4002G
+#/224229/1235424/2.50/2/3/Diode
+DEF 1N4002G D 0 30 Y Y 1 F N
+F0 "D" 450 200 50 H V L CNN
+F1 "1N4002G" 450 100 50 H V L CNN
+F2 "DIOAD1405W86L465D235" 450 0 50 H I L CNN
+F3 "http://www.onsemi.com/pub/Collateral/1N4001-D.PDF" 450 -100 50 H I L CNN
+F4 "" 450 -200 50 H I L CNN "Description"
+F5 "" 450 -300 50 H I L CNN "Height"
+F6 "" 450 -400 50 H I L CNN "element14 Part Number"
+F7 "" 450 -500 50 H I L CNN "element14 Price/Stock"
+F8 "onsemi" 450 -600 50 H I L CNN "Manufacturer_Name"
+F9 "1N4002G" 450 -700 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MRS25000C1801FCT00
+#/188183/1235424/2.50/2/5/Resistor
+DEF MRS25000C1801FCT00 R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "MRS25000C1801FCT00" 550 150 50 H V L CNN
+F2 "RESAD1650W60L650D250" 550 50 50 H I L CNN
+F3 "http://www.vishay.com/docs/28724/mrs16m25.pdf" 550 -50 50 H I L CNN
+F4 "Vishay MRS25 Series Axial Thin Film Resistor 1.8k +/-1% 0.6W +/-50ppm/C" 550 -150 50 H I L CNN "Description"
+F5 "" 550 -250 50 H I L CNN "Height"
+F6 "" 550 -350 50 H I L CNN "element14 Part Number"
+F7 "" 550 -450 50 H I L CNN "element14 Price/Stock"
+F8 "Vishay" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "MRS25000C1801FCT00" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 3362P-1-102LF
+#/651165/1235424/2.50/3/4/Variable Resistor
+DEF 3362P-1-102LF VR 0 30 Y Y 1 F N
+F0 "VR" 950 300 50 H V L CNN
+F1 "3362P-1-102LF" 950 200 50 H V L CNN
+F2 "3362P_1" 950 100 50 H I L CNN
+F3 "https://www.bourns.com/docs/Product-Datasheets/3362.pdf" 950 0 50 H I L CNN
+F4 "Bourns 3362P Series Through Hole Trimmer Resistor with Pin Terminations, 1k +/-10% 0.5W +/-100ppm/C Top Adjust" 950 -100 50 H I L CNN "Description"
+F5 "" 950 -200 50 H I L CNN "Height"
+F6 "" 950 -300 50 H I L CNN "element14 Part Number"
+F7 "" 950 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Bourns" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "3362P-1-102LF" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X CCW 1 0 0 200 R 50 50 0 0 P
+X WIPER 2 1100 0 200 L 50 50 0 0 P
+X CW 3 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 30310-6002HB
+#/2308001/1235424/2.50/10/3/Connector
+DEF 30310-6002HB J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "30310-6002HB" 750 200 50 H V L CNN
+F2 "SHDR10W64P254_2X5_2030X878X930P" 750 100 50 H I L CNN
+F3 "http://multimedia.3m.com/mws/media/22504O/3mtm-100-in-loprof-hdr-100x-100strt-ra-4-wall-ts0818.pdf" 750 0 50 H I L CNN
+F4 "Headers & Wire Housings 10P STRT 4WALL GLDFL" 750 -100 50 H I L CNN "Description"
+F5 "9.3" 750 -200 50 H I L CNN "Height"
+F6 "" 750 -300 50 H I L CNN "element14 Part Number"
+F7 "" 750 -400 50 H I L CNN "element14 Price/Stock"
+F8 "3M" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "30310-6002HB" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 3 3 0 -100 200 R 50 50 0 0 P
+X 5 5 0 -200 200 R 50 50 0 0 P
+X 7 7 0 -300 200 R 50 50 0 0 P
+X 9 9 0 -400 200 R 50 50 0 0 P
+X 2 2 900 0 200 L 50 50 0 0 P
+X 4 4 900 -100 200 L 50 50 0 0 P
+X 6 6 900 -200 200 L 50 50 0 0 P
+X 8 8 900 -300 200 L 50 50 0 0 P
+X 10 10 900 -400 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MC-254-16-00-ST-DIP
+#/8047846/1235424/2.50/16/3/Connector
+DEF MC-254-16-00-ST-DIP J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "MC-254-16-00-ST-DIP" 750 200 50 H V L CNN
+F2 "SHDR16W64P254_2X8_2798X910X910P" 750 100 50 H I L CNN
+F3 "" 750 0 50 H I L CNN
+F4 "CONNECTOR, HEADER, 16POS, 2ROW, 2.54MM" 750 -100 50 H I L CNN "Description"
+F5 "9.1" 750 -200 50 H I L CNN "Height"
+F6 "" 750 -300 50 H I L CNN "element14 Part Number"
+F7 "" 750 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Multicomp Pro" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "MC-254-16-00-ST-DIP" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 3 3 0 -100 200 R 50 50 0 0 P
+X 5 5 0 -200 200 R 50 50 0 0 P
+X 7 7 0 -300 200 R 50 50 0 0 P
+X 9 9 0 -400 200 R 50 50 0 0 P
+X 11 11 0 -500 200 R 50 50 0 0 P
+X 13 13 0 -600 200 R 50 50 0 0 P
+X 15 15 0 -700 200 R 50 50 0 0 P
+X 2 2 900 0 200 L 50 50 0 0 P
+X 4 4 900 -100 200 L 50 50 0 0 P
+X 6 6 900 -200 200 L 50 50 0 0 P
+X 8 8 900 -300 200 L 50 50 0 0 P
+X 10 10 900 -400 200 L 50 50 0 0 P
+X 12 12 900 -500 200 L 50 50 0 0 P
+X 14 14 900 -600 200 L 50 50 0 0 P
+X 16 16 900 -700 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MCP6022-E_SN
+#/159309/1235424/2.50/8/3/Integrated Circuit
+DEF MCP6022-E_SN IC 0 30 Y Y 1 F N
+F0 "IC" 1250 300 50 H V L CNN
+F1 "MCP6022-E_SN" 1250 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1250 100 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-34/DSA-675022.pdf" 1250 0 50 H I L CNN
+F4 "OP Amp Dual GP R-R I/O 5.5V" 1250 -100 50 H I L CNN "Description"
+F5 "1.75" 1250 -200 50 H I L CNN "Height"
+F6 "" 1250 -300 50 H I L CNN "element14 Part Number"
+F7 "" 1250 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Microchip" 1250 -500 50 H I L CNN "Manufacturer_Name"
+F9 "MCP6022-E/SN" 1250 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X VOUTA 1 0 0 200 R 50 50 0 0 P
+X VINA- 2 0 -100 200 R 50 50 0 0 P
+X VINA+ 3 0 -200 200 R 50 50 0 0 P
+X VSS 4 0 -300 200 R 50 50 0 0 P
+X VDD 8 1400 0 200 L 50 50 0 0 P
+X VOUTB 7 1400 -100 200 L 50 50 0 0 P
+X VINB- 6 1400 -200 200 L 50 50 0 0 P
+X VINB+ 5 1400 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1200 100 1200 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model T73YP103KT20
+#/1100937/1235424/2.50/3/3/Variable Resistor
+DEF T73YP103KT20 VR 0 30 Y Y 1 F N
+F0 "VR" 950 300 50 H V L CNN
+F1 "T73YP103KT20" 950 200 50 H V L CNN
+F2 "T73YP103KT20" 950 100 50 H I L CNN
+F3 "https://www.vishay.com/docs/51016/t73.pdf" 950 0 50 H I L CNN
+F4 "Res Cermet Trimmer 10K Ohm 10% 0.5W(1/2W) 1(Elec)/1(Mech)Turns (6.6 X 7 X 4.7mm) Pin Thru-Hole Tube" 950 -100 50 H I L CNN "Description"
+F5 "4.7" 950 -200 50 H I L CNN "Height"
+F6 "" 950 -300 50 H I L CNN "element14 Part Number"
+F7 "" 950 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Vishay" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "T73YP103KT20" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X CCW 1 1100 0 200 L 50 50 0 0 P
+X WIPER 2 0 0 200 R 50 50 0 0 P
+X CW 3 1100 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model IR2113SPBF
+#/911738/1235424/2.50/16/2/Integrated Circuit
+DEF IR2113SPBF IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "IR2113SPBF" 950 200 50 H V L CNN
+F2 "SOIC127P1032X265-16N" 950 100 50 H I L CNN
+F3 "https://www.infineon.com/cms/en/product/power/gate-driver-ics/?" 950 0 50 H I L CNN
+F4 "Gate Drivers HI LO SIDE DRVR 600V 2A 120ns" 950 -100 50 H I L CNN "Description"
+F5 "2.65" 950 -200 50 H I L CNN "Height"
+F6 "" 950 -300 50 H I L CNN "element14 Part Number"
+F7 "" 950 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Infineon" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "IR2113SPBF" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X LO 1 0 0 200 R 50 50 0 0 P
+X COM 2 0 -100 200 R 50 50 0 0 P
+X VCC 3 0 -200 200 R 50 50 0 0 P
+X NC_1 4 0 -300 200 R 50 50 0 0 P
+X NC_2 5 0 -400 200 R 50 50 0 0 P
+X VS 6 0 -500 200 R 50 50 0 0 P
+X VB 7 0 -600 200 R 50 50 0 0 P
+X HO 8 0 -700 200 R 50 50 0 0 P
+X NC_5 16 1100 0 200 L 50 50 0 0 P
+X VSS 15 1100 -100 200 L 50 50 0 0 P
+X LIN 14 1100 -200 200 L 50 50 0 0 P
+X SD 13 1100 -300 200 L 50 50 0 0 P
+X HIN 12 1100 -400 200 L 50 50 0 0 P
+X VDD 11 1100 -500 200 L 50 50 0 0 P
+X NC_4 10 1100 -600 200 L 50 50 0 0 P
+X NC_3 9 1100 -700 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SRN8040-220M
+#/771252/1235424/2.50/2/4/Inductor
+DEF SRN8040-220M L 0 30 Y Y 1 F N
+F0 "L" 650 250 50 H V L CNN
+F1 "SRN8040-220M" 650 150 50 H V L CNN
+F2 "SRN8040220M" 650 50 50 H I L CNN
+F3 "https://www.bourns.com/docs/Product-Datasheets/SRN8040.pdf" 650 -50 50 H I L CNN
+F4 "Bourns SRN8040 Series Type 8040 Shielded Wire-wound SMD Inductor with a Ferrite Core, 22 uH +/-20% Wire-Wound 2.2A Idc" 650 -150 50 H I L CNN "Description"
+F5 "4" 650 -250 50 H I L CNN "Height"
+F6 "" 650 -350 50 H I L CNN "element14 Part Number"
+F7 "" 650 -450 50 H I L CNN "element14 Price/Stock"
+F8 "Bourns" 650 -550 50 H I L CNN "Manufacturer_Name"
+F9 "SRN8040-220M" 650 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 800 0 200 L 50 50 0 0 P
+A 250 -2 50 1777 -23 0 1 6 N 300 0 200 0
+A 350 -2 50 1777 -23 0 1 6 N 400 0 300 0
+A 450 -2 50 1777 -23 0 1 6 N 500 0 400 0
+A 550 -2 50 1777 -23 0 1 6 N 600 0 500 0
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model EEEFK1H221P
+#/173324/1235424/2.50/2/2/Capacitor Polarised
+DEF EEEFK1H221P C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "EEEFK1H221P" 350 150 50 H V L CNN
+F2 "EEE0JA152UAP" 350 50 50 H I L CNN
+F3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1181.pdf" 350 -50 50 H I L CNN
+F4 "Ecap 220uF 50V G case Panasonic Aluminium Electrolytic Capacitor 220uF 50 V dc 10mm Surface Mount series FK SMD lifetime 2000h" 350 -150 50 H I L CNN "Description"
+F5 "12" 350 -250 50 H I L CNN "Height"
+F6 "" 350 -350 50 H I L CNN "element14 Part Number"
+F7 "" 350 -450 50 H I L CNN "element14 Price/Stock"
+F8 "Panasonic" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "EEEFK1H221P" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model LM358DT
+#/8660/1235424/2.50/8/3/Integrated Circuit
+DEF LM358DT IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "LM358DT" 950 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 950 100 50 H I L CNN
+F3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000464.pdf" 950 0 50 H I L CNN
+F4 "LM358DT, Dual Operational Amplifier 1.1MHz 5 to 28V, 8-Pin SO" 950 -100 50 H I L CNN "Description"
+F5 "1.75" 950 -200 50 H I L CNN "Height"
+F6 "" 950 -300 50 H I L CNN "element14 Part Number"
+F7 "" 950 -400 50 H I L CNN "element14 Price/Stock"
+F8 "STMicroelectronics" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "LM358DT" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X OUT1 1 0 0 200 R 50 50 0 0 P
+X IN1- 2 0 -100 200 R 50 50 0 0 P
+X IN1+ 3 0 -200 200 R 50 50 0 0 P
+X VCC- 4 0 -300 200 R 50 50 0 0 P
+X VCC+ 8 1100 0 200 L 50 50 0 0 P
+X OUT2 7 1100 -100 200 L 50 50 0 0 P
+X IN2- 6 1100 -200 200 L 50 50 0 0 P
+X IN2+ 5 1100 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model PDZVTFTR4.7B
+#/1840475/1235424/2.50/2/2/Zener Diode
+DEF PDZVTFTR4.7B Z 0 30 Y Y 1 F N
+F0 "Z" 400 350 50 H V L CNN
+F1 "PDZVTFTR4.7B" 400 250 50 H V L CNN
+F2 "PDZVTFTR47B" 400 150 50 H I L CNN
+F3 "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/zener/pdzvtftr4.7b-e.pdf" 400 50 50 H I L CNN
+F4 "1W 4.7V, SOD-128, High Power Zener Diode for Automotive" 400 -50 50 H I L CNN "Description"
+F5 "1.05" 400 -150 50 H I L CNN "Height"
+F6 "" 400 -250 50 H I L CNN "element14 Part Number"
+F7 "" 400 -350 50 H I L CNN "element14 Price/Stock"
+F8 "ROHM Semiconductor" 400 -450 50 H I L CNN "Manufacturer_Name"
+F9 "PDZVTFTR4.7B" 400 -550 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 2 0 1 6 200 80 200 -80 N
+P 2 0 1 6 200 80 240 100 N
+P 2 0 1 6 160 -100 200 -80 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 500 0 400 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model CT-9EW104
+#/13339122/1235424/2.50/3/3/Resistor
+DEF CT-9EW104 R 0 30 Y Y 1 F N
+F0 "R" 850 300 50 H V L CNN
+F1 "CT-9EW104" 850 200 50 H V L CNN
+F2 "CT9EW104" 850 100 50 H I L CNN
+F3 "https://www.mouser.it/datasheet/2/972/ct-9-1827449.pdf" 850 0 50 H I L CNN
+F4 "Trimmer Resistors - Through Hole 100 KW 9mm sq. multi turn top adjust, in-line pins" 850 -100 50 H I L CNN "Description"
+F5 "11" 850 -200 50 H I L CNN "Height"
+F6 "" 850 -300 50 H I L CNN "element14 Part Number"
+F7 "" 850 -400 50 H I L CNN "element14 Price/Stock"
+F8 "NIDEC COPAL" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "CT-9EW104" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X CCW 1 0 -200 200 R 50 50 0 0 P
+X WIPER_ 2 0 -100 200 R 50 50 0 0 P
+X CW 3 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model L7805ACD2T-TR
+#/179422/1235424/2.50/3/4/Integrated Circuit
+DEF L7805ACD2T-TR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "L7805ACD2T-TR" 1050 200 50 H V L CNN
+F2 "D2PAK-STB35NF10T4" 1050 100 50 H I L CNN
+F3 "http://www.st.com/web/en/resource/technical/document/datasheet/CD00000444.pdf" 1050 0 50 H I L CNN
+F4 "Voltage Regulator 5V 1A D2PAK STMicroelectronics L78xx L7805ACD2T-TR, Single Linear Voltage Regulator, 1.5A 5 V, +/-2%, 3-Pin D2PAK" 1050 -100 50 H I L CNN "Description"
+F5 "" 1050 -200 50 H I L CNN "Height"
+F6 "" 1050 -300 50 H I L CNN "element14 Part Number"
+F7 "" 1050 -400 50 H I L CNN "element14 Price/Stock"
+F8 "STMicroelectronics" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "L7805ACD2T-TR" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X INPUT 1 1200 -100 200 L 50 50 0 0 I
+X OUTPUT 3 1200 0 200 L 50 50 0 0 O
+X GND 4 0 0 200 R 50 50 0 0 W
+P 5 0 1 6 200 100 1000 100 1000 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SQMR54K7J
+#/629637/1235424/2.50/2/4/Resistor
+DEF SQMR54K7J R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "SQMR54K7J" 550 150 50 H V L CNN
+F2 "SQMR54K7J" 550 50 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/dk/DKDS42/DSANUWW0051575.pdf" 550 -50 50 H I L CNN
+F4 "Res Metal Oxide 4.7K Ohm 5% 5W +/-300ppm/C Ceramic RDL Box/Loose" 550 -150 50 H I L CNN "Description"
+F5 "26" 550 -250 50 H I L CNN "Height"
+F6 "" 550 -350 50 H I L CNN "element14 Part Number"
+F7 "" 550 -450 50 H I L CNN "element14 Price/Stock"
+F8 "TE Connectivity" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "SQMR54K7J" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model CTB0508_3
+#/12749344/1235424/2.50/3/4/Connector
+DEF CTB0508_3 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "CTB0508_3" 650 200 50 H V L CNN
+F2 "CTB05083" 650 100 50 H I L CNN
+F3 "" 650 0 50 H I L CNN
+F4 "Conn Terminal Block 3 POS 5.08mm Solder ST Thru-Hole 14A" 650 -100 50 H I L CNN "Description"
+F5 "10" 650 -200 50 H I L CNN "Height"
+F6 "" 650 -300 50 H I L CNN "element14 Part Number"
+F7 "" 650 -400 50 H I L CNN "element14 Price/Stock"
+F8 "CAMDENBOSS" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "CTB0508/3" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MC14024BDG
+#/225140/1235424/2.50/14/3/Integrated Circuit
+DEF MC14024BDG IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "MC14024BDG" 950 200 50 H V L CNN
+F2 "SOIC127P600X175-14N" 950 100 50 H I L CNN
+F3 "http://www.onsemi.com/pub/Collateral/MC14024B-D.PDF" 950 0 50 H I L CNN
+F4 "" 950 -100 50 H I L CNN "Description"
+F5 "1.75" 950 -200 50 H I L CNN "Height"
+F6 "" 950 -300 50 H I L CNN "element14 Part Number"
+F7 "" 950 -400 50 H I L CNN "element14 Price/Stock"
+F8 "onsemi" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "MC14024BDG" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X CLK 1 0 0 200 R 50 50 0 0 I
+X RST 2 0 -100 200 R 50 50 0 0 I
+X Q7 3 0 -200 200 R 50 50 0 0 P
+X Q6 4 0 -300 200 R 50 50 0 0 P
+X Q5 5 0 -400 200 R 50 50 0 0 P
+X Q4 6 0 -500 200 R 50 50 0 0 P
+X VSS 7 0 -600 200 R 50 50 0 0 W
+X VDD 14 1100 0 200 L 50 50 0 0 W
+X NC_3 13 1100 -100 200 L 50 50 0 0 P
+X Q1 12 1100 -200 200 L 50 50 0 0 P
+X Q2 11 1100 -300 200 L 50 50 0 0 P
+X NC_2 10 1100 -400 200 L 50 50 0 0 P
+X Q3 9 1100 -500 200 L 50 50 0 0 P
+X NC_1 8 1100 -600 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model CD4024BE
+#/180978/1235424/2.50/14/3/Integrated Circuit
+DEF CD4024BE IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "CD4024BE" 1050 200 50 H V L CNN
+F2 "DIP794W53P254L1930H508Q14N" 1050 100 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-SFU2/DSASFU100028803.pdf" 1050 0 50 H I L CNN
+F4 "CMOS 7-Stage Ripple-Carry Binary Counter/Divider" 1050 -100 50 H I L CNN "Description"
+F5 "5.08" 1050 -200 50 H I L CNN "Height"
+F6 "" 1050 -300 50 H I L CNN "element14 Part Number"
+F7 "" 1050 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Texas Instruments" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "CD4024BE" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X [Phi] 1 0 0 200 R 50 50 0 0 P
+X RESET 2 0 -100 200 R 50 50 0 0 P
+X Q7 3 0 -200 200 R 50 50 0 0 P
+X Q6 4 0 -300 200 R 50 50 0 0 P
+X Q5 5 0 -400 200 R 50 50 0 0 P
+X Q4 6 0 -500 200 R 50 50 0 0 P
+X VSS 7 0 -600 200 R 50 50 0 0 P
+X VDD 14 1200 0 200 L 50 50 0 0 P
+X NC_3 13 1200 -100 200 L 50 50 0 0 P
+X Q1 12 1200 -200 200 L 50 50 0 0 P
+X Q2 11 1200 -300 200 L 50 50 0 0 P
+X NC_2 10 1200 -400 200 L 50 50 0 0 P
+X Q3 9 1200 -500 200 L 50 50 0 0 P
+X NC_1 8 1200 -600 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model T491A225K016AT
+#/1984/1235424/2.50/2/2/Capacitor Polarised
+DEF T491A225K016AT C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "T491A225K016AT" 350 150 50 H V L CNN
+F2 "T491A" 350 50 50 H I L CNN
+F3 "https://content.kemet.com/datasheets/KEM_T2005_T491.pdf" 350 -50 50 H I L CNN
+F4 "T491, Tantalum, MnO2 Tantalum, Commercial Grade, 2.2 uF, 10%, 16 VDC, 125C, -55C, 85C, SMD, MnO2, Molded, 6 % , 6 Ohms, 500 nA, 58.6 mg, 3216, 1.6mm, Height Max = 1.8mm, 2000, 156  Weeks" 350 -150 50 H I L CNN "Description"
+F5 "1.8" 350 -250 50 H I L CNN "Height"
+F6 "" 350 -350 50 H I L CNN "element14 Part Number"
+F7 "" 350 -450 50 H I L CNN "element14 Price/Stock"
+F8 "KEMET" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "T491A225K016AT" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TAJB225K025RNJ
+#/274834/1235424/2.50/2/5/Capacitor Polarised
+DEF TAJB225K025RNJ C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "TAJB225K025RNJ" 350 150 50 H V L CNN
+F2 "CAPPM3528X210N" 350 50 50 H I L CNN
+F3 "http://datasheets.avx.com/TAJ.pdf" 350 -50 50 H I L CNN
+F4 "AVX 2.2" 350 -150 50 H I L CNN "Description"
+F5 "2.1" 350 -250 50 H I L CNN "Height"
+F6 "" 350 -350 50 H I L CNN "element14 Part Number"
+F7 "" 350 -450 50 H I L CNN "element14 Price/Stock"
+F8 "AVX" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "TAJB225K025RNJ" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TAJB475K035RNJ
+#/166389/1235424/2.50/2/5/Capacitor Polarised
+DEF TAJB475K035RNJ C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "TAJB475K035RNJ" 350 150 50 H V L CNN
+F2 "CAPPM3528X210N" 350 50 50 H I L CNN
+F3 "http://datasheets.avx.com/TAJ.pdf" 350 -50 50 H I L CNN
+F4 "TAJ SMT tant capacitor,Case B,35V,4.7uF AVX +/-10% 4.7uF 35 V dc SMD Tantalum Electrolytic Capacitor, 3528-21 ESR 3.1 +125C TAJ" 350 -150 50 H I L CNN "Description"
+F5 "2.1" 350 -250 50 H I L CNN "Height"
+F6 "" 350 -350 50 H I L CNN "element14 Part Number"
+F7 "" 350 -450 50 H I L CNN "element14 Price/Stock"
+F8 "AVX" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "TAJB475K035RNJ" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model LF347DT
+#/424408/1235424/2.50/14/3/Integrated Circuit
+DEF LF347DT IC 0 30 Y Y 1 F N
+F0 "IC" 2650 300 50 H V L CNN
+F1 "LF347DT" 2650 200 50 H V L CNN
+F2 "SOIC127P600X175-14N" 2650 100 50 H I L CNN
+F3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/c7/4b/9c/8a/ff/08/43/1d/CD00000452.pdf/files/CD00000452.pdf/jcr:content/translations/en.CD00000452.pdf" 2650 0 50 H I L CNN
+F4 "STMicroelectronics LF347DT, Quad JFET Op Amp, 4MHz, 14-Pin SOIC" 2650 -100 50 H I L CNN "Description"
+F5 "1.75" 2650 -200 50 H I L CNN "Height"
+F6 "" 2650 -300 50 H I L CNN "element14 Part Number"
+F7 "" 2650 -400 50 H I L CNN "element14 Price/Stock"
+F8 "STMicroelectronics" 2650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "LF347DT" 2650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X OUTPUT1 1 0 0 200 R 50 50 0 0 P
+X INVERTING_INPUT_1 2 0 -100 200 R 50 50 0 0 P
+X NON-INVERTING_INPUT_1 3 0 -200 200 R 50 50 0 0 P
+X VCC+ 4 0 -300 200 R 50 50 0 0 P
+X NON-INVERTING_INPUT_2 5 0 -400 200 R 50 50 0 0 P
+X INVERTING_INPUT_2 6 0 -500 200 R 50 50 0 0 P
+X OUTPUT_2 7 0 -600 200 R 50 50 0 0 P
+X OUTPUT4 14 2800 0 200 L 50 50 0 0 P
+X INVERTING_INPUT_4 13 2800 -100 200 L 50 50 0 0 P
+X NON-INVERTING_INPUT_4 12 2800 -200 200 L 50 50 0 0 P
+X VCC- 11 2800 -300 200 L 50 50 0 0 P
+X NON-INVERTING_INPUT_3 10 2800 -400 200 L 50 50 0 0 P
+X INVERTING_INPUT_3 9 2800 -500 200 L 50 50 0 0 P
+X OUTPUT_3 8 2800 -600 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 2600 100 2600 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model C1206C104J3RACTU
+#/1229945/1235424/2.50/2/2/Capacitor
+DEF C1206C104J3RACTU C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "C1206C104J3RACTU" 350 150 50 H V L CNN
+F2 "C1206" 350 50 50 H I L CNN
+F3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" 350 -50 50 H I L CNN
+F4 "SMD Comm X7R, Ceramic, 0.1 uF, 5%, 25 VDC, 62.5 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 3.5 % , 10 GOhms, 17 mg, 1206, 3.2mm, 1.6mm, 0.78mm, 0.5mm, 4000, 78  Weeks, 80" 350 -150 50 H I L CNN "Description"
+F5 "" 350 -250 50 H I L CNN "Height"
+F6 "" 350 -350 50 H I L CNN "element14 Part Number"
+F7 "" 350 -450 50 H I L CNN "element14 Price/Stock"
+F8 "KEMET" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "C1206C104J3RACTU" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SN74LVC00APWR
+#/526043/1235424/2.50/14/3/Integrated Circuit
+DEF SN74LVC00APWR IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "SN74LVC00APWR" 850 200 50 H V L CNN
+F2 "SOP65P640X120-14N" 850 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/sn74lvc00a" 850 0 50 H I L CNN
+F4 "Texas Instruments SN74LVC00APWR, Quad 2-Input NAND Logic Gate, 1.65  3.6 V, 14-Pin TSSOP" 850 -100 50 H I L CNN "Description"
+F5 "1.2" 850 -200 50 H I L CNN "Height"
+F6 "" 850 -300 50 H I L CNN "element14 Part Number"
+F7 "" 850 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Texas Instruments" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "SN74LVC00APWR" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1A 1 0 0 200 R 50 50 0 0 P
+X 1B 2 0 -100 200 R 50 50 0 0 P
+X 1Y 3 0 -200 200 R 50 50 0 0 P
+X 2A 4 0 -300 200 R 50 50 0 0 P
+X 2B 5 0 -400 200 R 50 50 0 0 P
+X 2Y 6 0 -500 200 R 50 50 0 0 P
+X GND 7 0 -600 200 R 50 50 0 0 P
+X VCC 14 1000 0 200 L 50 50 0 0 P
+X 4B 13 1000 -100 200 L 50 50 0 0 P
+X 4A 12 1000 -200 200 L 50 50 0 0 P
+X 4Y 11 1000 -300 200 L 50 50 0 0 P
+X 3B 10 1000 -400 200 L 50 50 0 0 P
+X 3A 9 1000 -500 200 L 50 50 0 0 P
+X 3Y 8 1000 -600 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 3214W-1-223E
+#/332624/1235424/2.50/3/4/Variable Resistor
+DEF 3214W-1-223E VR 0 30 Y Y 1 F N
+F0 "VR" 950 300 50 H V L CNN
+F1 "3214W-1-223E" 950 200 50 H V L CNN
+F2 "3214W1205E" 950 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/3214W-1-205E.pdf" 950 0 50 H I L CNN
+F4 "TRIMMER, POT, 22K, 5TURN, SMD; Trimpot Type:Multi Turn; Element Material:Cermet; Adjustment Type:Top Adjust; Track Resistance:22kohm; Potentiometer Mounting:Surface Mount; No. of Turns:5Turns; Product Range:3214 Series; MSL:- RoHS Compliant: Yes" 950 -100 50 H I L CNN "Description"
+F5 "5.3" 950 -200 50 H I L CNN "Height"
+F6 "" 950 -300 50 H I L CNN "element14 Part Number"
+F7 "" 950 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Bourns" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "3214W-1-223E" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X CCW 1 1100 -100 200 L 50 50 0 0 P
+X WIPER 2 0 0 200 R 50 50 0 0 P
+X CW 3 1100 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 3313J-1-473E
+#/855928/1235424/2.50/3/4/Resistor
+DEF 3313J-1-473E R 0 30 Y Y 1 F N
+F0 "R" 650 300 50 H V L CNN
+F1 "3313J-1-473E" 650 200 50 H V L CNN
+F2 "3313J-1" 650 100 50 H I L CNN
+F3 "https://www.bourns.com/docs/Product-Datasheets/3313.pdf" 650 0 50 H I L CNN
+F4 "Bourns SMD Cermet Trimmer Resistor with J-Hook Terminations, 47k +/-20% 0.125W +/-100ppm/C" 650 -100 50 H I L CNN "Description"
+F5 "" 650 -200 50 H I L CNN "Height"
+F6 "" 650 -300 50 H I L CNN "element14 Part Number"
+F7 "" 650 -400 50 H I L CNN "element14 Price/Stock"
+F8 "Bourns" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "3313J-1-473E" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 -100 200 R 50 50 0 0 P
+X 2 2 800 0 200 L 50 50 0 0 P
+X 3 3 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 341-010-521-202
+#/11820280/1235424/2.50/12/3/Connector
+DEF 341-010-521-202 J 0 30 Y Y 1 F N
+F0 "J" 850 500 50 H V L CNN
+F1 "341-010-521-202" 850 400 50 H V L CNN
+F2 "341010521202" 850 300 50 H I L CNN
+F3 "https://files.edac.net/edac/content/341/341-010-521-202%20-%20EDAC%20Card%20Edge%20Connector.PDF" 850 200 50 H I L CNN
+F4 "Card Edge Connector, Dual Side, 1.57 mm, 10 Contacts, Through Hole Mount, Straight, Solder" 850 100 50 H I L CNN "Description"
+F5 "11.1" 850 0 50 H I L CNN "Height"
+F6 "" 850 -100 50 H I L CNN "element14 Part Number"
+F7 "" 850 -200 50 H I L CNN "element14 Price/Stock"
+F8 "EDAC" 850 -300 50 H I L CNN "Manufacturer_Name"
+F9 "341-010-521-202" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 300 -500 200 U 50 50 0 0 P
+X 2 2 300 500 200 D 50 50 0 0 P
+X 3 3 400 -500 200 U 50 50 0 0 P
+X 4 4 400 500 200 D 50 50 0 0 P
+X 5 5 500 -500 200 U 50 50 0 0 P
+X 6 6 500 500 200 D 50 50 0 0 P
+X 7 7 600 -500 200 U 50 50 0 0 P
+X 8 8 600 500 200 D 50 50 0 0 P
+X 9 9 700 -500 200 U 50 50 0 0 P
+X 10 10 700 500 200 D 50 50 0 0 P
+X MH1 MH1 0 0 200 R 50 50 0 0 P
+X MH2 MH2 1000 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 300 800 300 800 -300 200 -300 200 300 N
+ENDDRAW
+ENDDEF
+#
+#End Library
